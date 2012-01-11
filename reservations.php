@@ -13,7 +13,7 @@
 </head> 
 <body> 
 <?php include('header.php'); ?>
-	<a href="./index.php" data-role="button"  data-theme="a">Retour au menu</a>
+	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
 	<div data-role="content" data-theme="a">	
 		<div class="reservations">c'est pas possible désolé</div>
 	</div><!-- /content -->
