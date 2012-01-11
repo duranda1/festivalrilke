@@ -1,0 +1,112 @@
+/** Base for nanomus */
+body{
+	font:15px Georgia, "Times New Roman", Times, serif;
+	background-color: #fefefa;
+  	color: #e06a01;
+}
+fieldset{
+	width:70%;
+}
+img {
+  border: none;
+}
+ul { 
+	list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #e06a01;
+}
+a:hover {
+  color: #e06a01;
+}
+h1{
+	font-size: 28px;
+	margin-top: -2px;
+}
+h2{
+	font-size: 18px;
+	margin: -15px 0 10px 15px;
+	
+}
+h3{
+	font-size: 15px;
+	margin-top: -15px;
+}
+h4{
+	font-size: 15px;
+}
+/** header - top nanomus */
+#header{
+	border-bottom: 1px solid #440;
+}
+
+/** page construct nanomus */
+#page {
+  width: 100%;
+}
+#mid {
+  clear: both;
+  padding: 12px 0 0 0;
+}
+#main {
+  float: left;
+  padding-bottom: 20px;
+}
+#break {
+  clear: both;
+}
+
+/** footer - bottom nanomus */
+#footer{
+	font-size: 12px;
+	margin-top: 60px;
+	text-align: center;
+	border-top: 1px dotted #440;
+} 
+#copy{
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: left;
+} 
+
+/** homepage */
+#homepage{
+	width:95%;
+	margin:auto;
+}
+#homepage_not_exist{
+	text-align:center;
+	margin: 40px 0:
+}
+
+/** login page */
+#login{
+	border:  1px dotted #b69200;
+	margin: 40px 15px 20px 15px;
+	padding: 30px 0;
+}
+
+/** extras nanomus */
+.submit {
+	background: #fffebb;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid #cac7b2;
+	cursor: pointer;
+}
+.text {
+	background: #fffebb;
+	border: 1px solid #cac7b2;
+}
+.submit:hover {
+	background: #fffebb;
+	border: 1px solid #cac7b2;
+}
+
+#boxdel{
+	border:  1px dotted #b69200;
+	margin: 20px 100px 0px 100px;
+	padding-left: 100px;
+}

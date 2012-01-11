@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<translations>
+	<!-- FOOTER.PHP -->
+	<translation id="versionStandard">
+        <fr>Standard</fr>
+        <de>Standard</de>
+    </translation>
+    <translation id="versionMobile">
+        <fr>Mobile</fr>
+        <de>Mobil</de>
+    </translation>
+    <translation id="versionMobileSimplifiée">
+        <fr>Mobile simplifiée</fr>
+        <de>Mobil vereinfachte</de>
+    </translation>
+    <translation id="bouttonContact">
+        <fr>Contact</fr>
+        <de>Contakt</de>
+    </translation>
+	   
+    <!-- INDEX.PHP -->
+    <translation id="titleMenu">
+    	<fr>Menu</fr>
+    	<de>Menü</de>
+	</translation>
+    <translation id="programmeMenu">
+        <fr>Programme 2012</fr>
+        <de>Programm 2012</de>
+    </translation>
+    <translation id="enBrefMenu">
+        <fr>En bref</fr>
+        <de>In Kürze</de>
+    </translation>
+    <translation id="horairesMenu">
+        <fr>Horaires</fr>
+        <de>Zeitplan</de>
+    </translation>
+    <translation id="reservationMenu">
+        <fr>Réservation</fr>
+        <de>Reservierung</de>
+    </translation>
+    <translation id="leFestivalMenu">
+        <fr>Le festival</fr>
+        <de>Das Festival</de>
+    </translation>
+    <translation id="rainerMariaRilkeMenu">
+        <fr>Rainer Maria Rilke</fr>
+        <de>Rainer Maria Rilke</de>
+    </translation>
+    <translation id="historiqueMenu">
+        <fr>Historique</fr>
+        <de>Historisch</de>
+    </translation>
+    <translation id="organisationMenu">
+        <fr>Organisation</fr>
+        <de>Organisation</de>
+    </translation>
+    <translation id="multimediaMenu">
+        <fr>Multimédia</fr>
+        <de>Multimedia</de>
+    </translation>
+    <translation id="photosMenu">
+        <fr>Photos</fr>
+        <de>Bilder</de>
+    </translation>
+    <translation id="videoMenu">
+        <fr>Vidéo</fr>
+        <de>Video</de>
+    </translation>
+    <translation id="audioMenu">
+        <fr>Audio</fr>
+        <de>Audio</de>
+    </translation>
+    <translation id="concoursMenu">
+        <fr>Concours</fr>
+        <de>Wettbewerb</de>
+    </translation>
+        <translation id="informationsUtilesMenu">
+        <fr>Informations utiles</fr>
+        <de>Nützliche Informationen</de>
+    </translation>
+    <translation id="accesMenu">
+        <fr>Accès</fr>
+        <de>Zugang</de>
+    </translation>
+    <translation id="sponsorsMenu">
+        <fr>Sponsors</fr>
+        <de>Sponsors</de>
+    </translation>
+   
+   <!-- ENBREF.PHP -->
+	<translation id="titleEnBref">
+    	<fr>En bref</fr>
+    	<de>Kurzum</de>
+	</translation>
+	<translation id="enBref1">
+    	<fr>En bref</fr>
+    	<de>Kurzum</de>
+	</translation>
+	<translation id="enBref2">
+    	<fr>Une centaine de rendez-vous</fr>
+    	<de>Hundert Termine</de>
+	</translation>
+	<translation id="enBref3">
+    	<fr>
+		pour trois jours de festival. 
+		Des expositions, du théâtre, des lectures, de la musique, 
+		des balades, des conférences, des concours, des surprises.
+		</fr>
+    	<de>
+    	für drei Tage des Festivals.
+		Ausstellungen, Theater, Lesungen, Musik,
+		Wanderungen, Vorträge, Wettbewerbe, Überraschungen.
+		</de>
+	</translation>
+	<translation id="enBref4">
+    	<fr>Nouvelle expression: </fr>
+    	<de>New Ausdruck: </de>
+	</translation>
+	<translation id="enBref5">
+    	<fr>
+		parce que l’écriture de Rilke est 
+		bien vivante et continue de nous parler aujourd’hui, 
+		le Festival 2012 s’associe à la création contemporaine. 
+		Il donne la parole à de nouvelles formes d’expression: art 
+		vidéo et installations sonores revisitent l’oeuvre de Rilke. 
+		Les concerts du soir deviennent des lieux de création autour 
+		du poète. 
+		</fr>
+    	<de>
+    	denn das Schreiben ist Rilke
+		gesund und munter und weiterhin mit uns zu sprechen heute
+		Festival 2012 ist mit der zeitgenössischen Kunst verbunden.
+		Er übergibt das Wort an neuen Formen des Ausdrucks: art
+		Video-und Klanginstallationen erneut die Arbeit von Rilke.
+		Abendkonzerte werden zu Orten der Schöpfung um
+		der Dichter.
+    	</de>
+	</translation>
+	<translation id="enBref6">
+    	<fr>Tous au Château: </fr>
+    	<de>Alle Castle:</de>
+	</translation>
+	<translation id="enBref7">
+    	<fr>
+    	cette édition s’épanouit à l’intérieur et 
+		autour du Château Mercier. Du court de tennis aux chambres en 
+		passant par la Tour et les jardins, elle utilise pleinement les 
+		4 hectares de la propriété. Ces nombreux espaces offrent une grande 
+		qualité d’écoute.
+		</fr>
+    	<de>
+    	Diese Edition baut auf der Innen-und
+		rund um die Château Mercier. Der Tennisplatz mit Zimmer
+		durch den Turm und die Gärten, macht es voll nutzen
+		4 Hektar Eigentum. Diese Bereiche bieten zahlreiche
+		Klangqualität.
+    	</de>
+	</translation>
+	<translation id="enBref8">
+    	<fr>Le Festival </fr>
+    	<de>Das Festival </de>
+	</translation>
+	<translation id="enBref9">
+    	<fr>
+    	est fidèle à son esprit d'ouverture. Il propose de nombreux 
+		rendez-vous gratuits.
+    	</fr>
+    	<de>
+    	ist wahr, seine Offenheit. Es bietet viele
+		frei.
+		</de>
+	</translation>
+   
+   <!-- HORAIRES.PHP -->
+	<translation id="titleHoraires">
+    	<fr>Horaires</fr>
+    	<de>Zeitplan</de>
+	</translation>
+	<translation id="horaires1">
+    	<fr>Horaires</fr>
+    	<de>Zeitplan</de>
+	</translation>   
+	<translation id="horaires2">
+    	<fr>Lundi - vendredi</fr>
+    	<de>Montag - Freitag</de>
+	</translation>   
+	<translation id="horaires3">
+    	<fr>Samedi</fr>
+    	<de>Samstag</de>
+	</translation>  
+	<translation id="horaires4">
+    	<fr>Dimanche: fermé</fr>
+    	<de>Sonntag: Geschlossen</de>
+	</translation>   
+   
+   <!-- RAINERMARIARILKE.PHP -->
+	<translation id="rainerMariaRilke1">
+    	<fr>Repères biographique</fr>
+    	<de>biographisch</de>
+	</translation>
+	<translation id="rainerMariaRilke2">
+    	<fr>4 décembre 1875</fr>
+    	<de>4. Dezember 1875</de>
+	</translation>
+	<translation id="rainerMariaRilke3">
+	    <fr>Naissance à Prague. Fils d’un ancien militaire autrichien devenu employé des chemins de fer et d’une mère dévote et mondaine, issue d’une famille de commerçants.</fr>
+	    <de>In Prag geboren. Sohn eines ehemaligen österreichischen Militärs wurde ein Mitarbeiter der Bahn und eine fromme Mutter und modisch, aus einer Familie von Kaufleuten.</de>
+	</translation>
+	<translation id="rainerMariaRilke4">
+	    <fr>Rilke commence sa carrière d’écrivain. Après avoir passé son bac en été, il s’inscrit à l’université Karl Ferdinand pour des études de philosophie. Il participe activement à la vie littéraire pragoise, écrit des drames naturalistes, des nouvelles, des poésies lyriques et des essais critiques.</fr>
+	    <de>Rilke begann seine Karriere als Schriftsteller. Nach dem Abitur im Sommer schrieb er sich an der Universität Karl Ferdinand studierte Philosophie. Er ist aktiv in das literarische Leben in Prag, schreibt naturalistischen Dramen, Nachrichten, Lyrik und Essays.</de>
+	</translation>
+	<translation id="rainerMariaRilke5">
+	    <fr>Premier voyage de Rilke en Russie. Il écrira La Chanson de l’amour et de la mort du cornette Christophe Rilke (1904).</fr>
+	    <de>Erste Reise nach Russland Rilke. Er schrieb das Lied von Liebe und Tod des Cornets Christoph Rilke (1904).</de>
+	</translation>
+	<translation id="rainerMariaRilke6">
+	    <fr>Rilke écrit Le Livre de la pauvreté et de la mort, se partage entre Paris, Viareggio, Worspwede, Rome, le Danemark et la Suède. Il commence les Nouveaux Poèmes et débute la rédaction des Cahiers de Malte Laurids Brigge, qui seront publiés en 1910.</fr>
+	    <de>Rilke schrieb das Buch von Armut und Tod, zwischen Paris, Viareggio, Worspwede, Rom, Dänemark und Schweden aufgeteilt. Er begann die Neuen Gedichte und beginnt das Schreiben der Aufzeichnungen des Malte Laurids Brigge, um im Jahr 1910 veröffentlicht werden.</de>
+	</translation>
+	<translation id="rainerMariaRilke7">
+	    <fr>Rilke écrit les Lettres à un jeune poète, une de ses œuvres les plus connues (en France), et les plus accessibles. En dix lettres, il répond à une longue missive envoyée par Franz Xaver Kappus, âgé de 20 ans, dans laquelle le jeune homme se confie à lui. Ces lettres retracent le processus de maturation de l'auteur et portent en germe les thèmes centraux des Élégies de Duino et des Sonnets d’Orphée.</fr>
+	    <de>Rilke schrieb die Briefe an einen jungen Dichter, einer seiner bekanntesten Werke (in Frankreich), und leichter zugänglich. In zehn Buchstaben, trifft er auf eine lange Schreiben von Franz Xaver Kappus, 20 Jahre, in denen der junge Mann vertraut ihn gesandt hat. Diese Briefe zeichnen die Reifung des Autors und tragen den Samen der zentralen Themen der Duineser Elegien und Sonetten an Orpheus.</de>
+	</translation>
+	<translation id="rainerMariaRilke8">
+	    <fr>Sept ans de voyages... et plus de 50 résidences différences. Il se consacre tout entier à la poésie: premières Elégies, Requiem, la Vie de Marie.</fr>
+	    <de>Sieben Jahre des Reisens ... und über 50 verschiedenen Residenzen. Er widmete sich ganz der Poesie: ersten Elegien, Requiem, Life of Mary.</de>
+	</translation>
+	<translation id="rainerMariaRilke9">
+	    <fr>Rilke découvre la Suisse et le Valais. Il s’installe durant l’été 1921 dans le petit manoir de Muzot, près de Sierre, qu’un industriel a acheté pour lui.</fr>
+	    <de>Rilke entdeckt die Schweiz und das Wallis. Er ließ sich im Sommer 1921 in dem kleinen Herrenhaus Muzot bei Siders, hat ein Hersteller für ihn gekauft.</de>
+	</translation>
+	<translation id="rainerMariaRilke10">
+	    <fr>Dans le seul mois de février, le poète achève les Elégies de Duino et compose Les Sonnets d’Orphée.</fr>
+	    <de>Allein im Februar, der Dichter der Duineser Elegien und den Sonetten an Orpheus abgeschlossen, besteht die.</de>
+	</translation>
+	<translation id="rainerMariaRilke11">
+	    <fr>Rilke séjourne le plus souvent à Muzot. Il compose des recueils en français (Vergers, Les Quatrains valaisans) en vue, dit-il, de demander la nationalité suisse.</fr>
+	    <de>Rilke blieb meist bei Muzot. Es besteht aus Bücher in Französisch (Obstanlagen, Wallis Quatrains) für, wie er sagt, an die Schweizer fragen.</de>
+	</translation>
+	<translation id="rainerMariaRilke12">
+	    <fr>29 décembre 1926</fr>
+	    <de>29. Dezember 1926</de>
+	</translation>
+	<translation id="rainerMariaRilke13">
+	    <fr>Rilke est emporté par une leucémie à Val-Mont (VD). Il est inhumé selon son voeu à Raron, dans le Haut-Valais.</fr>
+	    <de>Rilke ist weg von Leukämie in Val-Mont (VD) durchgeführt. Er war nach seinem Gelübde, Raron begraben, im Oberwallis.</de>
+	</translation>
+   
+   <!-- HISTORIQUE.PHP -->
+	<translation id="titleHistorique">
+    	<fr>Historique</fr>
+    	<de>Historisch</de>
+	</translation>
+	<translation id="historique1">
+    	<fr>Historique</fr>
+    	<de>Historisch</de>
+	</translation>
+	<translation id="historique2">
+    	<fr>1998, la conception</fr>
+    	<de>1998, das Design</de>
+	</translation>
+	<translation id="historique3">
+    	<fr>
+    	La Société de Développement de Sierre, Salgesch et Environs 
+		réunit un groupe de travail. Objectif: une meilleure mise en 
+		valeur de la Fondation Rainer Maria Rilke et de son musée 
+		permanent. Le festival Rilke vient de naître.
+		</fr>
+    	<de>
+    	Die Development Corporation Siders, Salgesch und Umgebung
+		gemeinsam eine Arbeitsgruppe. Ziel: Verbesserung der Umsetzung
+		Wert von Rainer Maria Rilke-Stiftung und das Museum
+		permanent. Das Festival Rilke geboren wurde.
+		</de>
+	</translation>
+	<translation id="historique4">
+    	<fr>
+    	2000, la première édition
+    	</fr>
+    	<de>
+    	2000 wurde die erste Ausgabe
+    	</de>
+	</translation>
+	<translation id="historique5">
+    	<fr>
+    	Elle attire 5'000 visiteurs et consacre l’esprit du festival, 
+		qui unit exigence culturelle et convivialité, enthousiasme et 
+		rigueur, diversité et cohérence. Le pari semblait fou. Il est 
+		gagné. 
+    	</fr>
+    	<de>
+    	Es zieht 5.000 Besucher und engagierten Geist des Festivals
+		Voraussetzung, dass die kulturelle und Freundlichkeit, Begeisterung und vereint
+		Strenge, Vielfalt und Konsistenz. Das Wagnis schien verrückt. Es gibt
+		gewann.
+    	</de>
+	</translation>
+	<translation id="historique6">
+    	<fr>
+    	2003, seconde édition
+    	</fr>
+    	<de>
+    	2003, zweite Auflage
+    	</de>
+	</translation>
+	<translation id="historique7">
+    	<fr>
+    	Même démarche, même succès. De nombreux 
+		spectateurs assistent à des lectures de Rilke à l’aube et en 
+		pleine nuit. 
+    	</fr>
+    	<de>
+    	Gleiche Vorgehensweise, gleichen Erfolg. viele
+		Zuschauer besuchen Lesungen Rilke in der Dämmerung und
+		Mitten in der Nacht.
+    	</de>
+	</translation>
+	<translation id="historique8">
+    	<fr>
+    	2006, troisième édition
+    	</fr>
+    	<de>
+    	2006, Third Edition
+    	</de>
+	</translation>
+	<translation id="historique9">
+    	<fr>
+    	Les "Amitiés russes" de Rilke font un tabac. 
+		Le Festival bat son record de fréquentation avec 5'500 visiteurs. 
+		De nombreuses personnes font le déplacement depuis l'Allemagne, 
+		l'Autriche, la France et l'Angleterre.
+    	</fr>
+    	<de>
+    	Die "Russian Friends" Rilke ist ein Hit.
+		Das Festival ist in seiner Zuschauer-Rekord mit 5.500 Besuchern.
+		Viele Menschen sind aus Deutschland in Bewegung,
+		Österreich, Frankreich und England.
+    	</de>
+	</translation>
+	<translation id="historique10">
+    	<fr>
+    	2009, la quatrième édition
+    	</fr>
+    	<de>
+    	2009, die vierte Auflage
+    	</de>
+	</translation>
+	<translation id="historique11">
+    	<fr>
+    	Près de 6'000 visiteurs profitent d’une 
+		programmation très riche autour des «Jours d’Italie » de Rilke. 
+		La simplicité et l’humour du célèbre chansonnier Giorgio Conte 
+		séduisent les spectateurs du samedi soir. On n’oubliera pas les 
+		chuchotements émouvants des Souffleurs dans le parc ni la prestation 
+		remuante de «Bern ist überall». La qualité des spectacles et des 
+		animations est saluée par le public.
+    	</fr>
+    	<de>
+    	Fast 6.000 Besucher eine
+		reiche Programmierung rund um "Italian Days" von Rilke.
+		Die Einfachheit und Humor der berühmten Sängerin Giorgio Conte
+		verführen das Publikum am Samstagabend. Vergessen Sie nicht die
+		Gebläse flüstert der Bewegung in den Park oder die Bereitstellung
+		Rühren "Bern Überall ist." Die Qualität der Leistungen und
+		Ereignisse von der Öffentlichkeit begrüßt.
+    	</de>
+	</translation>
+   
+   <!-- ORGANISATION.PHP -->
+	<translation id="titleOrganisation">
+    	<fr>Organisation</fr>
+    	<de>Organisation</de>
+	</translation>
+	<translation id="organisation1">
+    	<fr>Organisations et collaborations</fr>
+    	<de>Organisationen und Kooperationen</de>
+	</translation>
+   <translation id="organisation2">
+    	<fr>
+    	L’organisation du Festival Rilke repose sur un réseau 
+		qui implique les principaux acteurs culturels locaux et régionaux.
+		</fr>
+    	<de>
+    	Das Festival Rilke in einem Netzwerk basiert
+		unter Beteiligung der wichtigsten lokalen kulturellen und regionalen.
+    	</de>
+	</translation>
+   <translation id="organisation3">
+    	<fr>Organisation et partenaires</fr>
+    	<de>Organisation und Partner</de>
+	</translation>
+   <translation id="organisation4">
+    	<fr>Affaires culturelles de la ville de Sierre</fr>
+    	<de>Kulturelle Angelegenheiten der Stadt Siders</de>
+	</translation>
+   <translation id="organisation5">
+    	<fr>Office du tourisme de Sierre, Salgesch et Environs</fr>
+    	<de>Amt für Tourismus Siders, Salgesch und Umgebung</de>
+	</translation>
+   <translation id="organisation6">
+    	<fr>Fondation Rilke</fr>
+    	<de>Rilke-Stiftung</de>
+	</translation>
+   <translation id="organisation7">
+    	<fr>Fondation du Château Mercier</fr>
+    	<de>Château Mercier Foundation</de>
+	</translation>
+   <translation id="organisation8">
+    	<fr>Association des Caves de la Maison de Courten</fr>
+    	<de>Verein Haus der Caves de Courten</de>
+	</translation>
+   <translation id="organisation9">
+    	<fr>Les communes de Veyras et Salgesch</fr>
+    	<de>Die gemeinsame Veyras und Salgesch</de>
+	</translation>
+   <translation id="organisation10">
+    	<fr>Le Lac souterrain de St-Léonard</fr>
+    	<de>Der unterirdische See von St-Léonard</de>
+	</translation>
+   <translation id="organisation11">
+    	<fr>Magimalice, Sierre</fr>
+    	<de>Magimalice, Siders</de>
+	</translation>
+   <translation id="organisation12">
+    	<fr>Le Village du Livre, St-Pierre-de-Clages</fr>
+    	<de>The Book Village, St-Pierre-de-Clages</de>
+	</translation>
+   <translation id="organisation13">
+    	<fr>ECAV, Ecole Cantonale d’Art du Valais</fr>
+    	<de>ECAV, University of Art Wallis</de>
+	</translation>
+   <translation id="organisation14">
+    	<fr>Festival de littérature, Leukerbad</fr>
+    	<de>Literaturfestival in Leukerbad</de>
+	</translation>
+   <translation id="organisation15">
+    	<fr>Librairie La Liseuse, Sion</fr>
+    	<de>"La Liseuse" Bibliothek, Sion</de>
+	</translation>
+   <translation id="organisation16">
+    	<fr>ZAP, Zur Alten Post, Sierre</fr>
+    	<de>ZAP, Zur Alten Post, Siders</de>
+	</translation>
+   <translation id="organisation17">
+    	<fr>Comité d'organisation</fr>
+    	<de>Organizing Committee</de>
+	</translation>
+   <translation id="organisation18">
+    	<fr>Le comité d'organisation de l'édition 2009 se compose de :</fr>
+    	<de>Das Organisationskomitee für das Geschäftsjahr 2009 besteht aus:</de>
+	</translation>
+   <translation id="organisation19">
+    	<fr>M. Antille René-Pierre, président</fr>
+    	<de>Herr René-Pierre Antille, Präsident</de>
+	</translation>
+   <translation id="organisation20">
+    	<fr>Mme Pralong Rachel</fr>
+    	<de>Ms. Rachel Pralong</de>
+	</translation>
+   <translation id="organisation21">
+    	<fr>Mme Salamin Anne</fr>
+    	<de>Ms. Salamin Anne</de>
+	</translation>
+   <translation id="organisation22">
+    	<fr>Mme Salamin Paulette</fr>
+    	<de>Ms. Salamin Paulette</de>
+	</translation>
+   <translation id="organisation23">
+    	<fr>Mme Waser Massy Danielle</fr>
+    	<de>Ms. Waser Massy Danielle</de>
+	</translation>
+   <translation id="organisation24">
+    	<fr>Mme Zufferey Anne-Dominique</fr>
+    	<de>Ms. Zufferey Anne-Dominique</de>
+	</translation>
+   <translation id="organisation25">
+    	<fr>Mme Zwissig Aurélie</fr>
+    	<de>Ms. Zwissig Aurélie</de>
+	</translation>
+   <translation id="organisation26">
+    	<fr>M. Bourdin Christophe</fr>
+    	<de>Herr Bourdin Christophe</de>
+	</translation>
+   <translation id="organisation27">
+    	<fr>M. Genêt Patrice</fr>
+    	<de>Herr Genêt Patrice</de>
+	</translation>
+   <translation id="organisation28">
+    	<fr>M. Pont Georges</fr>
+    	<de>Herr Pont Georges</de>
+	</translation>
+   <translation id="organisation29">
+    	<fr>M.Salamin Jean-Michel</fr>
+    	<de>Herr Salamin Jean-Michel</de>
+	</translation>
+   <translation id="organisation30">
+    	<fr>M. Schwéry Bernard</fr>
+    	<de>Herr Schwéry Bernard</de>
+	</translation>
+   <translation id="organisation31">
+    	<fr>M. Solioz Emmanuel</fr>
+    	<de>Herr Solioz Emmanuel</de>
+	</translation>
+   <translation id="organisation32">
+    	<fr>M. Zuber Jean</fr>
+    	<de>Herr Zuber Jean</de>
+	</translation>
+   <translation id="organisation33">
+    	<fr>La fondation Rilke</fr>
+    	<de>Die Stiftung Rilke</de>
+	</translation>
+   <translation id="organisation34">
+    	<fr>Bref historique</fr>
+    	<de>Eine kurze Geschichte</de>
+	</translation>
+   <translation id="organisation35">
+    	<fr>
+    	En octobre 1986, la Fondation Rilke est créée à l'initiative de la commune de Sierre. 
+		Basée à la Maison de Courten, elle vise notamment à mieux faire connaître Rilke et 
+		son œuvre, à mettre en valeur les dotations et acquisitions, à promouvoir la création 
+		littéraire. La fondation gère et anime le Musée Rilke. Elle monte aussi des expositions 
+		temporaires (une dizaine depuis 1987), organise des conférences et des lectures. 
+		Le patrimoine littéraire de la Fondation se monte à quelque 6000 livres et articles, 
+		sans compter les archives.
+		</fr>
+    	<de>
+    	Im Oktober 1986 ist die Stiftung Rilke auf Initiative der Stadt Siders erstellt.
+		Basierend auf dem House of Courten, zielt es vor allem um das Bewusstsein und Rilke zu erhöhen
+		seine Arbeit zur Verbesserung der Stiftungen und Erwerbungen, die Schaffung fördern
+		literarisch. Die Stiftung verwaltet und betreibt das Museum Rilke. Darüber hinaus steigt Ausstellungen
+		temporäre (zehn seit 1987), Konferenzen und Lesungen.
+		Das literarische Erbe der Stiftung beläuft sich auf rund 6.000 Bücher und Artikel,
+		ganz zu schweigen von den Archiven.
+    	</de>
+	</translation>
+	<translation id="organisation36">
+    	<fr>Le musée</fr>
+    	<de>Das Museum</de>
+	</translation>
+   	<translation id="organisation37">
+    	<fr>(rue du Bourg 30, 3960 Sierre)</fr>
+    	<de>(rue du Bourg 30, 3960 Siders)</de>
+	</translation>
+	<translation id="organisation38">
+    	<fr>
+    	Son exposition permanente retrace les années valaisannes du poète, soit les six dernières 
+		de sa vie. Photos, lettres, manuscrits, tableaux, sculptures, livres, éditions bibliophiles, 
+		le Musée offre une grande diversité d’objets. Il propose aussi un coin librairie.
+		</fr>
+    	<de>
+    	Die Dauerausstellung Spuren der Dichter jahrelange Wallis oder in den letzten sechs
+		seines Lebens. Fotos, Briefe, Manuskripte, Gemälde, Skulpturen, Bücher, bibliophile Ausgaben,
+		Das Museum bietet eine Vielzahl von Objekten. Es bietet auch eine Leseecke.
+    	</de>
+	</translation>
+	<translation id="organisation39">
+    	<fr>Le musée est ouvert d'avril à fin octobre du mardi au dimanche de 14h00 à 18h00.</fr>
+    	<de>Das Museum ist geöffnet von April bis Oktober von Dienstag bis Sonntag von 14.00 bis 18.00 Uhr.</de>
+	</translation>
+	<translation id="organisation40">
+    	<fr>
+    	Durant la pause hivernale, ouverture sur demande préalable. Renseignements auprès du Musée Rilke 
+		(027 456 26 46) ou de l'office du tourisme de Sierre (027 455 85 35)
+		</fr>
+    	<de>
+    	Während der Winterpause, Öffnung auf Anfrage. Bitte kontaktieren Sie das Museum Rilke
+		(027 456 26 46) oder dem Fremdenverkehrsamt von Siders (027 455 85 35)
+    	</de>
+	</translation>
+	
+	<!-- ACCES.PHP -->
+	<translation id="titleAcces">
+    	<fr>Accès</fr>
+    	<de>Zugang</de>
+	</translation>
+	<translation id="acces1">
+    	<fr>Accès</fr>
+    	<de>Zugang</de>
+	</translation>
+	<translation id="acces2">
+    	<fr>Accès au château mercier depuis la gare de Sierre</fr>
+    	<de>Der Zugang zur Burg vom Bahnhof Mercier in Siders</de>
+	</translation>
+   
+    <!-- DIVERS -->
+    <translation id="retourAuMenu">
+        <fr>Retour au menu</fr>
+        <de>Zurück zum Menü</de>
+    </translation>
+</translations>

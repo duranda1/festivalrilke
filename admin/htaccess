@@ -1,0 +1,10 @@
+# Décommentez la ligne suivante pour free.fr
+#PHP 1
+
+# Décommentez les lignes suivantes hors free.fr
+#DirectoryIndex index.php
+#RewriteEngine on
+#RewriteRule ^([A-z0-9_-]+)\.html$ index.php?page=$1 [L]
+
+#RewriteCond %{HTTP_HOST} !^www\.your_domaine\.your_extention [NC]
+#RewriteRule (.*) http://www.your_domaine.your_extention/$1 [QSA,R=301,L]

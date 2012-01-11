@@ -1,0 +1,25 @@
+    #scrollup {
+      position: relative;
+      overflow: hidden;
+      /*border: 1px solid #000;*/
+      height: 44px;
+      width: 100%;
+      /*color: #ff631c;*/
+      /*color: #db6900;*/
+      
+      color: white;
+      font-size: 11px;
+    }
+    
+    .headline {
+      position: absolute;
+      top: 0px;
+      /*left: 5px;*/
+      height: 44px;
+      width:100%;
+    }
+    
+    .feeddate{
+    	color: #e06a01;
+    }
+

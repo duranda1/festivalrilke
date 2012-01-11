@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mon site</title>
+        <description>Ceci est un exemple de flux RSS 2.0</description>
+        <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
+        <link>http://www.example.org</link>
+        <item>
+            <title>Bob l'éponge assistera à la cérémonie</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Rediffusion de l'épisode 2 sur grand écran</title>
+            <description>Ceci est ma première actualité</description>>
+            <pubDate>Sat, 08 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Début du concours vidéo</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 09 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Bob l'éponge aime l'alcool fort</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 09 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+                <item>
+            <title>Bob l'éponge est un con</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Rediffusion de Malcolm sur TSR2</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 08 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Début du concours de bières</title>
+            <description>Ceci est ma première actualité</description>
+            <pubDate>Sat, 09 Sep 2002 00:00:01 GMT</pubDate>
+            <link>http://www.example.org/actu1</link>
+        </item>
+    </channel>
+</rss>

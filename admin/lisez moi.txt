@@ -1,0 +1,155 @@
+/************************************************************************/
+/* PHP Nanomus - Mini CMS sans base de données                          */
+/* ===========================================                          */
+/*                                                                      */
+/* Minimus 2009 version 1.0.3                                           */
+/*                                                                      */
+/* Version du 17 janvier 2010                                           */
+/*                                                                      */
+/* Copyright (c) 2009-2010                                              */
+/* http://www.php-nanomus.org                                           */
+/* dev@php-maximus.org                                                  */
+/* Others projects:                                                     */
+/* CMS PHP Maximus ( with mysql database ) www.php-maximus.org          */
+/* Blog PHP Minimus ( with mysqli database ) www.php-minimus.org        */
+/* Stop Spam Referer ( without database ) www.stop-spam-referer.info    */
+/* PHP Firewall ( without database ) www.php-firewall.info              */
+/* Release version 1.0.3                                                */
+/* Release date : 01-17-2010                                            */
+/*                                                                      */
+/* This program is free software.                                       */
+/************************************************************************/
+
+
+Sites officiels :
+
+ - www.php-nanomus.org ( Anglais )
+ - fr.php-nanomus.org ( Français )
+
+Démonstration sur demo.php-nanomus.org
+
+
+Copyright Notice
+----------------
+Nanomus est un mini CMS sans base de données Libre et Gratuit distribué sous certaines conditions minimales envers lesquelles vous engagerez votre propre responsabilité.
+Nanomus est livré en l'état, et sans aucun engagement ni garantie contractuelle de fonctionnement.
+Le fait d'utiliser Nanomus CMS chez un hébergeur vous engage seul envers les responsabilités réciproques contractuellement signées entre votre hébergeur et vous même.
+Nanomus CMS offre un support gratuit sur www.php-nanomus.org ( en francais et anglais ), nous n'assurons aucune garantie de quoi que ce soit sur ce qui peut être débattu sur un forum public.
+En utilisant Nanomus CMS vous vous engagez à upgrader et/ou patcher votre version par les dernières versions disponibles au cours du développement.
+Ceci peut être modifié à tout moment sans aucune limite de quoi que ce soit, vous êtes donc tenus responsables en cas de manquements à ces règles minimalistes de développement.
+Nanomus est compatible avec l'hébergeur free.fr dès la version 1.0.3
+
+
+Pourquoi Nanomus ?
+------------------
+
+Plus par passion au départ, puis dans l'idée de créer un outil simple à mettre en place afin de monter un petit site internet, le tout en respectant les standards du W3C, avec des performances exceptionnelles, de manière sécurisé et le tout sans base de données.
+De tout ceci Nanomus a vu le jour.
+Nanomus est comme son nom l'indique extrêmement minimaliste, un concentré de l'expérience du CMS Maximus et du blog Minimus, qui je l'espère vous permettra de faire ce que vous désirez simplement.
+
+
+IMPORTANT:
+----------
+
+Avant toute chose, sachez que Nanomus requiert la modification des droits sur certains dossiers, il vous faudra obligatoirement donc un hébergeur vous autorisant la gestion des CHMODS ainsi que pouvoir écrire/modifier/supprimer des dossiers et fichiers sur votre serveur via le script PHP.
+
+
+INSTALLATION
+-------------
+Uploadez le contenu du répertoire
+Modifiez si nécessaire, les droits des dossiers et fichiers suivants ( ils doivent être libre en écriture )
+  * datas/
+  * datas/metas/
+  * kernel/config.php
+
+Puis renommez le fichier sample.htaccess en .htaccess
+
+Votre site internet est en place, identifiez vous avec les accès suivants :
+ * utilisateur: admin
+ * mot de passe: admin
+
+
+L'installation de Nanomus représente environ 150 ko sur disque ( comprenant images, javascript ,php ... )
+
+ATTENTION toute suppression d'une page est irrémédiable, TOUTES LES DONNEES de cette page seront supprimées, perdues et non remontables par la suite.
+
+
+Spécificités pour l'hébergeur FREE.FR
+-------------------------------------
+ Décommentez la ligne 2 du fichier .htaccess
+ Modifiez la ligne 37 du fichier index.php suivante
+  define('FREE_FR', false);
+ comme ceci
+  define('FREE_FR', true);
+ Nanomus sera ainsi configuré pour free
+ Rendez vous ensuite sur votre site, identifiez vous puis IMPORTANT mettez votre URL complète dans la configuration comme ceci: http://monlogin.free.fr/
+ NOTE: il faudra IMPERATIVEMENT http:// avant l'url ainsi que le slash final ( / )
+
+
+Mise à jour en version 1.0.3
+----------------------------
+ Remplacez les fichiers suivants :
+  - index.php
+  - templates/theme.html
+  - kernel/admin.php
+  - kernel/create_page.php
+  - kernel/Edit_Config.php
+  - kernel/filemanager.php
+  - kernel/modif_page.php
+  - kernel/save_page.php
+  - kernel/Valid_Config.php
+
+
+Mise à jour en version 1.0.2
+----------------------------
+ Remplacez les fichiers suivants :
+  - index.php
+  - templates/theme.html
+
+Mise à jour en version 1.0.1
+----------------------------
+
+ Conservez votre fichier kernel/config.php
+ Conservez votre dossier datas/
+ Ensuite uploadez tout le contenu du cms
+ Attention à une chose, le fichier kernel/template.php a été déplacé et renommé templates/theme.html, sur l'idée de diabolo, ce qui permet de meilleure séparation du PHP et du HTML
+
+
+Nouveautes dans la version 1.0.3
+--------------------------------
+
+ Certification de Nanomus avec l'hébergeur FREE.FR
+ Nouvelle url rewriting pour free.fr ( sans fichier htaccess ), il est toutefois possible d'utiliser l'ancienne formule via .htaccess permettant des URLs plus courtes
+ Correctif sur le méta title des pages existantes
+
+
+Nouveautes dans la version 1.0.2
+--------------------------------
+
+ Correctif inclusion du template
+ Meilleur portabilité du code en supprimant les short_tags
+ Merci à biabolo pour ces remontées :)
+
+Nouveautés dans la version 1.0.1
+--------------------------------
+ * anti duplicate content
+ * balise title personnalisable par page
+ * correctif pour les accents dans les métas
+ * suppression de la virgule placée par défaut dans les métas keyword, attention à vous de séparer chaque mot par une virgule
+ * séparation du code CSS lié à l'administration dans le fichier templates/admin.css
+ * ajout de la version de nanomus sur l'administration
+ * ajout d'un anti vol de session
+ * ajout d'un contrôle de l'accès à l'administration par IPs ( plusieurs IPs possibles )
+ * déplacement du code admin afin d'alléger le core du cms
+ * nettoyage du code et allègement divers
+
+
+
+NOTE
+----
+
+Si vous avez traduit Nanomus dans une autre langue, merci de me faire parvenir le fichier à: nsnfrancais@hotmail.com
+
+Mes amitiés à vous tous qui participez activement aux projets Maximus / Minimus / Nanomus
+
+Cyril Levert - Spécialiste en Développement Open Source depuis 2002

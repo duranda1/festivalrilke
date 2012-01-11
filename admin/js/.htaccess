@@ -1,0 +1,9 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+<FilesMatch "\.(js)$">
+Order Allow,Deny
+Allow from all
+</FilesMatch>
