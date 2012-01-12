@@ -9,11 +9,13 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
+<a href="http://www.chateaumercier.ch/">dfghdfhdfh</a>
+
 				<p align="justify">
 					<h3><div class="organisation1" /></h3>
 					<div class="organisation2"></div>
 					</br>
-					<font color="#e06a01"><div style="font-weight:bold" class="organisation3"></div></font>
+					<span class="mainTitle"><div style="font-weight:bold" class="organisation3"></div></span>
 					<ul>
 						<li>
 							<a href="http://www.sierre.ch/fr/index.php"><div class="organisation4"></div></a>
@@ -58,7 +60,7 @@
 					</br>
 					<h3><div class="organisation17" /></h3>
 									
-					<font color="#e06a01"><div style="font-weight:bold" class="organisation18"></div></font>
+					<span class="mainTitle"><div style="font-weight:bold" class="organisation18"></div></span>
 					<ul>
 						<li>
 							<div class="organisation19" />
@@ -106,10 +108,10 @@
 					</br>
 					<h3><div class="organisation33"></div></h3>
 					<img src="images/historique1.jpg" align="left" style="margin: 0 10px 10px 0;"/>
-					<font color="#e06a01"><span style="font-weight:bold" class="organisation34"> /></font>	
+					<span class="mainTitle"><span style="font-weight:bold" class="organisation34"> /></span>	
 					<div class="organisation35"></div>
 					</br>
-					<font color="#e06a01"><span style="font-weight:bold" class="organisation36" /></font>	
+					<span class="mainTitle"><span style="font-weight:bold" class="organisation36" /></span>	
 					<div class="organisation37"></div>
 					</br>
 					<div class="organisation38"></div>

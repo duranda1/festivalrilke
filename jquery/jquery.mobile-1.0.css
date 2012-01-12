@@ -21,6 +21,11 @@ body {
 	margin-right: auto;
 	margin-top: 20px;
 }
+
+/*orange titles*/
+.mainTitle{
+	color: #e06a01;
+}
 .ui-contentZone-a .ui-link{
 	color: #ff0000;
 }
@@ -49,18 +54,13 @@ body {
 	color: #868686/*{a-bar-color}*/;
 }
 
-.ui-content-a .ui-link {
+.ui-bar-a .ui-link {
 	color: #868686/*{a-bar-link-color}*/;
 	text-decoration: underline;
 }
 
-.ui-bar-a .ui-link {
-	color: #ffffff/*{a-bar-link-color}*/;
-	text-decoration: underline;
-}
-
 .ui-bar-a .ui-link:hover {
-	color: #868686 /*{a-bar-link-hover}*/;
+	color: #555555 /*{a-bar-link-hover}*/;
 }
 
 .ui-bar-a .ui-link:active {
@@ -68,7 +68,7 @@ body {
 }
 
 .ui-bar-a .ui-link:visited {
-    color: #ffffff/*{a-bar-link-visited}*/;
+    color: #868686/*{a-bar-link-visited}*/;
 }
 .ui-body-a,
 .ui-dialog.ui-overlay-a {
@@ -97,8 +97,7 @@ body {
 .ui-body-a .ui-link {
 
 	color: #ffffff /*{a-body-link-color}*/;
-	text-decoration: underline;
-		
+	text-decoration: underline;		
 }
 
 .ui-body-a .ui-link:hover {
