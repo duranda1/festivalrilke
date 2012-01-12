@@ -21,10 +21,46 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="templates/style.css" type="text/css" />
 	<body>
-		<?php
-			echo($_POST['titre']);
-			echo($_POST['description']);
-			echo($_POST['lien']);
-		?>
+		<div id="header">
+			<h1>Festival Rilke</h1>
+			<h2>Administration</h2>
+		</div>
+		<div id="mid">
+			<div id="main">
+				<table>
+					<tr>
+						<td><b>Titre</b></td>
+						<td>
+							: <?php echo($_POST['titre']); ?>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Description</b></td>
+						<td>
+							: <?php echo($_POST['description']); ?>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Liens</b></td>
+						<td>
+							: <?php echo($_POST['lien']); ?>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Date</b></td>
+						<td>
+							: <?php echo($_POST['date']); ?>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="break"></div>
+		</div>
+		<div id="footer">
+			&copy; Festival Rilke - HES-SO Valais
+		</div>
+		<div id="copy">
+			<a href="./index.php?op=kill">Fermer la session</a>
+		</div>
 	</body>
 </html>

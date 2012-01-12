@@ -1,4 +1,5 @@
 <?php defined('NANOMUS') OR header('Location: ../index.php'); ?>
+<script type="text/javascript" src="js/calendarDateInput.js"></script>
 <form method='post' action='ajouterNewsXML.php'>
 	<table>
 		<tr>
@@ -8,7 +9,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>Mot de passe</td>
+			<td>Description</td>
 			<td>
 				<input type='text' name='description' size='30'maxlength="100" class='text'/>
 			</td>
@@ -17,6 +18,13 @@
 			<td>Liens</td>
 			<td>
 				<input type='text' name='lien' size='30'maxlength="100" class='text'/>
+			</td>
+		</tr>
+		<tr>
+			<td>Date</td>
+			<td>				
+				<script>DateInput('orderdate', true, 'DD-MON-YYYY')</script>
+				<!--<input type="datetime" name="date" class="text" value="01.12.2012 08:53">-->
 			</td>
 		</tr>
 		<tr>
