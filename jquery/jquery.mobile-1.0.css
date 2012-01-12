@@ -21,8 +21,10 @@ body {
 	margin-right: auto;
 	margin-top: 20px;
 }
-.ui-contentZone-a .ui-link{
-	color: #ff0000;
+
+/*orange titles*/
+.mainTitle{
+	color: #e06a01;
 }
 	
 .ui-bar-a {
@@ -49,18 +51,13 @@ body {
 	color: #868686/*{a-bar-color}*/;
 }
 
-.ui-content-a .ui-link {
+.ui-bar-a .ui-link {
 	color: #868686/*{a-bar-link-color}*/;
 	text-decoration: underline;
 }
 
-.ui-bar-a .ui-link {
-	color: #ffffff/*{a-bar-link-color}*/;
-	text-decoration: underline;
-}
-
 .ui-bar-a .ui-link:hover {
-	color: #868686 /*{a-bar-link-hover}*/;
+	color: #555555 /*{a-bar-link-hover}*/;
 }
 
 .ui-bar-a .ui-link:active {
@@ -68,7 +65,7 @@ body {
 }
 
 .ui-bar-a .ui-link:visited {
-    color: #ffffff/*{a-bar-link-visited}*/;
+    color: #868686/*{a-bar-link-visited}*/;
 }
 .ui-body-a,
 .ui-dialog.ui-overlay-a {
@@ -77,9 +74,9 @@ body {
 	color: 					#fff /*{a-body-color}*/;
 	text-shadow: 0px /*{a-body-shadow-x}*/ 1px /*{a-body-shadow-y}*/ 5 /*{a-body-shadow-radius}*/ #000 /*{a-body-shadow-color}*/;
 	font-weight: normal;
-	font-size:12px;
-		
+	font-size:12px;		
 }
+
 .ui-body-a,
 .ui-body-a input,
 .ui-body-a select,
@@ -95,52 +92,27 @@ body {
 }
 
 .ui-body-a .ui-link {
-
+	line-height: 2em;
 	color: #ffffff /*{a-body-link-color}*/;
-	text-decoration: underline;
-		
+	text-decoration: underline;		
 }
 
 .ui-body-a .ui-link:hover {
-
+	line-height: 2em;
 	color: #262626 /*{a-body-link-color}*/;
 	text-decoration: none;
 }
 
 .ui-body-a .ui-link:active {
-
+	line-height: 2em;
 	color: #ffffff /*{a-body-link-color}*/;
 	text-decoration: none;
 }
 
 .ui-body-a .ui-link:visited {
-
+	line-height: 2em;
 	color: #ffffff /*{a-body-link-color}*/;
 	text-decoration: underline;
-
-	color: 	#fff /*{a-body-color}*/;
-		text-decoration: underline;
-}
-
-.ui-body-a .ui-link {
-	color: #fff /*{a-body-link-color}*/;
-		text-decoration: none;
-}
-
-.ui-body-a .ui-link:hover {
-	color: #fff /*{a-body-link-color}*/;
-		text-decoration: none;
-}
-
-.ui-body-a .ui-link:active {
-	color: #fff /*{a-body-link-color}*/;
-		text-decoration: none;
-}
-
-.ui-body-a .ui-link:visited {
-	color: #fff /*{a-body-link-color}*/;
-		text-decoration: none;
-
 }
 
 /*Main buttons*/

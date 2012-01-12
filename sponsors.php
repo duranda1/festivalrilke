@@ -10,7 +10,7 @@
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
 						<h3><div class="sponsors" />Partenaires et sponsors</div></h3>
-						<font color="#e06a01"><div class="sponsors1" />Sponsors</div></font>	
+						<span class="mainTitle"><div class="sponsors1" style="font-weight: bold" />Sponsors</div></span>	
 						<ul>
 							<li>
 								<a href="http://www.st-leonard.ch/index/index.php"><div class="sponsors2" />Commune de St-Léonard</div></a>
@@ -58,7 +58,7 @@
 								<a href="http://www.sierre.ch/fr/index.php"><div class="sponsors16" />Ville de Sierre</div></a>
 							</li>							
 						</ul>
-						<font color="#e06a01"><div class="sponsors17" />Médias partenaires</div></font>	
+						<span class="mainTitle"><div class="sponsors17" style="font-weight: bold"/>Médias partenaires</div></span>	
 						<ul>
 							<li>
 								<a href="http://www.lenouvelliste.ch/fr/"><div class="sponsors18" />Le Nouvelliste</div></a>

@@ -13,30 +13,30 @@
 			<p align="justify">
 				<img src="images/historique1.jpg" align="left" style="margin: 0 10px 10px 0;"/>
 
-				<font color="#e06a01">
+				<span class="mainTitle">
 						<span style="font-weight:bold" class="historique2"></span>
-				</font>	
+				</span>	
 				<div class="historique3"></div>
 				</br>
-				<font color="#e06a01">
+				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique4"></div>
-				</font>
+				</span>
 				<div class="historique5"></div>
 				</br>
-				<font color="#e06a01">
+				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique6"></div>
-				</font>
+				</span>
 				<div class="historique7"></div>
 				</br>
-				<font color="#e06a01">
+				<span class="mainTitle">
 						<span style="font-weight:bold" class="historique8"></span>
-				</font>
+				</span>
 				<div class="historique9"></div>
 				</br>
 				<img src="images/historique2.jpg" align="left" style="margin: 0 10px 10px 0px;"/>
-				<font color="#e06a01">
+				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique10"></div>
-				</font>				
+				</span>				
 				<div class="historique11"></div>
 			</p>
 		</div>
