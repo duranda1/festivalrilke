@@ -19,40 +19,40 @@
 							<a href="http://www.sierre.ch/fr/index.php"><div class="organisation4"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation5" /></a>
+							<a href="http://www.sierre-salgesch.ch/fr/Regions/"><div class="organisation5"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation6" /></a>
+							<a href="http://www.fondationrilke.ch/pages/fr/"><div class="organisation6"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation7" /></a>
+							<a href="http://www.chateaumercier.ch/"><div class="organisation7"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation8" /></a>
+							<a href="http://www.cavesdecourten.ch/"><div class="organisation8"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation9" /></a>
+							<a href="http://www.veyras.ch/"><div class="organisation9"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation10" /></a>
+							<a href="http://www.st-leonard.ch/tourisme/horairelac.php"><div class="organisation10"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation11" /></a>
+							<a href="http://www.magimalice.ch/"><div class="organisation11"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation12" /></a>
+							<a href="http://www.village-du-livre.ch/"><div class="organisation12"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation13" /></a>
+							<a href="http://www.ecav.ch/"><div class="organisation13"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation14" /></a>
+							<a href="http://www.literaturfestival.ch/"><div class="organisation14"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation15" /></a>
+							<a href="http://www.laliseuse.ch/"><div class="organisation15"></div></a>
 						</li>
 						<li>
-							<a href="http://www.veyras.ch/"><div class="organisation16" /></a>
+							<a href="http://www.zap.ch/shop/zap_start_startseite/show/"><div class="organisation16"></div></a>
 						</li>						
 					</ul>					
 					</br>

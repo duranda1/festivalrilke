@@ -21,7 +21,7 @@ body {
 	margin-right: auto;
 	margin-top: 20px;
 }
-.contentZone-link{
+.ui-contentZone-a .ui-link{
 	color: #ff0000;
 }
 	
@@ -46,16 +46,21 @@ body {
 
 /*Little footer links*/ 
 .ui-bar-a .ui-link-inherit {
-	color: #ffffff/*{a-bar-color}*/;
+	color: #868686/*{a-bar-color}*/;
 }
 
-.ui-bar-a .ui-link {
+.ui-content-a .ui-link {
 	color: #868686/*{a-bar-link-color}*/;
 	text-decoration: underline;
 }
 
+.ui-bar-a .ui-link {
+	color: #ffffff/*{a-bar-link-color}*/;
+	text-decoration: underline;
+}
+
 .ui-bar-a .ui-link:hover {
-	color: #ffffff /*{a-bar-link-hover}*/;
+	color: #868686 /*{a-bar-link-hover}*/;
 }
 
 .ui-bar-a .ui-link:active {
