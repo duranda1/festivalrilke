@@ -721,8 +721,9 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-bar .ui-btn-icon-bottom .ui-icon { bottom: 4px; }
 
 /*hiding native button,inputs*/ 
-.ui-btn-hidden { position: absolute; top: 0; left: 0; size: 20%; height: 20%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }*/
+/*.ui-btn-hidden { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }*/
 /*.ui-collapsible { margin: .5em 0; }*/
+.contentZone .ui-btn-hidden{position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }
 .ui-collapsible-heading {font-size: 16px; margin:0 0; position: relative; }
 .ui-collapsible-heading a { text-align:center; margin: 0;  }
 .ui-collapsible-heading a .ui-btn-inner { padding-left: 40px; }

@@ -9,13 +9,9 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">	
-			<form method=POST action=mailReservations.php >
-				<fieldset>				  				
-				  <label for="mail">Votre email :</label>
-				   <textarea name="mail" id="comments" cols="1" rows="1">
-				   </textarea>
-				</fieldset>
-				<input type="submit" value="Envoyer"/>			
+			<form method=POST action=mailReservations.php >				
+				     Email: <INPUT NAME=Nom size=30 style="background-color: #999999; size: 20%; color: #000000;">				
+				<input type="submit" value="Ok"/>			
 			</form>			
 		</div>
 	</div><!-- /content -->
