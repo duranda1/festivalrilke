@@ -13,11 +13,11 @@
 </head> 
 <body> 
 <?php include('header.php'); ?>
-	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
+	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-						<h3><div class="sponsors1" />Partenaires et sponsors</div></h3>
-						<font color="#e06a01"><div class="sponsors2" />Sponsors</div></font>	
+						<h3><div class="sponsors" />Partenaires et sponsors</div></h3>
+						<font color="#e06a01"><div class="sponsors1" />Sponsors</div></font>	
 						<ul>
 							<li>
 								<a href="http://www.st-leonard.ch/index/index.php"><div class="sponsors2" />Commune de St-Léonard</div></a>
