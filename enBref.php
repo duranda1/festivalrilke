@@ -13,29 +13,29 @@
 			<p align="justify">
 				<ul>
 					<li>
-						<font color="#e06a01">
-							<span class="enBref2" /></font> 
+						<span class="mainTitle">
+							<span class="enBref2"></span> </span>
 						<span class="enBref3" />
 					</li>
 					</br>
 					<li>
-						<font color="#e06a01">
-							<span class="enBref4" />
-						</font> 
+						<span class="mainTitle">
+							<span class="enBref4">
+						</span> </span>
 						<span class="enBref5" />
 					</li>
 					</br>
 					<li>
-						<font color="#e06a01">
-							<span class="enBref6" />
-						</font> 
+						<span class="mainTitle">
+							<span class="enBref6">
+						</span> </span> 
 						<span class="enBref7" />
 					</li>
 					</br>
 					<li>
-						<font color="#e06a01">
+						<span class="mainTitle">
 							<span class="enBref8" />
-						</font>
+						</span></span>
 						<span class="enBref9" />
 					</li>
 				</ul>
