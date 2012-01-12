@@ -9,8 +9,6 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-<a href="http://www.chateaumercier.ch/">dfghdfhdfh</a>
-
 				<p align="justify">
 					<h3><div class="organisation1" /></h3>
 					<div class="organisation2"></div>
@@ -108,10 +106,10 @@
 					</br>
 					<h3><div class="organisation33"></div></h3>
 					<img src="images/historique1.jpg" align="left" style="margin: 0 10px 10px 0;"/>
-					<span class="mainTitle"><span style="font-weight:bold" class="organisation34"> </span>	
+					<span class="mainTitle"><span style="font-weight:bold" class="organisation34"> </span></span>
 					<div class="organisation35"></div>
 					</br>
-					<span class="mainTitle"><span style="font-weight:bold" class="organisation36" ></span>	
+					<span class="mainTitle"><span style="font-weight:bold" class="organisation36" ></span></span>	
 					<div class="organisation37"></div>
 					</br>
 					<div class="organisation38"></div>

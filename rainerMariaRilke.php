@@ -13,7 +13,8 @@
 				<h3><div class="rainerMariaRilke1" /></h3>
 				<p align="justify">
 					<img src="images/rainerMariaRilke.jpg" align="left" style="margin: 0 20px 0 0;"/>
-					<font color="#e06a01"><span style=font-weight:bold class="rainerMariaRilke2"/></font><div class="rainerMariaRilke3"> - Naissance à Prague. Fils d’un ancien militaire autrichien devenu employé des chemins de fer et d’une mère dévote et mondaine, issue d’une famille de commerçants.</div>
+					<span class="mainTitle"><span style=font-weight:bold class="rainerMariaRilke2"></span></span>
+						<div class="rainerMariaRilke3"></div>
 					</br></br><font color="#e06a01"><b>1895</b></font></font><div class="rainerMariaRilke4"></div>
 					</br></br><font color="#e06a01"><b>1899</b></font><div class="rainerMariaRilke5"></div>
 					</br></br><font color="#e06a01"><b>1903-1904</b></font><div class="rainerMariaRilke6"></div>
