@@ -61,7 +61,7 @@ Your browser does not support the video tag.
 }
 			?>
 
-			<center>
+			<!-- <center>
 				<div class="videos">
 					<video width="320" height="240" controls="controls"  poster="medias/videos/thumbs/Rainer Maria Rilke - Der Panther(360p).jpg" preload="none">
 						<source src="medias/videos/Rainer Maria Rilke - Der Panther(360p).mp4" type="video/mp4" />
@@ -69,7 +69,7 @@ Your browser does not support the video tag.
 						Your browser does not support the video tag.
 					</video>
 				</div>
-			</center>
+			</center> -->
 		</div><!-- /content -->
 		<?php
 			include ('footer.php');
