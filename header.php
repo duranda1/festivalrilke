@@ -12,7 +12,7 @@
             if((language != "fr") && (language != "de")) {
             	language = "fr";
             }
-            
+                       
             $.ajax({
                 url: 'languages.xml',
                 success: function(xml) {
@@ -38,7 +38,13 @@
 <div data-role="page">
 
 	<div data-role="header" data-theme="a">
-		<img src="banniere.jpg" width="100%"></img>
+		<div style="position:absolute; top:5px; right:10px; font-size:medium">
+		<a style="color:white" onclick='setLanguage("fr")'>français</a>
+		
+		<a style="color:white" onclick='setLanguage("de")'>deutsch</a>
+		</div>
+		
+		<img src="banniere.jpg" width="100%"></img>		
 		   <?php
 		   include("livenews/livenews_module.php");
 		   ?>	  
