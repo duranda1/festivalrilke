@@ -11,7 +11,8 @@
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
 						<h3><div class="acces1" />Accès</div></h3>
-						<font color="#e06a01"><span class="acces2" /></font>	
+						<span class="mainTitle"><span class="acces2" style="font-weight: bold"></span></span>	
+						</br>
 						</br>
 						<img src="images/acces1.JPG" align="left" style="width:100%"/>
 						</br>
