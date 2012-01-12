@@ -15,7 +15,7 @@
 				   <textarea name="mail" id="comments" cols="1" rows="1">
 				   </textarea>
 				</fieldset>
-				<input type="submit" value="Envoyer" />
+				<input type="submit" value="Envoyer"/>			
 			</form>			
 		</div>
 	</div><!-- /content -->
