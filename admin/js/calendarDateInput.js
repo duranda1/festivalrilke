@@ -24,7 +24,7 @@ var ZCounter = 100;
 var Today = new Date();
 var WeekDays = new Array('D','L','M','M','J','V','S');
 var MonthDays = new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
-var MonthNames = new Array('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre');
+var MonthNames = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
 
 // Write out the stylesheet definition for the calendar
 with (document) {
@@ -574,7 +574,7 @@ function DateInput(DateName, Required, DateFormat, DefaultDate) {
          }
          for (var i=0;i<12;i++) {
             MonthSelected = ((DefaultDate != '') && (eval(DateName + '_Object.picked.monthIndex') == i)) ? ' selected' : '';
-            writeln('<option value="' + i+1 + '"' + MonthSelected + '>' + MonthNames[i] + '</option>');
+            writeln('<option value="' + MonthNames[i].substr(0,3) + '"' + MonthSelected + '>' + MonthNames[i] + '</option>');
          }
          writeln('</select>' + String.fromCharCode(13) + '</td>' + String.fromCharCode(13) + '<td valign="middle">');
          writeln('<input' + InitialStatus + ' class="calendarDateInput" name="annee" type="hidden" id="' + DateName + '_Year_ID" size="' + eval(DateName + '_Object.picked.yearPad.length') + '" maxlength="' + eval(DateName + '_Object.picked.yearPad.length') + '" title="Year" value="' + eval(DateName + '_Object.picked.yearPad') + '" onKeyPress="return YearDigitsOnly(window.event)" onKeyUp="' + DateName + '_Object.checkYear(this)" onBlur="' + DateName + '_Object.fixYear(this)">');

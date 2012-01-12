@@ -1,6 +1,7 @@
 <?php defined('NANOMUS') OR header('Location: ../index.php'); ?>
 <script type="text/javascript" src="js/calendarDateInput.js"></script>
 <form method='post' action='ajouterNewsXML.php'>
+	<h4>Ajout d'une actualité</h4>
 	<table>
 		<tr>
 			<td>Titre</td>
