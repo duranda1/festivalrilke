@@ -26,6 +26,14 @@
 				<script>DateInput('orderdate', true, 'DD-MON-YYYY')</script>
 				<!--<input type="datetime" name="date" class="text" value="01.12.2012 08:53">-->
 			</td>
+		</tr><tr>
+			<td>Heure</td>
+			<td>				
+				<select name='heure' class="text">
+					<option value="1">bnob</option>
+					<?php echo '<option value="1">1</option>'; ?>
+				</input>
+			</td>
 		</tr>
 		<tr>
 			<td colspan='2' align='center'>
