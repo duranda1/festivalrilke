@@ -26,6 +26,11 @@ body {
 .mainTitle{
 	color: #e06a01;
 }
+
+input{
+	size: 0px;
+	
+}
 	
 .ui-bar-a {
 	border: 1px solid 		#282828 /*{a-bar-border}*/;/*bordure en haut et bas de contact*/

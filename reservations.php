@@ -10,16 +10,13 @@
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">	
 			<form method=POST action=mailReservations.php >
-				<input type=hidden name=subject value=formmail>
-				<table>
-					<tr>
-						<td>Votre Email:</td>
-						<td><input type=text name=email size=30 style="color: #ffffff;"></td>
-					</tr>
-				</table>
-				<br> <input type=submit value=Envoyer> 
-			</form>
-			<a href="./contact.php" data-role="button"><span class="bouttonEnvoi">Envoyer</span></a>
+				<fieldset>				  				
+				  <label for="mail">Votre email :</label>
+				   <textarea name="mail" id="comments" cols="1" rows="1">
+				   </textarea>
+				</fieldset>
+				<input type="submit" value="Envoyer" />
+			</form>			
 		</div>
 	</div><!-- /content -->
 <?php include('footer.php'); ?>
