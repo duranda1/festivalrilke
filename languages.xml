@@ -672,6 +672,10 @@
 	
    
     <!-- DIVERS -->
+    <translation id="langue">
+    	<fr>deutsch</fr>
+    	<de>français</de>
+    </translation>
     <translation id="retourAuMenu">
         <fr>Retour au menu</fr>
         <de>Zurück zum Menü</de>

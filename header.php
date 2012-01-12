@@ -30,7 +30,10 @@
     //Méthode qui change la langue dans le cookie et sur le site
     <script type="text/javascript" language="javascript">
         function setLanguage(value) {
-            setCookie(value);
+        	if(getCookie() == "de")
+            	{setCookie("fr");}
+            else
+            	{setCookie("de");}
             loadLanguageText();
         }
     </script>
@@ -38,10 +41,8 @@
 <div data-role="page">
 
 	<div data-role="header" data-theme="a">
-		<div style="position:absolute; top:5px; right:10px; font-size:medium">
-		<a style="color:white" onclick='setLanguage("fr")'>français</a>
-		
-		<a style="color:white" onclick='setLanguage("de")'>deutsch</a>
+		<div style="position:absolute; top:1px; right:5px; font-size:small">
+		<a style="color:white" onclick='setLanguage()' class="langue"></a>
 		</div>
 		
 		<img src="banniere.jpg" width="100%"></img>		
