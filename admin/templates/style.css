@@ -96,7 +96,7 @@ h4{
 	border: 1px solid #cac7b2;
 	cursor: pointer;
 }
-.text {
+.text, .calendarDateInput {
 	background: #fffebb;
 	border: 1px solid #cac7b2;
 }
