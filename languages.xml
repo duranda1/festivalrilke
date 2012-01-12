@@ -583,6 +583,93 @@
     	<fr>Accès au château mercier depuis la gare de Sierre</fr>
     	<de>Der Zugang zur Burg vom Bahnhof Mercier in Siders</de>
 	</translation>
+	
+	<!-- SPONSORS.PHP -->
+	<translation id="sponsors">
+    	<fr>Partenaires et sponsors</fr>
+    	<de>Partner und Sponsoren</de>
+	</translation>
+	<translation id="sponsors1">
+    	<fr>Sponsors</fr>
+    	<de>Sponsoren</de>
+	</translation>
+	<translation id="sponsors2">
+    	<fr>Commune de St-Léonard</fr>
+    	<de>Gemeinsame St-Léonard</de>
+	</translation>
+	<translation id="sponsors3">
+    	<fr>Commune de Miège</fr>
+    	<de>Gemeinsame Miège</de>
+	</translation>
+	<translation id="sponsors4">
+    	<fr>Commune de Salgesch</fr>
+    	<de>Gemeinsame Salgesch</de>
+	</translation>
+	<translation id="sponsors5">
+    	<fr>Commune de Veyras</fr>
+    	<de>Gemeinsame Veyras</de>
+	</translation>
+	<translation id="sponsors6">
+    	<fr>Corem - Cepeg</fr>
+    	<de>Corem - Cepeg</de>
+	</translation>
+	<translation id="sponsors7">
+    	<fr>Etat du Valais</fr>
+    	<de>Staat Wallis</de>
+	</translation>
+	<translation id="sponsors8">
+    	<fr>Fondation Rilke</fr>
+    	<de>Rilke-Stiftung</de>
+	</translation>
+	<translation id="sponsors9">
+    	<fr>Fondation de Château Mercier</fr>
+    	<de>Château Mercier Foundation</de>
+	</translation>
+	<translation id="sponsors10">
+    	<fr>Fondation Coromandel</fr>
+    	<de>Stiftung Coromandel</de>
+	</translation>
+	<translation id="sponsors11">
+    	<fr>Groupe Alchimie</fr>
+    	<de>Alchemy Gruppe</de>
+	</translation>
+	<translation id="sponsors12">
+    	<fr>Loterie Romande</fr>
+    	<de>Lotterie Romande</de>
+	</translation>
+	<translation id="sponsors13">
+    	<fr>Pour-cent-culturel Migros</fr>
+    	<de>Migros-Kulturprozent</de>
+	</translation>
+	<translation id="sponsors14">
+    	<fr>Sierre, Salgesch et Environs</fr>
+    	<de>Sierre, Salgesch und Umgebung</de>
+	</translation>
+	<translation id="sponsors15">
+    	<fr>Valais Tourisme</fr>
+    	<de>Wallis Tourismus</de>
+	</translation>
+	<translation id="sponsors16">
+    	<fr>Ville de Sierre</fr>
+    	<de>City of Sierre</de>
+	</translation>
+	<translation id="sponsors17">
+    	<fr>Médias partenaires</fr>
+    	<de>Medienpartner</de>
+	</translation>
+	<translation id="sponsors18">
+    	<fr>Le Nouvelliste</fr>
+    	<de>Le Nouvelliste</de>
+	</translation>
+	<translation id="sponsors19">
+    	<fr>Rhône FM</fr>
+    	<de>Rhône FM</de>
+	</translation>
+	<translation id="sponsors20">
+    	<fr>Radio Rottu</fr>
+    	<de>Radio Rottu</de>
+	</translation>
+	
    
     <!-- DIVERS -->
     <translation id="retourAuMenu">
