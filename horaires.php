@@ -10,21 +10,21 @@
 		<div data-role="content" data-theme="a">	
 			<div class="contentZone">
 				<h3><div class="horaires1" /></h3>
-				<font color="#e06a01"><span style=font-weight:bold class="horaires2" /></font>	
+				<span class="mainTitle"><span style=font-weight:bold class="horaires2"></span></span>	
 				</br>
 				08h30 - 11h00
 				</br>
 				14h00 - 18h00
 				</br>
 				</br>
-				<font color="#e06a01"><span style=font-weight:bold class="horaires3" /></font>
+				<span class="mainTitle"><span style=font-weight:bold class="horaires3"></span></span>
 				</br>				
 				09h00 - 11h00
 				</br>
 				14h00-19h00
 				<br>
 				<br>
-				<font color="#e06a01"><span style=font-weight:bold class="horaires4" /></font>
+				<span class="mainTitle"><span style=font-weight:bold class="horaires4"></span></span>
 				</br>			
 			</div>
 		</div><!-- /content -->
