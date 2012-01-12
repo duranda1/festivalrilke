@@ -49,7 +49,7 @@
 					<tr>
 						<td><b>Date</b></td>
 						<td>
-							: <?php echo($_POST['date']); ?>
+							: <?php echo($_POST['jour'].'.'.$_POST['mois'].'.'.$_POST['annee'].' '.$_POST['heure']); ?>
 						</td>
 					</tr>
 				</table>
