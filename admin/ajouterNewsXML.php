@@ -27,6 +27,7 @@
 		</div>
 		<div id="mid">
 			<div id="main">
+				<h4>L'actualité a été enregistrée avec succès</h4>
 				<table>
 					<tr>
 						<td><b>Titre</b></td>
@@ -49,12 +50,48 @@
 					<tr>
 						<td><b>Date</b></td>
 						<td>
-							: <?php echo($_POST['date']); ?>
+							: <?php echo($_POST['jour'].'.'.$_POST['mois'].'.'.$_POST['annee'].' '.$_POST['heure']); ?>
 						</td>
 					</tr>
 				</table>
+				<?php
+					$fichier = '../livenews/feed/livenews_fr.xml';
+					$dom = new DOMDocument('test1');
+			        $dom->load($fichier);
+			        /*nouvelle balise <item>*/
+			        $new_item = $dom->createElement('item');			
+			        /*nouvelle balise <title>*/			
+			        $new_title = $dom->createElement('title');			
+			        $title_content = $dom->createTextNode($_POST['titre']);			
+			        $letitle = $new_title->appendChild($title_content);			
+			        $leitem = $new_item->appendChild($new_title);	
+					/*nouvelle balise <description>*/			
+			        $new_description = $dom->createElement('description');			
+			        $description_content = $dom->createTextNode($_POST['description']);			
+			        $ledescription = $new_description->appendChild($description_content);			
+			        $leitem = $new_item->appendChild($new_description);	
+					/*nouvelle balise <pubDate>*/			
+			        $new_pubDate = $dom->createElement('pubDate');	
+					$jour = date('D', strtotime($_POST['jour'].'-'.$_POST['mois'].'-'.$_POST['annee'])); 		
+			        $pubDate_content = $dom->createTextNode($jour.', '.$_POST['jour'].' '.$_POST['mois'].' '.$_POST['annee'].' '.$_POST['heure'].':00 GMT');			
+			        $lepubDate = $new_pubDate->appendChild($pubDate_content);			
+			        $leitem = $new_item->appendChild($new_pubDate);	
+					/*nouvelle balise <link>*/			
+			        $new_link = $dom->createElement('link');			
+			        $link_content = $dom->createTextNode($_POST['lien']);			
+			        $lelink = $new_link->appendChild($link_content);			
+			        $leitem = $new_item->appendChild($new_link);			
+			        /*on rattache tout le <file> au DOM*/	
+			        
+			        $channel = $dom->getElementsByTagName("channel")->item(0);
+  					$channel->appendChild($new_item);
+  						
+					/*on enregistre dans un fichier*/					
+					$dom->save($fichier);
+				?>
 			</div>
-			<div id="break"></div>
+			
+			<div id="break"><input type=button onmousedown="window.location='./index.php?page=ajout_de_news'" value="Retour" class="submit"/></div>
 		</div>
 		<div id="footer">
 			&copy; Festival Rilke - HES-SO Valais
