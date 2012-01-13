@@ -1,5 +1,6 @@
-
+<link rel="stylesheet" href="livenews/livenews_module.css" />
 <!--  Méthode de remplissage du texte selon la langue choisie -->
+    
     <script type="text/javascript" language="javascript">
     
     function loadLanguageText() {
@@ -61,11 +62,14 @@
 		</div>
 		
 		<img src="banniere.jpg" width="100%"></img>	
+		
 		<div id="module"></div>
 		
 		  <?php
-		   include("livenews/livenews_module.php");
+		   //include("livenews/livenews_module.php");
 		   ?>
 	</div>
-	<!-- </div> -->
+	
+	 <!-- <link rel="stylesheet" href="jquery/jquery.mobile-1.0.css" />  -->
+	
 	<!-- /header -->
