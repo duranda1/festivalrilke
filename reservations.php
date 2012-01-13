@@ -3,6 +3,34 @@
 	<head> 
 	<title>Réservations</title> 
 	<?php include('init.php'); ?>
+		<script type="text/javascript" language="Javascript" >
+			<!--
+			function verification()
+			{
+				if(document.formulaire.mail.value == "") {
+  					alert("Veuillez entrer votre adresse mail svp");
+  					document.formulaire.mail.focus();
+  					return false;
+ 				}
+ 				else 
+ 					if(document.formulaire.email.value.indexOf('@') == -1) 
+ 					{
+  						alert("Ce n'est pas une adresse électronique, verifiez-la svp");
+  						document.formulaire.email.focus();
+  						return false;
+ 					}
+ 				else 
+ 					if(document.formulaire.nb.value == "")
+ 					{
+  						alert("Veuillez entrer votre un nombre de billets svp");
+  						document.formulaire.nb.focus();
+  						return false;
+ 					}
+  				else
+					return true;
+			}
+			//-->
+		</script>
 </head> 
 <body> 
 <?php include('header.php'); ?>
@@ -11,21 +39,20 @@
 		<div class="contentZone">	
 			<h3><div class="reservation1">Réservation</div></h3>
 			<span class="mainTitle">
-						<span style="font-weight:bold" class="reservation2">Envoyez-nous votre adresse mail ainsi que le nombre de billets désirés</span>
-				</span>	
-			<form method=POST action=mailReservations.php">				
+				<span style="font-weight:bold" class="reservation2">Envoyez-nous votre adresse mail ainsi que le nombre de billets désirés</span>
+			</span>	
+			<form name="formulaire" action="mailReservations.php" method="post" onSubmit="return verification()">			
 				    </br>
 				     Email: 
-				     <input name=Nom size=30 style="background-color: #999999; color: #000000; width: 200px; height: 12px">	
+				     <input name="document.formulaire.mail" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    </br> 
 				    <div class="reservation3">Nombre de billets: </div>
-				    <input name=Nom size=30 style="background-color: #999999; color: #000000; width: 30px; height: 12px;">	
+				    <input name="document.formulaire.nb" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    </br>			
 				<input type="submit" value="Ok"/>			
 			</form>			
 		</div>
 	</div><!-- /content -->
-<?php include('footer.php'); ?>
 </div><!-- /page one -->
 </body>
 </html>
