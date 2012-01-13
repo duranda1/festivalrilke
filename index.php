@@ -20,10 +20,10 @@
                <h3><div class="leFestivalMenu"></div></h3>
                <a href="./rainerMariaRilke.php" data-role="button"><div class="rainerMariaRilkeMenu"></div></a>
                <a href="./historique.php" data-role="button"><div class="historiqueMenu"></div></a>
-               <a href="./organisation.php" data-role="button"><div class"organisationMenu">Organisation</div></a>
+               <a href="./organisation.php" data-role="button"><div class"organisationMenu"></div></a>
             </div>
             <div data-role="collapsible">
-               <h3><div class="multimediaMenu">Multimédia</div></h3>
+               <h3><div class="multimediaMenu"></div></h3>
                <a href="./photos.php" data-role="button" data-ajax="false"><div class="photosMenu"></div></a>
                <a href="./videos.php" data-role="button"><div class="videoMenu"></div></a>
                <a href="#reservations" data-role="button"><div class="audioMenu"></div></a>

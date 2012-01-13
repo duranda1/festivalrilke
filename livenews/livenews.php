@@ -14,12 +14,10 @@ if(isset($_REQUEST["locale"])){
 else {
 	$language ="fr";
 }
-echo $language;
 
 if(!($language=="de" OR $language=="fr"))
 	$language="fr";
 
-	echo $language;
 $xml=(dirname(__FILE__) . "/feed/livenews_$language.xml");
   
 
