@@ -9,7 +9,12 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">	
-		Votre mail a été envoyé, merci pour votre réservation!
+			<h3><div class="reservationConfirm1">Confirmation</div></h3>
+			<span class="mainTitle">
+				<span style="font-weight:bold" class="reservationConfirm2">
+				Votre mail a été envoyé, merci pour votre réservation!
+				</span>
+			</span>
 		</div>
 	</div><!-- /content -->
 <?php include('footer.php'); ?>

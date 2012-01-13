@@ -4,7 +4,23 @@
 
 //find out which feed was selected
 
-  $xml=(dirname(__FILE__) . "/feed/livenews_fr.xml");
+$language;
+
+if(isset($_REQUEST["locale"])){
+	$language = $_REQUEST["locale"];
+}
+
+
+else {
+	$language ="fr";
+}
+echo $language;
+
+if(!($language=="de" OR $language=="fr"))
+	$language="fr";
+
+	echo $language;
+$xml=(dirname(__FILE__) . "/feed/livenews_$language.xml");
   
 
 $xmlDoc = new DOMDocument();

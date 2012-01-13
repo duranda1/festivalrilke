@@ -1,6 +1,9 @@
-//Méthode de remplissage du texte selon la langue choisie
+
+<!--  Méthode de remplissage du texte selon la langue choisie -->
     <script type="text/javascript" language="javascript">
+    
     function loadLanguageText() {
+  
         $(function () {
         	// the language is recovered from the cookie (if the user previously choosed the language)
         	var language = getCookie();
@@ -23,11 +26,22 @@
                     });
                 }
             }); 
-        });
+             
+             $.ajax({
+                       type: "POST",
+                      url: "livenews/livenews_module.php",
+                      data: ({"locale": language}),
+                      cache: false,
+                      dataType: "text",
+                       success: function(data) {
+                 			  $("#module").html(data);
+                    }
+             }); 
+    	});
     }
     </script>
    
-    //Méthode qui change la langue dans le cookie et sur le site
+    <!-- Méthode qui change la langue dans le cookie et sur le site -->
     <script type="text/javascript" language="javascript">
         function setLanguage(value) {
         	if(getCookie() == "de")
@@ -35,18 +49,23 @@
             else
             	{setCookie("de");}
             loadLanguageText();
+           
         }
     </script>
 <!-- Start of first page: #one -->
-<div data-role="page">
+<!-- <div data-role="page"> -->
 
 	<div data-role="header" data-theme="a">
 		<div style="position:absolute; top:1px; right:5px; font-size:small">
 		<a style="color:white" onclick='setLanguage()' class="langue"></a>
 		</div>
 		
-		<img src="banniere.jpg" width="100%"></img>		
-		   <?php
+		<img src="banniere.jpg" width="100%"></img>	
+		<div id="module"></div>
+		
+		  <?php
 		   include("livenews/livenews_module.php");
-		   ?>	  
-	</div><!-- /header -->
+		   ?>
+	</div>
+	<!-- </div> -->
+	<!-- /header -->
