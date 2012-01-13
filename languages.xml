@@ -670,6 +670,40 @@
     	<de>Radio Rottu</de>
 	</translation>
 	
+	<!-- CONTACT.PHP -->
+    <translation id="contact1">
+    	<fr>Contact</fr>
+    	<de>Kontakt</de>
+    </translation>
+     <translation id="contact2">
+    	<fr>Adresse du Festival</fr>
+    	<de>Adresse des Festival</de>
+    </translation>
+     <translation id="contact3">
+    	<fr>Festival Rilke</fr>
+    	<de>Rilke Festival</de>
+    </translation>
+     <translation id="contact4">
+    	<fr>Case postale 364</fr>
+    	<de>PO Box 364</de>
+    </translation>
+     <translation id="contact5">
+    	<fr>CH-3960 Sierre</fr>
+    	<de>CH-3960 Siders</de>
+    </translation>
+     <translation id="contact6">
+    	<fr>Informations sur le Festival</fr>
+    	<de>Informationen über das Festival</de>
+	</translation>
+	<translation id="contact7">
+    	<fr>Président du comité d'organisation</fr>
+    	<de>Vorsitzender des Organisationskomitees</de>
+    </translation>
+    <translation id="contact8">
+    	<fr>Théâtre et lectures</fr>
+    	<de>Theater und Lesungen</de>
+    </translation>
+	
     <!-- DIVERS -->
     <translation id="langue">
     	<fr>deutsch</fr>
@@ -679,4 +713,9 @@
         <fr>Retour au menu</fr>
         <de>Zurück zum Menü</de>
     </translation>
+    <translation id="testphotos">
+        <fr>Retour au menu</fr>
+        <de>Zurück zum Menü</de>
+    </translation>
+    
 </translations>

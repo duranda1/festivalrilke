@@ -24,7 +24,7 @@
             </div>
             <div data-role="collapsible">
                <h3><div class="multimediaMenu">Multimédia</div></h3>
-               <a href="Gallery/index.html#albums_container" data-role="button" data-ajax="false"><div class="photosMenu"></div></a>
+               <a href="./photos.php" data-role="button" data-ajax="false"><div class="photosMenu"></div></a>
                <a href="./videos.php" data-role="button"><div class="videoMenu"></div></a>
                <a href="#reservations" data-role="button"><div class="audioMenu"></div></a>
             </div>
