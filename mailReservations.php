@@ -5,5 +5,5 @@ $subject ="Reservations billets";
 $message = "Reservation";
 $nb = $_POST['nb'];
 mail($to, $subject, $message, $from, $nb);
-Header("Location:./confirmReservations.php");
+//Header("Location:./confirmReservations.php");
 ?>

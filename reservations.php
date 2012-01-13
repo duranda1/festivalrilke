@@ -59,8 +59,11 @@
 				    </br>			
 				<input type="submit" value="Ok"/>			
 			</form>			
+		</br>
+		</br>
 		</div>
 	</div><!-- /content -->
+	<?php include('footer.php'); ?>
 </div><!-- /page one -->
 </body>
 </html>
