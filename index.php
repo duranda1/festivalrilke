@@ -29,7 +29,7 @@
                <a href="#reservations" data-role="button"><div class="audioMenu"></div></a>
             </div>
             <div data-role="collapsible" onmousedown="window.location='./concours.php'">
-               <h3><div class="concoursMenu">Concours</div></h3>
+               <h3><div class="concoursMenu"></div></h3>
             </div>
             <div data-role="collapsible">
                <h3><div class="informationsUtilesMenu"></div></h3>
