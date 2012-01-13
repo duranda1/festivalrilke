@@ -16,7 +16,7 @@
 						$description = $desc[0];
 						if($description=='')
 							$description = '';
-					}	
+					}
 					$imagesArr[] = array('src' 	=> 'thumbs/'.$album.'/'.$file,
 										 'alt'	=> 'images/'.$album.'/'.$file,
 										 'desc'	=> $description);	
