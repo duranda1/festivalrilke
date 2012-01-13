@@ -26,7 +26,6 @@ body {
 .mainTitle{
 	color: #e06a01;
 }
-	
 .ui-bar-a {
 	border: 1px solid 		#282828 /*{a-bar-border}*/;/*bordure en haut et bas de contact*/
 	background: 			#282828 /*{a-bar-background-color}*/;
@@ -180,6 +179,7 @@ body {
 a.ui-link-inherit {
 	text-decoration: none !important;
 }
+
 
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
@@ -723,6 +723,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 /*hiding native button,inputs*/ 
 /*.ui-btn-hidden { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }*/
 /*.ui-collapsible { margin: .5em 0; }*/
+.contentZone .ui-btn-hidden{position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }
 .ui-collapsible-heading {font-size: 16px; margin:0 0; position: relative; }
 .ui-collapsible-heading a { text-align:center; margin: 0;  }
 .ui-collapsible-heading a .ui-btn-inner { padding-left: 40px; }
@@ -861,7 +862,7 @@ label.ui-select { font-size: 16px; line-height: 1.4;  font-weight: normal; margi
 .ui-selectmenu .ui-header h1:after { content: '.'; visibility: hidden; }label.ui-input-text { font-size: 16px; line-height: 1.4; display: block; font-weight: normal; margin: 0 0 .3em; }
 input.ui-input-text, textarea.ui-input-text { background-image: none; padding: .4em; line-height: 1.4; font-size: 16px; display: block; width: 97%; }
 input.ui-input-text { -webkit-appearance: none; }
-/*textarea.ui-input-text { height: 50px; -webkit-transition: height 200ms linear; -moz-transition: height 200ms linear; -o-transition: height 200ms linear; transition: height 200ms linear; }*/
+textarea.ui-input-text { height: 50px; -webkit-transition: height 200ms linear; -moz-transition: height 200ms linear; -o-transition: height 200ms linear; transition: height 200ms linear; }*/
 .ui-input-search { padding: 0 30px; background-image: none; position: relative; }
 .ui-icon-searchfield:after { position: absolute; left: 7px; top: 50%; margin-top: -9px; content: ""; width: 18px; height: 18px; opacity: .5; }
 .ui-input-search input.ui-input-text { border: none; width: 98%; padding: .4em 0; margin: 0; display: block; background: transparent none; outline: 0 !important; }

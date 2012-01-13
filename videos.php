@@ -11,6 +11,10 @@
 		<script type="text/javascript" src="cookies.js"></script>
 		<a href="./index.php" data-role="button"  data-theme="a">Retour au menu</a>
 		<div data-role="content" data-theme="a">
+			
+		<div class="contentZone">
+		<h3><div class="videos1" />A traduire</h3>
+			
 			<?php
 			function getImages($path) {
 				$dir = opendir(dirname(__FILE__) . "/$path/thumbs");
@@ -37,7 +41,7 @@ $images = getImages($path);
 foreach($images as $img) {
 //echo $img['file'];
 
-echo $img;
+//echo $img;
 
 // your file
 $file = $img;
@@ -45,16 +49,17 @@ $file = $img;
 $info = pathinfo($file);
 $file_name =  basename($file,'.'.$info['extension']);
 
-echo $file_name; // outputs 'image'
+echo "<span class=\"mainTitle\">$file_name</span>"; // outputs 'image'
 
-echo"<center><div class=\"videos\"><video width=\"320\" height=\"240\" controls=\"controls\"  poster=\"$path/thumbs/$img\" preload=\"none\">
+echo "<center><div class=\"videos\"><video width=\"320\" height=\"240\" controls=\"controls\"  poster=\"$path/thumbs/$img\" preload=\"none\">
 <source src=\"$path/$file_name.mp4\" type=\"video/mp4\" />
 <source src=\"$path/$file_name.webm\" type=\"video/webm\" />
 Your browser does not support the video tag.
-</video> </div></center>";
+</video> </div></center><br/>";
 
 }
 			?>
+			
 
 			<!-- <center>
 				<div class="videos">
@@ -65,10 +70,13 @@ Your browser does not support the video tag.
 					</video>
 				</div>
 			</center> -->
+		
+		
 		</div><!-- /content -->
 		<?php
 			include ('footer.php');
 		?>
+		</div>
 		</div><!-- /page one -->
 	</body>
 </html>
