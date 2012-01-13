@@ -9,22 +9,22 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-			<h3><div class="contact1" />Contact</div></h3>
-			<b><font color="#e06a01"><div class="contact2" />Adresse du Festival</div></font></b>
+			<h3><div class="contact1" /></div></h3>
+			<b><font color="#e06a01"><div class="contact2" /></div></font></b>
 			</br>
-			<div class="contact2" />Festival Rilke</div>
+			<div class="contact3" /></div>
 			</br>
-			<div class="contact2" />Case postale 364</div>
+			<div class="contact4" /></div>
 			</br>
-			<div class="contact2" />CH-3960 Sierre</div>
+			<div class="contact5" /></div>
 			</br>
 			</br>			
-			<b><font color="#e06a01"><div class="contact2" />Informations sur le Festival</div></font></b>	
+			<b><font color="#e06a01"><div class="contact6" /></div></font></b>	
 			</br>
 			René-Pierre Antille
 			</br>
 			</br>
-			<div class="contact2" />Président du comité d'organisation</div>
+			<div class="contact7" /></div>
 			</br>
 			Fax: +41 (0)27 452 23 33</br></br>
 			<img src="images/tel.gif" align="left" style="margin: 0 10px 10px 0; height: 25px; "/>
@@ -37,7 +37,7 @@
 			</br>
 			</br>
 			</br>
-			<b><font color="#e06a01"><div class="contact2" />Théâtre et lectures</div></font></b>
+			<b><font color="#e06a01"><div class="contact8" /></div></font></b>
 			</br>
 			Anne Salamin
 			</br>
