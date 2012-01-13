@@ -7,9 +7,9 @@
 			<!--
 			function verification()
 			{
-				if(document.formulaire.mail.value == "") {
+				if(document.formulaire.email.value == "") {
   					alert("Veuillez entrer votre adresse mail svp");
-  					document.formulaire.mail.focus();
+  					document.formulaire.email.focus();
   					return false;
  				}
  				else 
@@ -39,12 +39,20 @@
 		<div class="contentZone">	
 			<h3><div class="reservation1">Réservation</div></h3>
 			<span class="mainTitle">
-				<span style="font-weight:bold" class="reservation2">Envoyez-nous votre adresse mail ainsi que le nombre de billets désirés</span>
+				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
 			<form name="formulaire" action="mailReservations.php" method="post" onSubmit="return verification()">			
 				    </br>
+				     Prénom: 
+				     <input name="document.formulaire.prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
+				    </br> 
+				    </br>
+				     Nom: 
+				     <input name="document.formulaire.nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
+				    </br> 
+				    </br>
 				     Email: 
-				     <input name="document.formulaire.mail" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
+				     <input name="document.formulaire.email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    </br> 
 				    <div class="reservation3">Nombre de billets: </div>
 				    <input name="document.formulaire.nb" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	

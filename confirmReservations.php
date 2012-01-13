@@ -15,6 +15,9 @@
 				Votre mail a été envoyé, merci pour votre réservation!
 				</span>
 			</span>
+			<?php
+			echo "bonjour. $nom";
+			?>
 		</div>
 	</div><!-- /content -->
 <?php include('footer.php'); ?>
