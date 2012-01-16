@@ -2,133 +2,104 @@
 <html> 
 	<head> 
 	<title>Accès</title> 
-	<style type="text/css">
 
-
-#map, #route {
-width: 100%;
-height: 50%;
-}
-#route {
-overflow-y:auto;
-}
-#method {
-position: absolute;
-left: 75px;
-top:15px;
-padding:10px;
-opacity: .9;
--moz-opacity: .9;
-z-index: 10;
-background-color:#fff;
-border-radius:3px;
--moz-border-radius:3px;
--webkit-border-radius:3px;
-
-}
-</style>
-<?php include('init.php'); ?>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="http://www.google.com/jsapi"></script>
+<?php
+ include('init.php'); 
+ ?>
+<style>
+		#map-container {
+			overflow: hidden;
+		}
+		#map {
+			float: left;
+			width: 60%;
+			height: 350px;
+			margin: 5px auto;
+		}
+		#map-directions {
+			float: right;
+			width: 38%;
+			padding-left: 2%;
+		}
+	</style>
+<script type="text/javascript" src="http://maps.google.ch/maps/api/js?sensor=false"></script>
 <script>
-var map; //the google map
-var directionsService; //service that provides directions to get to our destination
-var directionsDisplay; //rendeder that draws directions on map
-var destinationName = "Ventorro del Cano, Madrid"; //our destination. Set yours!
+	(function () {
+		var directionsService = new google.maps.DirectionsService(),
+			directionsDisplay = new google.maps.DirectionsRenderer(),
+			createMap = function (start) {
+				var travel = {
+						origin : (start.coords)? new google.maps.LatLng(start.lat, start.lng) : start.address,
+						destination : "Montée du Château 19 - Case postale 403, 3960 Sierre, Suisse",
+						travelMode : google.maps.DirectionsTravelMode.DRIVING
+						// Exchanging DRIVING to WALKING above can prove quite amusing <img src="http://robertnyman.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley">
+					},
+					mapOptions = {
+						zoom: 10,
+						// Default view: downtown Stockholm
+						center : new google.maps.LatLng(59.3325215, 18.0643818),
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
 
-function initiate_geolocation(skipHTML5){
+				map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				directionsDisplay.setMap(map);
+				directionsDisplay.setPanel(document.getElementById("map-directions"));
+				directionsService.route(travel, function(result, status) {
+					if (status === google.maps.DirectionsStatus.OK) {
+						directionsDisplay.setDirections(result);
+					}
+				});
+			};
 
-if (!skipHTML5 && navigator.geolocation) {
-// HTML5 GeoLocation
-function getLocation(position) {
-document.getElementById("method").innerHTML = "Location obtained using HTML5";
-showMapAndRoute({
-"lat": position.coords.latitude,
-"lng": position.coords.longitude
-});
-}
-navigator.geolocation.getCurrentPosition(getLocation, error);
-} else {
-// Google AJAX API fallback GeoLocation
-if (typeof google == 'object') {
-var geocoder = new google.maps.Geocoder();
-if (google.loader.ClientLocation) {
-document.getElementById("method").innerHTML = "Location obtained using Google Geocoder";
-showMapAndRoute({
-"lat": google.loader.ClientLocation.latitude,
-"lng": google.loader.ClientLocation.longitude
-});
-} else
-{
-alert("Google Geocoder was unable to get the client position");
-}
-}
-}
-}
-
-function showMapAndRoute(l)
-{
-var latlng = new google.maps.LatLng(l.lat,l.lng);
-
-var myOptions = {
-zoom: 8,
-mapTypeId: google.maps.MapTypeId.ROADMAP
-};
-
-map = new google.maps.Map(document.getElementById("map"), myOptions);
-directionsDisplay = new google.maps.DirectionsRenderer();
-directionsDisplay.setMap(map);
-directionsDisplay.setPanel(document.getElementById("route"));
-
-var request = {
-origin: l.lat + ',' + l.lng ,
-destination: destinationName,
-travelMode: google.maps.DirectionsTravelMode.DRIVING
-};
-directionsService = new google.maps.DirectionsService();
-directionsService.route(request, function(result, status) {
-if (status == google.maps.DirectionsStatus.OK) {
-directionsDisplay.setDirections(result);
-}
-});
-}
-
-function error(e)
-{
-switch(e.code)
-{
-case e.TIMEOUT:
-alert ('Timeout');
-break;
-case e.POSITION_UNAVAILABLE:
-alert ('Position unavailable');
-break;
-case e.PERMISSION_DENIED:
-alert ('Permission denied');
-break;
-case e.UNKNOWN_ERROR:
-alert ('Unknown error');
-break;
-}
-
-//try to get location using Google Geocoder
-initiate_geolocation(true);
-}
+			// Check for geolocation support
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(function (position) {
+						// Success!
+						createMap({
+							coords : true,
+							lat : position.coords.latitude,
+							lng : position.coords.longitude
+						});
+					},
+					function () {
+						// Gelocation fallback: Defaults to Stockholm, Sweden
+						createMap({
+							coords : false,
+							address : "1950 Sion, Suisse"
+						});
+					}
+				);
+			}
+			else {
+				// No geolocation fallback: Defaults to Lisbon, Portugal
+				createMap({
+					coords : false,
+					address : "1950 Sion, Suisse"
+				});
+			}
+	})();
 </script>
 </head> 
-<body onload="initiate_geolocation()">
-<?php include('header.php'); ?>
+<body>
+<?php 
+include('header.php'); 
+?>
+	
+	
+
 	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<script type="text/javascript" src="cookies.js"></script>
 	
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-			<div id="method"></div>
-<div id="map"></div>
-<div id="route"></div>
+			<div id="map"></div>
+		<!-- 	<div id="map-directions"></div> -->
 		</div>
 	</div><!-- /content -->
 <?php include('footer.php'); ?>
-</div><!-- /page one -->
+</div>
+
+<!-- /page one -->
+
 </body>
 </html>

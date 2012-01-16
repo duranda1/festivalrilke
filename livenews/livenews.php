@@ -62,7 +62,7 @@ for ($i=0; $i<$nodeListLength; $i++)
   //echo ("<p><a href='" . $item_link
   //. "'>" . $item_title . "</a>");
   //echo ("<br />");
-  echo ("<span class=\"feeddate\">" . date('d-m H:i', strtotime($item_pub)). "</span> " . $item_title  . "</br>");
+  echo ("<span class=\"feeddate\">" . date('d-m H:i', strtotime($item_pub)). "</span> " . $item_title  . "<br/>");
   
   
   }
