@@ -29,3 +29,5 @@
 		</tr>
 	</table>
 </form>
+<input type=button onmousedown="window.location='./index.php?op=admin'" value="Retour" class="submit"/>
+		
