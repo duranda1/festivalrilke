@@ -1,52 +1,32 @@
 <!DOCTYPE html> 
 <html> 
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.0.css" />
+	
+<script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="jquery/custom-scripting.js"></script> 
+<script type="text/javascript" src="jquery/jquery.mobile-1.0.js"></script>
 	<head> 
-	<title>Version simplifiée</title> 
-<?php include('init.php'); ?>
+	<title>Version simplifiee</title> 
 	</head> 
 <body> 
-<div data-role="header" data-theme="a">
-		<div style="position:absolute; top:1px; right:5px; font-size:small">
-		<a style="color:white" onclick='setLanguage()' class="langue"></a>
-		</div>
-		
+		<div data-role="header" data-theme="a">
 		<img src="banniere.jpg" width="100%"></img>	
+		</div>	
 
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-			<h3><div class="historique1" /></h3>
+			<h3>FESTIVAL RILKE - 23.08.2012</br></br>Sierre, Suisse</h3>
 			<p align="justify">
-				<img src="images/historique1.jpg" align="left" style="margin: 0 10px 10px 0;"/>
-
-				<span class="mainTitle">
-						<span style="font-weight:bold" class="historique2"></span>
-				</span>	
-				<div class="historique3"></div>
-				</br>
-				<span class="mainTitle">
-						<div style="font-weight:bold" class="historique4"></div>
-				</span>
-				<div class="historique5"></div>
-				</br>
-				<span class="mainTitle">
-						<div style="font-weight:bold" class="historique6"></div>
-				</span>
-				<div class="historique7"></div>
-				</br>
-				<span class="mainTitle">
-						<span style="font-weight:bold" class="historique8"></span>
-				</span>
-				<div class="historique9"></div>
-				</br>
-				<img src="images/historique2.jpg" align="left" style="margin: 0 10px 10px 0px;"/>
-				<span class="mainTitle">
-						<div style="font-weight:bold" class="historique10"></div>
-				</span>				
-				<div class="historique11"></div>
+				<h3><span class="mainTitle">Programme 2012 : Les jours d'Italie</span></h3>
 			</p>
 		</div>
 	</div><!-- /content -->
-<?php include('footer.php'); ?>
+<div data-role="footer" data-theme="a" align="center">
+        <p>
+        	<br>
+			 Version : <a href="http://www.festivalrilke.ch/accueil"><span class="versionStandard">Standard</span></a> | <a href="./index.php"> Mobile</a> | Mobile Simplifiée
+        </p>       
+    </div>
 </div><!-- /page one -->
 </body>
 </html>
