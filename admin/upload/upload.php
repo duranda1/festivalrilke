@@ -54,10 +54,17 @@
 		<div id="mid">
 			<div id="main">
 				<div id="upload">
-		            <h4>Les photos suivantes ont bien été ajoutée à la galerie <?php echo($_POST['galerie']); ?></h4>
+		            
 		            
 		            <?php
-		            	$nom = $_POST['galerie'];
+		            	if(isset($_POST['galerie']) && $_POST['galerie']!=''){
+		            		$nom = $_POST['galerie'];
+						}
+						else{
+		            		$nom = $_POST['GalerieE'];
+						}
+						
+						echo '<h4>Les photos suivantes ont bien été ajoutée à la galerie '.$nom.'</h4>';
 		            	$chemin = '../../medias/photos/images/'.$nom;
 						@mkdir ($chemin,0777,true);
 		            	$dossier = $chemin.'/';
