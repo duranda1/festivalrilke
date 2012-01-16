@@ -18,6 +18,29 @@
 			<h3>FESTIVAL RILKE - 23.08.2012<br/><br/>Sierre, Suisse</h3>
 			<p align="justify">
 				<h3><span class="mainTitle">Programme 2012 : Les jours d'Italie</span></h3>
+				<br/>
+				<h3><span class="mainTitle"><b>Index</b> (Cliquez sur un lien pour y accéder directement)</span></h3>
+			<a href="pageSimplifiee.php#truc">TRUUUUC</a>
+				<ul>
+					<li>Exposition</li><br/><br/>
+					<li>Concours de poésie</li><br/><br/>
+					<li>Conférences</li><br/><br/>
+					<li>Cafés littéraires</li><br/><br/>
+					<li>Spectacles et lectures</li><br/><br/>
+					<li>Les nocturnes</li><br/><br/>
+					<li>Concert classique</li><br/><br/>
+					<li>Pour les enfants</li><br/><br/>
+					<li>Atelier d'écriture</li><br/><br/>
+					<li>Cinéma</li><br/><br/>
+					<li>Contes</li><br/><br/>
+					<li>Balades poétiques</li><br/><br/>
+					<li>Animations extérieures</li><br/><br/>
+					<li>Espace libraire</li><br/><br/>
+					<li>INFO-SERVICE</li><br/><br/>
+				</ul>			
+				
+					<div id="truc" ></div>
+				<br/><br/>
 				<span class="mainTitle"><b>Exposition</b> <br/>Du 19 juin au 25 octobre - Maison de Courten</span>
 				<br/><br/>
 				L’exposition-événement du Festival
@@ -84,7 +107,7 @@
 				<ul>
 					<li><b>Altro viaggio di Rainer Maria Rilke (italien)</b><br/>Mise en scène et interprétation: Massimiliano Finazzer Flory
 					Musique de Bach, Part, Satie et Vivaldi.<br/>Harpe: Frederica Sainaghi<br/>Violon: Fulvio Liviabella<br/><br/> Samstag 13.00 Uhr</li><br/><br/>
-					<li><b>Journal Florentin(en français)</b><br/>par la compagnie Gaspard avec Fred Mudry (lecteur) et Sophie Mudry (pianiste)
+					<li><b>Journal Florentin (en français)</b><br/>par la compagnie Gaspard avec Fred Mudry (lecteur) et Sophie Mudry (pianiste)
 						<br/><br/>Samedi 10h30 et dimanche 14h30<br/><br/>Premières impressions de Rilke sur l’Italie et l’art de la Renaissance. Le poète découvre Florence en 1898.
 							La ville est alors un lieu incontournable pour les jeunes artistes. Sur les conseils de Lou Andreas-Salomé, il y
 							tient un cahier, connu sous le nom de Journal Florentin.</li><br/>
@@ -284,13 +307,15 @@
 			<b>Entrée: </b>Libre<br/><br/><br/>
 			
 			<span class="mainTitle"><b>Info-Service</b> <br/>Jardins du Château Mercier</span>
-			<img src="images/simplifieePlan.jpg" style=" size: 100%"/>
+			<img src="images/infoService.JPG" style=" width: 100%" "/>
 
+			<br/>
+			<br/>
 			<br/>
 		
 				
-				<b><span class="mainTitle">Plan d'accès</span></b>
-				<img src="images/simplifieePlan.jpg" style=" size: 100%"/>
+				<span class="mainTitle">Plan d'accès</span>
+				<img src="images/simplifieePlan.jpg" style=" width: 100%"/>
 			</p>
 		</div>
 	</div><!-- /content -->
