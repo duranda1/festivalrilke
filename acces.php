@@ -16,14 +16,19 @@ include('init.php');
 			margin: 0px auto;
 		}
 		#map-directions {
-			float: right;
-			width: 38%;
+			/*float: right;*/
+			width: 90%;
 			padding-left: 2%;
+			background-color: #999;
+			margin : auto;
 		}
 	</style>
 
-</head> 
-		<script type="text/javascript" src="http://maps.google.ch/maps/api/js?sensor=false"></script>
+</head>
+<?php
+	$languageMap = $_COOKIE["langue"];
+	echo("<script type=\"text/javascript\" src=\"http://maps.google.ch/maps/api/js?sensor=false&language=" . $languageMap . "\"></script>");
+?>
 <script>
 	(function () {
 		var directionsService = new google.maps.DirectionsService(),
@@ -37,7 +42,7 @@ include('init.php');
 					},
 					mapOptions = {
 						zoom: 10,
-						// Default view: downtown Stockholm
+						// Default view: Sion
 						center : new google.maps.LatLng(59.3325215, 18.0643818),
 						mapTypeId: google.maps.MapTypeId.ROADMAP
 					};
@@ -63,7 +68,7 @@ include('init.php');
 						});
 					},
 					function () {
-						// Gelocation fallback: Defaults to Stockholm, Sweden
+						// Gelocation fallback: Defaults to Sion, Switzerland
 						createMap({
 							coords : false,
 							address : "1950 Sion, Suisse"
@@ -72,10 +77,10 @@ include('init.php');
 				);
 			}
 			else {
-				// No geolocation fallback: Defaults to Lisbon, Portugal
+				// No geolocation fallback: Defaults to Sierre, Switzerland
 				createMap({
 					coords : false,
-					address : "1950 Sion, Suisse"
+					address : "3960 Sierre, Suisse"
 				});
 			}
 	})();
@@ -113,6 +118,8 @@ include('header.php');
 	</div>
 	<br/>
 	<div id="map"></div>
+	<br/>
+	<div id="map-directions"></div>
 	<br/>
 	<!-- /content -->
 <?php include('footer.php'); ?>
