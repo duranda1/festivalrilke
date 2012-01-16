@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML>
 <html xmlns="http://www.w3.org/1999/xhtml" >
 	<head>
@@ -23,7 +22,7 @@
 	<link rel="StyleSheet" type="text/css" href="style.css"/>
 	<script type="text/javascript" src="./js/prototype.js"></script>
     <script type="text/javascript" src="./js/scriptaculous.js"></script>
-    <script type="text/javascript" src="multiupload.js"></script>
+    <script type="text/javascript" src="./multiupload.js"></script>
 	<body onload="init();">
 		<div id="header">
 			<h1>Festival Rilke</h1>
@@ -43,8 +42,31 @@
 		                <!-- CE SPAN RECOIT LES DIFFERENTS INPUTS CREES PUIS CACHES UNE FOIS UTILISES -->
 		                <span id="input"></span> 
 		                <br/>
-		                Nom de la galerie : &nbsp;&nbsp;
-		                <input type='text' name='galerie' maxlength="20" class='txt'/>
+		                Galerie existante :
+		                <?php
+			                $dir_nom = '../../medias/photos/images/'; // dossier listé (pour lister le répertoir courant : $dir_nom = '.'  --> ('point')
+							$dir = opendir($dir_nom) or die('Erreur de listage : le répertoire n\'existe pas'); // on ouvre le contenu du dossier courant
+							$fichier= array();
+							$dossier= array();
+							
+							while($element = readdir($dir)) {
+								if($element != '.' && $element != '..') {
+									if (!is_dir($dir_nom.'/'.$element)) {$fichier[] = $element;}
+									else {$dossier[] = $element;}
+								}
+							}
+							
+							closedir($dir);
+							if(!empty($dossier)) {
+								sort($dossier);
+								echo "<select name=\"GalerieE\">";
+									foreach($dossier as $lien){
+										echo '<option value="'.$lien.'">'.$lien.'</option>';
+									}
+								echo "</select>";
+							}
+						?>
+		                <br/>ou nouvelle galerie : <input type='text' name='galerie' maxlength="20" class='txt'/>
 		                <br/>
 		                <input class="btn" type="submit" value="Uploader"/>
 		            </form>
