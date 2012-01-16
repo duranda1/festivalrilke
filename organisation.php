@@ -14,19 +14,19 @@
 					<img src="images/historique1.jpg" align="left" style="margin: 0 10px 10px 0;"/>
 					<span class="mainTitle"><span style="font-weight:bold" class="organisation34"> </span></span>
 					<div class="organisation35"></div>
-					</br>
+					<br/>
 					<span class="mainTitle"><span style="font-weight:bold" class="organisation36" ></span></span>	
 					<div class="organisation37"></div>
-					</br>
+					<br/>
 					<div class="organisation38"></div>
-					</br>
+					<br/>
 					<div class="organisation39"></div>
-					</br>
+					<br/>
 					<div class="organisation40"></div>
-				</br>
+				<br/>
 					<h3><div class="organisation1" /></h3>
 					<div class="organisation2"></div>
-					</br>				
+					<br/>				
 					<span class="mainTitle"><div style="font-weight:bold" class="organisation18"></div></span>
 					<ul>
 						<li>
@@ -72,7 +72,7 @@
 							<div class="organisation32" />
 						</li>						
 					</ul>
-					</br>
+					<br/>
 
 					<h3><div class="organisation17" /></h3>
 					<span class="mainTitle"><div style="font-weight:bold" class="organisation3"></div></span>
@@ -117,7 +117,7 @@
 							<a href="http://www.zap.ch/shop/zap_start_startseite/show/"><div class="organisation16"></div></a>
 						</li>						
 					</ul>					
-					</br>
+					<br/>
 				</p>			
 		</div>
 	</div><!-- /content -->

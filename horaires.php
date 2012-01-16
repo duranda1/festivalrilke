@@ -11,21 +11,21 @@
 			<div class="contentZone">
 				<h3><div class="horaires1" /></h3>
 				<span class="mainTitle"><span style=font-weight:bold class="horaires2"></span></span>	
-				</br>
+				<br/>
 				08h30 - 11h00
-				</br>
+				<br/>
 				14h00 - 18h00
-				</br>
-				</br>
+				<br/>
+				<br/>
 				<span class="mainTitle"><span style=font-weight:bold class="horaires3"></span></span>
-				</br>				
+				<br/>				
 				09h00 - 11h00
-				</br>
+				<br/>
 				14h00-19h00
 				<br>
 				<br>
 				<span class="mainTitle"><span style=font-weight:bold class="horaires4"></span></span>
-				</br>			
+				<br/>			
 			</div>
 		</div><!-- /content -->
 	<?php include('footer.php'); ?>

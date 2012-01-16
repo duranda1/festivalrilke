@@ -14,25 +14,25 @@
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
 			<form name="formulaire" action="mailReservations.php" method="post" onSubmit="return verification()">			
-				    </br>
+				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
-				    </br> 
-				    </br>
+				    <br/> 
+				    <br/>
 				     Nom: 
 				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
-				    </br> 
-				    </br>
+				    <br/> 
+				    <br/>
 				     Email: 
 				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
-				    </br> 
+				    <br/> 
 				    <div class="reservation3">Nombre de billets: </div>
 				    <input name="nb" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
-				    </br>			
+				    <br/>			
 				<input type="submit" value="Ok"/>			
 			</form>			
-		</br>
-		</br>
+		<br/>
+		<br/>
 		</div>
 	</div><!-- /content -->
 	<?php include('footer.php'); ?>

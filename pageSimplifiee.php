@@ -39,7 +39,7 @@
 					<li>INFO-SERVICE</li><br/><br/>
 				</ul>			
 				
-					<div id="truc" ></div>
+					<div id="#truc" ></div>
 				<br/><br/>
 				<span class="mainTitle"><b>Exposition</b> <br/>Du 19 juin au 25 octobre - Maison de Courten</span>
 				<br/><br/>
