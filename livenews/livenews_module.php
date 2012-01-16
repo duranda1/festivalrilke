@@ -13,7 +13,7 @@ $(document).ready(function(){
      .siblings().css('top','210px');
      clearInterval(headline_interval);
   
-  headline_interval = setInterval(headline_rotate,5000); //time in milliseconds
+  headline_interval = setInterval(headline_rotate,7500); //time in milliseconds
   // $('#scrollup').hover(function() {
     // clearInterval(headline_interval);
   // }, function() {
