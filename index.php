@@ -20,6 +20,7 @@
                <h3><div class="leFestivalMenu"></div></h3>
                <a href="./rainerMariaRilke.php" data-role="button"><div class="rainerMariaRilkeMenu">Rilke</div></a>
                <a href="./historique.php" data-role="button"><div class="historiqueMenu">Historique</div></a>
+
                <a href="./organisation.php" data-role="button"><div class"organisationMenu">Organisation</div></a>
             </div>
             <div data-role="collapsible">

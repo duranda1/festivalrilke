@@ -2,18 +2,19 @@
 <html> 
 	<head> 
 	<title>Accès</title> 
+
 <?php
-include('init.php');
-?>
+ include('init.php'); 
+ ?>
 <style>
 		#map-container {
-			/*overflow: hidden;*/
+			overflow: hidden;
 		}
 		#map {
-			/*float: left;*/
-			width: 96%;
+			float: left;
+			width: 60%;
 			height: 350px;
-			margin: 0px auto;
+			margin: 5px auto;
 		}
 		#map-directions {
 			float: right;
@@ -21,9 +22,7 @@ include('init.php');
 			padding-left: 2%;
 		}
 	</style>
-
-</head> 
-		<script type="text/javascript" src="http://maps.google.ch/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://maps.google.ch/maps/api/js?sensor=false"></script>
 <script>
 	(function () {
 		var directionsService = new google.maps.DirectionsService(),
@@ -79,43 +78,28 @@ include('init.php');
 				});
 			}
 	})();
-</script>	
-<body> 
-	
+</script>
+</head> 
+<body>
 <?php 
-include('header.php');
+include('header.php'); 
 ?>
+	
+	
 
-	<a href="./index.php" data-role="button" data-theme="a"><span class="retourAuMenu" ></span></a>
-			
-
-			
+	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<script type="text/javascript" src="cookies.js"></script>
 	
-	
 	<div data-role="content" data-theme="a">	
-		
 		<div class="contentZone">
-						<h3>	
-							<div class="acces1" />Accès</div>
-							</h3>
-						<span class="mainTitle"><span class="acces2" style="font-weight: bold"></span></span>	
-						
-					
-				
-						
+			<div id="map"></div>
 		<!-- 	<div id="map-directions"></div> -->
-						<!-- <img src="images/acces1.JPG" align="left" style="width:100%"/> -->
-						
-						<br/>
-			
 		</div>
-	</div>
-	<br/>
-	<div id="map"></div>
-	<br/>
-	<!-- /content -->
+	</div><!-- /content -->
 <?php include('footer.php'); ?>
+</div>
+
 <!-- /page one -->
+
 </body>
 </html>
