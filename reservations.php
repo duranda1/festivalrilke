@@ -25,7 +25,17 @@
 				    <br/>
 				     Email: 
 				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
-				    <br/> 
+				    <br/>
+				    Evènement:
+				    <SELECT NAME=Continent>
+						<OPTION>Expositions
+						<OPTION>Conférences
+						<OPTION>Cafés littéraires
+						<OPTION>Spectacles et lectures
+						<OPTION>Concert classique
+						<OPTION>Balades poétiques				
+					</SELECT> 
+				    <br/>
 				    <div class="reservation3">Nombre de billets: </div>
 				    <input name="nb" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    <br/>			
