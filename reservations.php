@@ -14,21 +14,27 @@
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
 			
+
+			<?php
+	// if form is submit
+	if(isset($_POST['submit']))
+	{
+		$response = '<div class="notice">';
+		
+		if(isset($_POST['iQapTcha']) && empty($_POST['iQapTcha']) && isset($_SESSION['iQaptcha']) && $_SESSION['iQaptcha'])
+		{
+			$response .= 'Form can be submited';
+			unset($_SESSION['iQaptcha']);
+		}
+		else
+			$response .= 'Form can not be submited';
 			
-					<?php 
-					session_start();					
-					if( isset($_POST['submit'])) {
-					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
-							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
-							echo 'Thank you. Your message said "'.$_POST['message'].'"';
-							unset($_SESSION['security_code']);
-					   } else {
-							// Insert your code for showing an error message here
-							echo 'Sorry, you have provided an invalid security code';
-					   }
-					} else {
-					?>
-			
+		$response .= '</div>';
+		
+		echo $response;
+	}
+?>
+
 			
 			<form name="formulaire" action="mailReservations.php" method="post" onSubmit="return verification()">			
 				    <br/>
@@ -121,9 +127,28 @@
 				    	 <br/>
 				<input type="submit" name="submit" value="Ok"/>			
 			</form>
+		
+		
+		
+		
+					<div class="code">
+			<pre>
 			<?php
-			}
-			?>		
+			echo htmlentities('<!--HTML-->
+
+			
+			<!-- JS -->
+			<script type="text/javascript">
+			  $(document).ready(function(){
+				$(\'.QapTcha\').QapTcha();
+			  });
+			</script>');
+			?>
+			</pre>
+			</div>
+		
+		
+				
 		<br/>
 		<br/>
 		</div>
