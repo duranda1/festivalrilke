@@ -17,22 +17,22 @@
 						<span style="font-weight:bold" class="historique2"></span>
 				</span>	
 				<div class="historique3"></div>
-				</br>
+				<br/>
 				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique4"></div>
 				</span>
 				<div class="historique5"></div>
-				</br>
+				<br/>
 				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique6"></div>
 				</span>
 				<div class="historique7"></div>
-				</br>
+				<br/>
 				<span class="mainTitle">
 						<span style="font-weight:bold" class="historique8"></span>
 				</span>
 				<div class="historique9"></div>
-				</br>
+				<br/>
 				<img src="images/historique2.jpg" align="left" style="margin: 0 10px 10px 0px;"/>
 				<span class="mainTitle">
 						<div style="font-weight:bold" class="historique10"></div>
