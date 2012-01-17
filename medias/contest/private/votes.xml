@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <votes>
-	<video id="0">
+	<video name="Rainer Maria Rilke - Der Panther(360p)">
 		3
 	</video>
-	<video id="1">
+	<video id="Rainer Maria Rilke - Ich furchte mich so vor der Menschen Wort(360p)">
 		5
 	</video>
-	<video id="3">
-		7
-	</video>
-	<video id="2">
+	<video id="Rainer Maria Rilke - Mein Leben(360p)">
 		7
 	</video>
 </votes>
