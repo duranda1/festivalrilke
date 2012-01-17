@@ -12,7 +12,29 @@
 			<h3><div class="reservationConfirm1">Confirmation</div></h3>
 			<span class="mainTitle">
 				<span style="font-weight:bold" class="reservationConfirm2">
+					
 				Votre mail a été envoyé, merci pour votre réservation!
+				<br/>
+				<br/>
+				<?php
+				
+				$uniqueid= uniqid();
+				
+				include('phpqrcode/qrlib.php');
+				QRcode::png($uniqueid, 'secure/.' .$uniqueid.'.png');
+				//$qrcode = QRcode::png('code data text',false);
+				//imagepng($qrcode);
+				echo "<img src=\"secure/.$uniqueid.png\"></img>";
+				
+				if(isset( $_POST['email'])){
+				
+				QRcode::png(uniqid() . ':' . $_POST['email']); // creates code image and outputs it directly into browser
+				//$_POST['nom'];
+				//$_POST['prenom'];
+				//$_POST['email'];
+				//$_POST['nb'];
+}
+				?>
 				</span>
 			</span>
 		</div>
