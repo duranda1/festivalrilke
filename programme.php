@@ -14,26 +14,15 @@
 			<a class="telechargerPdf" href="documents/Programme_2012.pdf" target="_blank">Télécharger le programme complet</a>
 			
 			<div id="tabbed_box" class="tabbed_box" style="width: 100%">
-			    <h4>Evenements <small>Choisissez un type d'évennement</small></h4>
+			    <h4>Evenements<br /><small>Choisissez un type d'évennement</small></h4>
 			    <div class="tabbed_area">   
 			    	<script src="jquery/jquery-1.7.1.js" type="text/javascript"></script>
 					<script type="text/javascript">
-					  // Une fois le chargment de la page terminé ...
 					  $(document).ready(function(){	
-						// Lorsqu'un lien a.tab est cliqué
 						$("a.tab").click(function () {		
-							// Mettre toutes les onglets non actif
 							$(".active").removeClass("active");
-							
-							// Mettre l'onglet cliqué actif
 							$(this).addClass("active");
-							
-							// Cacher les boîtes de contenu
 							$(".content").slideUp();
-							
-							// Pour afficher la boîte de contenu associer, nous
-							// avons modifier le titre du lien par le nom de
-							// l'identifiant de la boite de contenu
 							var contenu_aff = $(this).attr("title");
 							$("#" + contenu_aff).slideDown();	  
 						});
@@ -47,9 +36,9 @@
 			
 			        <div id="content_1" class="content">        
 			            <ul>
-			            	<small>Samstag 13.00 Uhr&nbsp;&nbsp;<li></small><a href="">Schriftsteller als Gäste in der Region Siders-Leuk (in deutscher Sprache)</a></li>
-			                <small>Samedi 18h00&nbsp;&nbsp;</small><li><a href="">Rilke, les Elégies et les arts plastiques (en français)</a></li>
-			                <small>Dimanche 12h30&nbsp;&nbsp;</small><li><a href="">La place de Rilke dans la culture italienne (en français)</a></li>
+			            	<small>Samstag 13.00 Uhr&nbsp;&nbsp;<li></small><a href="">Schriftsteller als Gäste in der Region Siders-Leuk</a></li>
+			                <small>Samedi 18h00&nbsp;&nbsp;</small><li><a href="">Rilke, les Elégies et les arts plastiques</a></li>
+			                <small>Dimanche 12h30&nbsp;&nbsp;</small><li><a href="">La place de Rilke dans la culture italienne</a></li>
 			            </ul>
 			        </div>
 			        <div id="content_2" class="content">
@@ -72,7 +61,7 @@
 					
 			<div>
 				<br />
-				<img src="images/mapMercier.JPG" align="center" style="margin: 0 10px 10px 0; width: 100% "/>
+				<iframe src="craftmap/demo2.html" height="500" width="100%" scrolling="no" frameborder="0"></iframe>
 			</div>	
 		</div>
 	</div><!-- /content -->

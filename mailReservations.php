@@ -1,10 +1,12 @@
 <!DOCTYPE html> 
 <html> 
-	<head> 
+	<head>
+		<title>Reservation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	
 	</head> 
 <body> 
-	<form action='confirmReservations.php' method='post' name='frm'>
+	
 	<?php
 
 	include_once ("phpqrcode/qrlib.php");
@@ -73,18 +75,20 @@
 		
 		
 		
-		echo "<script language=\"JavaScript\">document.frm.submit();</script>";
-
+		
+        echo "<form action='confirmReservations.php' method='post' name='frm'>";
 		 foreach ($_POST as $a => $b) {
 			 echo "<input type='hidden' name='" . $a . "' value='" . $b . "'/>";
 		}
 		echo "<input type='hidden' value='".$uniqueid."' name='uniqueid' />";
+		
+		echo "</form>";
 	} else {
 		echo "Erreur d'envoi";
 	}
 	?>
 	
-</form>
+<script language="JavaScript">document.frm.submit();</script>
 
 
 

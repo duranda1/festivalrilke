@@ -3,19 +3,19 @@
 	<cafeLitteraires>
 		<evenement>
 			<date>Samstag 13.00 Uhr</date>
-			<nom>Schriftsteller als Gäste in der Region Siders-Leuk (in deutscher Sprache)</nom>
+			<nom>Schriftsteller als Gäste in der Region Siders-Leuk</nom>
 			<description>Der deutsche Schriftsteller und Dichter Gerhard Falkner beleuchtet das Thema. Der Kulturjournalist Lothar Berchtold wird die Gesprächsrunde moderieren.</description>
 			<prix>20.-</prix>
 		</evenement>
 		<evenement>
 			<date>Samedi 18h00</date>
-			<nom>Rilke, les Elégies et les arts plastiques (en français)</nom>
+			<nom>Rilke, les Elégies et les arts plastiques</nom>
 			<description>Jean Blanchaert, Daniele Serafini, Rafaelle Bueno, Ana Rosa Faina Gavazzi, Luigi Serafini: A propos de l'exposition des oeuvres imprimées par Alberto Casiraghy</description>
 			<prix>20.-</prix>
 		</evenement>
 		<evenement>
 			<date>Dimanche 12h30</date>
-			<nom>La place de Rilke dans la culture italienne (en français)</nom>
+			<nom>La place de Rilke dans la culture italienne</nom>
 			<description>Philippe Daverio (Prof. Histoire de l'art contemporain, universités de Palerme et de Milan critique d'art / producteur TV) et Andrée Ruth Shammh (metteur en scène / Théâtre Pier Lombardo, Milan) animeront la discussion.</description>
 			<prix>20.-</prix>
 		</evenement>
@@ -23,7 +23,7 @@
 	<spectaclesEtLectures>
 		<evenement>
 			<date>Vendredi et samedi à 19h00</date>
-			<nom>Altro viaggio di Rainer Maria Rilke (italien)</nom>
+			<nom>Altro viaggio di Rainer Maria Rilke</nom>
 			<description>Mise en scène et interprétation: Massimiliano Finazzer Flory 
 Musique de Bach, Part, Satie et Vivaldi
 Harpe: Frederica Sainaghi
@@ -33,7 +33,7 @@ Violon: Fulvio Liviabella</description>
 		<evenement>
 			<date>Vendredi 20h30, 21h00 et 21h30
 Dimanche 16h00, 16h30 et 17h00</date>
-			<nom>Souvenirs de la princesse (français)</nom>
+			<nom>Souvenirs de la princesse</nom>
 			<description>La princesse Marie de la Tour et Taxis a logé Rilke au Château de Duino près de Trieste.
 Morceaux choisis de son ouvrage Souvenirs sur Rainer Maria Rilke.
 A savourer dans l'ambiance intime des chambres du Château Mercier.</description>
@@ -41,7 +41,7 @@ A savourer dans l'ambiance intime des chambres du Château Mercier.</description
 		</evenement>
 		<evenement>
 			<date>Samedi 10h30 et dimanche14h30</date>
-			<nom>Journal Florentin (français)</nom>
+			<nom>Journal Florentin</nom>
 			<description>Premières impressions de Rilke sur l’Italie et l’art de la Renaissance. Le poète découvre Florence en 1898.
 La ville est alors un lieu incontournable pour les jeunes artistes. Sur les conseils de Lou Andreas-Salomé, il y
 tient un cahier, connu sous le nom de Journal Florentin.</description>
@@ -49,7 +49,7 @@ tient un cahier, connu sous le nom de Journal Florentin.</description>
 		</evenement>
 		<evenement>
 			<date>Samedi à 12h00 et dimanche à 11h00</date>
-			<nom>Dans le regard de Lou (français)</nom>
+			<nom>Dans le regard de Lou</nom>
 			<description>Une comédienne et deux musiciens mettent en lumière la relation amoureuse
 entre Rilke et Lou Andreas-Salomé. Voyage dans les souvenirs,
 les rêves et les cauchemars d’une femme brillante et libre.</description>
@@ -57,7 +57,7 @@ les rêves et les cauchemars d’une femme brillante et libre.</description>
 		</evenement>
 		<evenement>
 			<date>Samedi 14h30</date>
-			<nom>Chant d’amour et autres poèmes (français)</nom>
+			<nom>Chant d’amour et autres poèmes</nom>
 			<description>Lecture de poèmes de Rilke, écrits en Italie ou inspirés par l'Italie.</description>
 			<prix>20.- / 15.- (AVS, étudiants)</prix>
 		</evenement>
@@ -73,7 +73,7 @@ sont des compositions originales de Pascal Desarzens.</description>
 		</evenement>
 		<evenement>
 			<date>Samstag 17.30 Uhr</date>
-			<nom>Duineser Elegien (Deutsch)</nom>
+			<nom>Duineser Elegien</nom>
 			<description>Lesung der vierten und der übrigen Elegien.
 „Engel!: es wäre ein Platz, den wir nicht wissen…“</description>
 			<prix>20.- / 15.- (AVS, étudiants)</prix>
@@ -105,7 +105,7 @@ Ouvrages en vente au stand du Festival, espace librairie.</description>
 			<date>Vendredi 18h30 et samedi 17h30
 Durée: 3 heures
 Rendez-vous au Château Mercier</date>
-			<nom>Au Lac souterrain de St-Léonard (français)</nom>
+			<nom>Au Lac souterrain de St-Léonard</nom>
 			<description>Au bout du lac, en face de la statue de la Vierge, les
 comédiennes feront résonner La Vie de Marie de Rilke.</description>
 			<prix>20.- / 15.- (AVS, étudiants)</prix>
@@ -125,7 +125,7 @@ les amoureux de la poésie à une promenade littéraire.</description>
 			<date>Samedi et dimanche 09h00
 Durée: 4 heures – temps de marche: 2 heures
 Rendez-vous au Château Mercier</date>
-			<nom>Sur le sentier viticole (français)</nom>
+			<nom>Sur le sentier viticole</nom>
 			<description>Cette balade relie Sierre à Salgesch en passant par la Chapelle de
 Muzot et du Château de Muzot. Les comédidens ouvrent les
 lettres de Rilke à son amie Merline. Une correspondance à écouter
@@ -149,7 +149,7 @@ Herbut</description>
 		<evenement>
 			<date>ENTRÉE LIBRE, INSCRIPTION À LA CAISSE DU FESTIVAL
 Samedi et dimanche 14h00</date>
-			<nom>Balade botanique (français)</nom>
+			<nom>Balade botanique</nom>
 			<description>Anne-Lise et Rose se réjouissent de vous faire découvrir
 la flore du Château Mercier.</description>
 			<prix>20.- / 15.- (AVS, étudiants)</prix>
