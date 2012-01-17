@@ -1,5 +1,10 @@
 <?php
-$to = "loic.haenni@students.hevs.ch";
+
+include("phpqrcode/qrlib.php");
+
+QRcode::png('some othertext 1234'); // creates code image and outputs it directly into browser
+
+$to = "duranda1@students.hevs.ch";
 $from= $_POST['nom'].' '.$_POST['prenom'].' '.$_POST['email'];
 $subject ="Reservations billets";
 $message = "Reservation";
