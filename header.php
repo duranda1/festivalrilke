@@ -50,7 +50,6 @@
             else
             	{setCookie("de");}
             loadLanguageText();
-           
         }
     </script>
 <!-- Start of first page: #one -->
