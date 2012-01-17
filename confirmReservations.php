@@ -36,6 +36,7 @@ else {
 				//QRcode::png($uniqueid.':'.$_POST['email'], 'secure/.' .$uniqueid.'.png');
 				//$qrcode = QRcode::png('code data text',false);
 				//imagepng($qrcode);
+
 				if ($languageMap="de") {
 					echo "Eine Bestätigung per E-Mail hat sich auf $email\. versandt. Vielen Dank für Ihre Buchung!";
 				}
@@ -49,7 +50,11 @@ else {
 				<br/>
 				<br/>";
 				
-				echo "<img src=\"secure/.$imgid.png\"></img>";
+		
+				echo "<img src=\"secure/.$uniqueid.png\"></img>";
+
+				if(isset( $_POST['email'])){
+
 				
 				//QRcode::png(uniqid() . ':' . $_POST['email']); // creates code image and outputs it directly into browser
 				//$_POST['nom'];

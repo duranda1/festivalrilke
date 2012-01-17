@@ -17,21 +17,21 @@
 							<span class="enBref2"></span> </span>
 						<span class="enBref3" />
 					</li>
-					</br>
+					<br/>
 					<li>
 						<span class="mainTitle">
 							<span class="enBref4">
 						</span> </span>
 						<span class="enBref5" />
 					</li>
-					</br>
+					<br/>
 					<li>
 						<span class="mainTitle">
 							<span class="enBref6">
 						</span> </span> 
 						<span class="enBref7" />
 					</li>
-					</br>
+					<br/>
 					<li>
 						<span class="mainTitle">
 							<span class="enBref8" />

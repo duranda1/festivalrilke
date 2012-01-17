@@ -70,7 +70,33 @@
 		{
 			//we register the ip of the person voting
 			fputs($ipstxt, $ip . ";");
-			fclose($ipstxt);	
+			fclose($ipstxt);
+			$nomVideo = $_POST['vote'];	
+			$fichier = './medias/contest/private/votes.xml';
+			/*on load le fichier xml*/
+			$data = new DOMDocument();
+			$data->load($fichier);
+			
+			$videos = $data->getElementsByTagName('video');
+			
+			foreach($videos as $video) {
+				  $Noms = $video->getElementsByTagName("name"); // On prend le nom de chaque noeud.
+				  $nom = $Noms->item(0)->nodeValue;
+				  
+				  $NbVotes = $video->getElementsByTagName("votes"); // On prend le nom de chaque noeud.
+				  $nbvote = $NbVotes->item(0)->nodeValue;
+				  
+			      if ($nom == $nomVideo)
+			      {
+					//$element = $img;
+					$NbVotes->item(0)->nodeValue=$NbVotes->item(0)->nodeValue + 1;
+			      }
+			}
+			//$racine = $data->documentElement;
+			//$suppr = $racine->removeChild($element);
+			
+			/*on enregistre dans un fichier*/					
+			$data->save($fichier);
 		}
 	}
 ?>
@@ -85,7 +111,7 @@
 			<form action="concours.php" method="post">
 			
 			<!-- bouton de vote -->
-			<input type="hidden" name="vote" value="4"></input>
+			<input type="hidden" name="vote" value="Rainer Maria Rilke - Der Panther(360p)"></input>
 			<?php
 				if(hasAlreadyVoted() == "false")
 				{
