@@ -26,11 +26,11 @@ div.jp-video {
 	font-family:Verdana, Arial, sans-serif;
 	line-height:1.6;
 	color: #fff;
-	border-top:1px solid #554461;
-	border-left:1px solid #554461;
+	border-top:1px solid #666666;
+	border-left:1px solid #666666;
 	border-right:1px solid #180a1f;
 	border-bottom:1px solid #180a1f;
-	background-color:#868686;
+	background-color:#222222;
 	position:relative;
 }
 div.jp-audio {
@@ -78,7 +78,7 @@ div.jp-video-full div.jp-interface {
 div.jp-interface {
 	position: relative;
 	width:100%;
-	background-color:#868686; /* Required for the full screen */
+	background-color:#222222; /* Required for the full screen */
 }
 
 
@@ -485,7 +485,7 @@ div.jp-video .jp-volume-bar {
 .jp-playlist li {
 	position: relative;
 	padding: 2px 0;
-	border-top:1px solid #554461;
+	border-top:1px solid #555555;
 	border-bottom:1px solid #180a1f;
 	overflow: hidden;
 }
@@ -622,7 +622,7 @@ div.jp-jplayer {
 
 	padding:5px;
 	font-size:.8em;
-	background-color:#868686;
+	background-color:#222222;
 	border-top:2px solid #554461;
 	border-left:2px solid #554461;
 	border-right:2px solid #180a1f;
