@@ -31,7 +31,7 @@
 						<OPTION>La place de Rilke dans la culture italienne				
 					</SELECT> 
 				    <br/>
-				    <div class="reservation3">Billets: </div>
+				    <div class="reservation1">Billets: </div>
 				    <input name="nb1" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    <br/>		
 				    
@@ -50,12 +50,12 @@
 						<OPTION>Abonnement 4 spectacles (70 CHF)
 					</SELECT> 
 				    <br/>
-				    <div class="reservation3">Billets adultes: </div>
-				    <input name="nb2" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
-				     <div class="reservation3">Billets étudiants/AVS: </div>
-				    <input name="nb3" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;position: relative;">	
+				    <div class="reservation2" style="position: relative; float: left;">Billets adultes: </div>
+				    <input name="nb2" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px; position: relative; float: left;">	
+				     <div class="reservation3" style="position: relative; float: right;">Billets étudiants/AVS: </div>
+				    <input name="nb3" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;position: relative; float: right;">	
 				    <br/>			
-				    
+				    <br/>
 				     <br/>
 				    Balades poétiques (25 CHF/20 CHF (AVS et étudiants)):
 				    <SELECT NAME=balades>
@@ -66,9 +66,9 @@
 						<OPTION>Balade botanique				
 					</SELECT> 
 				    <br/>
-				    <div class="reservation3">Billets adultes: </div>
+				    <div class="reservation4">Billets adultes: </div>
 				    <input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
-				     <div class="reservation3">Billets étudiants/AVS: </div>
+				     <div class="reservation5">Billets étudiants/AVS: </div>
 				    <input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    <br/>		
 				    
