@@ -89,6 +89,8 @@
 					<li><b>Prof. Fabio Russo, Trieste (in italiano)</b><br/>L'impregno du tradurre dall'italiano. Il caso di Leopardi visto da Rilke<br/><br/>Dimanche 15h00</li><br/><br/>
 					<li><b>Dr. Pascale Hummel, Paris (en français)</b><br/>Entre <i>Vie de Marie</i> et <i>Amour de Madeleine</i>: les "Visions du Christ" de Rainer Maria Rilke<br/><br/>Samedi 20h30</li><br/>
 				</ul>
+				<b>Entrée à une conférence:</b> 10 CHF<br/>
+				<b>Abonnement pour toutes les conférences</b>30 CHF<br/>
 			<br/>
 			<br/>
 		
