@@ -27,7 +27,7 @@
                <h3><div class="multimediaMenu"></div></h3>
                <a href="./photos.php" data-role="button" data-ajax="false"><div class="photosMenu">Photos</div></a>
                <a href="./videos.php" data-role="button"><div class="videoMenu">Video</div></a>
-               <a href="#reservations" data-role="button"><div class="audioMenu">Audio</div></a>
+               <a href="./audio.php" data-role="button"><div class="audioMenu">Audio</div></a>
             </div>
             <div data-role="collapsible" onmousedown="window.location='./concours.php'">
                <h3><div class="concoursMenu"></div></h3>
