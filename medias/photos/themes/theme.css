@@ -19,9 +19,10 @@ h1, h2 {
     height: 45px;
     /*
     background: url(img/toolbar.png) #000000 repeat-x;*/
-    background-color:#004473;
-    background:-webkit-gradient(linear, right bottom, right top, color-stop(0.01, #004473), color-stop(1, #0272a4));
+    background-color:#555555;
+  /*  background:-webkit-gradient(linear, right bottom, right top, color-stop(0.01, #111111), color-stop(1, #111111));*/
     position: relative;
+    text-align: left;
 }
 .black-translucent .toolbar {
     margin-top: 20px;
@@ -387,7 +388,7 @@ ul.individual li a {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ccc), to(#aaa), color-stop(.6,#CCCCCC));
     font-size: 12px;
     line-height: 16px;
-    text-align: center;
+    text-align: left;
     /*text-shadow: rgba(255,255,255,.8) 0 1px 0;*/
     color: #444;
     padding: 15px;
