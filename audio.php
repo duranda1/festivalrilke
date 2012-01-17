@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-	<title>En bref</title> 
+	<title>Audio</title> 
 	<?php include('init.php'); ?>
 	<!--<link type="text/css" href="jPlayer/skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />-->
 	<link href="jPlayer/skin/pink.flag/jplayer.pink.flag.css" rel="stylesheet" type="text/css" />
@@ -100,7 +100,7 @@
 	<a href="./index.php" data-role="button"  data-theme="a"><span class="retourAuMenu" /></a>
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">						
-			<h3><div class="enBref1" /></h3>
+			<h3><div class="audio" />Audio</h3>
 			<div id="jquery_jplayer_1" class="jp-jplayer"></div>
 
 		<div id="jp_container_1" class="jp-audio">
