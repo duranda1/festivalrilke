@@ -1,3 +1,7 @@
+.content {
+	size: auto;
+}
+
 .menu {
 position:absolute;
 top:330px;
@@ -28,8 +32,8 @@ background:url(../images/loader.gif) no-repeat center #fff;
 .marker {
 display:block;
 text-indent:-9999px;
-width:15px;
-height:23px;
+width:30px;
+height:46px;
 outline:none;
 background:url(../images/marker.png) no-repeat;
 cursor:pointer;

@@ -61,7 +61,7 @@
 					
 			<div>
 				<br />
-				<img src="images/mapMercier.JPG" align="center" style="margin: 0 10px 10px 0; width: 100% "/>
+				<iframe src="craftmap/demo2.html" height="500" width="100%" scrolling="no" frameborder="0"></iframe>
 			</div>	
 		</div>
 	</div><!-- /content -->
