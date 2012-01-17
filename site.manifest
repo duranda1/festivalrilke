@@ -1,0 +1,14 @@
+CACHE MANIFEST
+ 
+# Version 0.1
+CACHE: 
+pageSimplifiee.php
+jquery/jquery.mobile-1.0.css
+jquery/jquery-1.7.1.js
+jquery/custom-scripting.js
+jquery/jquery.mobile-1.0.js
+simplifieePlan.jpg
+infoService.JPG
+
+NETWORK:
+*

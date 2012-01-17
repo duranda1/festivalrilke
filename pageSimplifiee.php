@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html> 
+<html manifest="site.manifest">
 	<link rel="stylesheet" href="jquery/jquery.mobile-1.0.css" />
 	
 <script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
@@ -18,29 +18,7 @@
 			<h3>FESTIVAL RILKE - 23.08.2012<br/><br/>Sierre, Suisse</h3>
 			<p align="justify">
 				<h3><span class="mainTitle">Programme 2012 : Les jours d'Italie</span></h3>
-				<br/>
-				<h3><span class="mainTitle"><b>Index</b> (Cliquez sur un lien pour y accéder directement)</span></h3>
-			<a href="pageSimplifiee.php#truc">TRUUUUC</a>
-				<ul>
-					<li>Exposition</li><br/><br/>
-					<li>Concours de poésie</li><br/><br/>
-					<li>Conférences</li><br/><br/>
-					<li>Cafés littéraires</li><br/><br/>
-					<li>Spectacles et lectures</li><br/><br/>
-					<li>Les nocturnes</li><br/><br/>
-					<li>Concert classique</li><br/><br/>
-					<li>Pour les enfants</li><br/><br/>
-					<li>Atelier d'écriture</li><br/><br/>
-					<li>Cinéma</li><br/><br/>
-					<li>Contes</li><br/><br/>
-					<li>Balades poétiques</li><br/><br/>
-					<li>Animations extérieures</li><br/><br/>
-					<li>Espace libraire</li><br/><br/>
-					<li>INFO-SERVICE</li><br/><br/>
-				</ul>			
-				
-					<div id="truc" ></div>
-				<br/><br/>
+				<br/><br/><br/>
 				<span class="mainTitle"><b>Exposition</b> <br/>Du 19 juin au 25 octobre - Maison de Courten</span>
 				<br/><br/>
 				L’exposition-événement du Festival
