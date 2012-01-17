@@ -21,12 +21,12 @@
 					if( isset($_POST['submit'])) {
 					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
 							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
-							//Header("Location:./confirmReservations.php");
+							Header('Location: ./mailReservations.php');//?email='.$_POST['email']);
 							
 							unset($_SESSION['security_code']);
 					   } else {
 							// Insert your code for showing an error message here
-							echo 'Desolé, le code de validation n\'est pas valide';
+							echo "<br/>Desolé, le code de validation n'est pas valide";
 					   }
 					} 
 					else {
