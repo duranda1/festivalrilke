@@ -13,6 +13,23 @@
 			<span class="mainTitle">
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
+			
+			
+					<?php 
+					session_start();					
+					if( isset($_POST['submit'])) {
+					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
+							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
+							echo 'Thank you. Your message said "'.$_POST['message'].'"';
+							unset($_SESSION['security_code']);
+					   } else {
+							// Insert your code for showing an error message here
+							echo 'Sorry, you have provided an invalid security code';
+					   }
+					} else {
+					?>
+			
+			
 			<form name="formulaire" action="mailReservations.php" method="post" onSubmit="return verification()">			
 				    <br/>
 				     Prénom: 
@@ -94,14 +111,19 @@
 				    </table>
 				    	<br/>
 				    	<br/>
+				    	Merci de recopier les caractères ci-dessous:
+				    	 <br/>
 				    	 <br/>
 				    	 <img src="captchaSecurite.php?width=100&amp;height=40&amp;characters=5" alt="captcha" />
-						<input id="security_code" name="security_code" type="text" />
+						<input id="security_code" name="security_code" type="text" style="background-color: #999999; color: #000000; width: 87px; height: 11px; font-size: 15px;"/>
 						<br/>
 				    	<br/>
 				    	 <br/>
-				<input type="submit" value="Ok"/>			
-			</form>			
+				<input type="submit" name="submit" value="Ok"/>			
+			</form>
+			<?php
+			}
+			?>		
 		<br/>
 		<br/>
 		</div>
