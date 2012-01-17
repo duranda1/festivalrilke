@@ -21,7 +21,7 @@
 					Confirmation
 				</div></h3>
 				<span class="mainTitle"> <span style="font-weight:bold" class="reservationConfirm2"> <?php
-				echo "ID:" . $_POST['uniqueid'];
+				
 
 				//$uniqueid= uniqid();
 
@@ -36,22 +36,22 @@
 					}
 
 					$imgid = $_POST['uniqueid'];
-					$mail = $_POST['email'];
+					$email = $_POST['email'];
 					//QRcode::png($uniqueid.':'.$_POST['email'], 'secure/.' .$uniqueid.'.png');
 					//$qrcode = QRcode::png('code data text',false);
 					//imagepng($qrcode);
 
 					if ($languageMap = "de") {
-						echo "Eine Bestätigung per E-Mail hat sich auf $email\. versandt. Vielen Dank für Ihre Buchung!";
+						echo "Eine Bestätigung per E-Mail hat sich auf $email. versandt. Vielen Dank für Ihre Buchung!";
 					} else {
-						echo "Un mail de confirmation à été envoyé à $email\. Merci pour votre réservation!";
+						echo "Un mail de confirmation à été envoyé à $email. Merci pour votre réservation!";
 					}
 
 					echo "
 				<br/>
 				<br/>";
 
-					echo "<img src=\"secure/.$uniqueid.png\"></img>";
+					echo "<img src=\"secure/.".$imgid.".png\"></img>";
 
 					//QRcode::png(uniqid() . ':' . $_POST['email']); // creates code image and outputs it directly into browser
 					//$_POST['nom'];
