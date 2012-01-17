@@ -40,8 +40,8 @@
         </div>
     </div><!-- /content -->
 
-
 <?php include('footer.php'); ?>
+
 </div><!-- /page one -->
 </body>
 </html>

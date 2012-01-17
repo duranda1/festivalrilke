@@ -25,7 +25,7 @@
 				//$qrcode = QRcode::png('code data text',false);
 				//imagepng($qrcode);
 				echo "<img src=\"secure/.$uniqueid.png\"></img>";
-				
+
 				if(isset( $_POST['email'])){
 				
 				QRcode::png(uniqid() . ':' . $_POST['email']); // creates code image and outputs it directly into browser
