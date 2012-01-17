@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-
 class captchaSecurite {
 
 	var $font = 'images/monofont.ttf';
