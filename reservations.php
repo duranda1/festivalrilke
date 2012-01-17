@@ -24,19 +24,19 @@
 				     Email: 
 				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
 				    <br/>
-				    Cafés littéraires (20 CHF):
+				    Cafés littéraires (20.-):
 				    <SELECT NAME=cafes>
 						<OPTION>Schriftsteller als Gäste in der Region Siders-Leuk 
 						<OPTION>Rilke, les Elégies et les arts plastiques 
 						<OPTION>La place de Rilke dans la culture italienne				
 					</SELECT> 
-				    <br/>
+				  <br/>
 				    <div class="reservation1">Billets: </div>
 				    <input name="nb1" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    <br/>		
-				    
 				     <br/>
-				    Spectacles et lectures (20 CHF/50 CHF (AVS et étudiants)):
+				     <br/>
+				    Spectacles et lectures (20.- / 15.-):
 				    <SELECT NAME=spectacles>
 						<OPTION>Altro viaggio di Rainer Maria Rilke
 						<OPTION>Journal Florentin 
@@ -47,17 +47,28 @@
 						<OPTION>Duineser Elegien (samedi)
 						<OPTION>Duineser Elegien (dimanche)
 						<OPTION>Pulcinoelefante revisite les Elégies
-						<OPTION>Abonnement 4 spectacles (70 CHF)
+						<OPTION>Abonnement 4 spectacles (70.- ou 50.-)
 					</SELECT> 
+					 <br/>
+				    <table>
+				    	<tr>
+				    		<td colspan="3">Billets:</td>
+				    	</tr>
+				    	<tr>
+				    		<td><div class="reservation4">adultes </div></td>
+				    		<td>&nbsp;&nbsp;</td>
+				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    	</tr>
+				    	<tr>
+				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td>&nbsp;&nbsp;</td>
+				    		<td><input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    	</tr>
+				    </table>
 				    <br/>
-				    <div class="reservation2" style="position: relative; float: left;">Billets adultes: </div>
-				    <input name="nb2" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px; position: relative; float: left;">	
-				     <div class="reservation3" style="position: relative; float: right;">Billets étudiants/AVS: </div>
-				    <input name="nb3" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;position: relative; float: right;">	
-				    <br/>			
 				    <br/>
 				     <br/>
-				    Balades poétiques (25 CHF/20 CHF (AVS et étudiants)):
+				    Balades poétiques (25.-/ 20.-):
 				    <SELECT NAME=balades>
 						<OPTION>Au Lac souterrain de St-Léonard
 						<OPTION>Balade à Finges 
@@ -65,14 +76,30 @@
 						<OPTION>Balade à Raron
 						<OPTION>Balade botanique				
 					</SELECT> 
-				    <br/>
-				    <div class="reservation4">Billets adultes: </div>
-				    <input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
-				     <div class="reservation5">Billets étudiants/AVS: </div>
-				    <input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
-				    <br/>		
-				    
-				    	
+				   	 <br/>	
+				    <table>
+				    	<tr>
+				    		<td colspan="3">Billets:</td>
+				    	</tr>
+				    	<tr>
+				    		<td><div class="reservation4">adultes </div></td>
+				    		<td>&nbsp;&nbsp;</td>
+				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    	</tr>
+				    	<tr>
+				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td>&nbsp;&nbsp;</td>
+				    		<td><input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    	</tr>
+				    </table>
+				    	<br/>
+				    	<br/>
+				    	 <br/>
+				    	 <img src="captchaSecurite.php?width=100&amp;height=40&amp;characters=5" alt="captcha" />
+						<input id="security_code" name="security_code" type="text" />
+						<br/>
+				    	<br/>
+				    	 <br/>
 				<input type="submit" value="Ok"/>			
 			</form>			
 		<br/>
