@@ -2,10 +2,10 @@
 <html> 
 	<head> 
 	<title>Réservations</title> 
-	<?php include('init.php'); ?>
+
 </head> 
 <body> 
-<?php include('header.php'); ?>
+
 	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">	
@@ -14,21 +14,8 @@
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
 			
-			
-					<?php 
-					session_start();					
-					if( isset($_POST['submit'])) {
-					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
-							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
-							echo 'Thank you. Your message said "'.$_POST['message'].'"';
-							unset($_SESSION['security_code']);
-					   } else {
-							// Insert your code for showing an error message here
-							echo 'Sorry, you have provided an invalid security code';
-					   }
-					} else {
-					?>
-			<?php
+
+<?php
 	// if form is submit
 	if(isset($_POST['submit']))
 	{
@@ -140,9 +127,34 @@
 				    	 <br/>
 				<input type="submit" name="submit" value="Ok"/>			
 			</form>
-			<?php
-			}
-			?>		
+				
+				
+				
+		
+<pre>
+<?php
+echo htmlentities('<!--HTML-->
+
+
+<!-- JS -->
+<script type="text/javascript">
+  $(document).ready(function(){
+	$(\'.QapTcha\').QapTcha();
+  });
+</script>');
+?>
+</pre>
+
+
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="jquery/jquery-ui.js"></script>
+	<script type="text/javascript" src="jquery/jquery.ui.touch.js"></script>
+	<script type="text/javascript" src="jquery/QapTcha.jquery.js"></script>
+	<script type="text/javascript">
+		$('.QapTcha').QapTcha({});
+	</script>
+				
+				
 		<br/>
 		<br/>
 		</div>
