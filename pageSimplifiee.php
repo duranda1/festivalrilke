@@ -5,8 +5,12 @@
 <script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
 <script type="text/javascript" src="jquery/custom-scripting.js"></script> 
 <script type="text/javascript" src="jquery/jquery.mobile-1.0.js"></script>
+<script type="text/javascript" src="scrollTo/localscroll/jquery.localscroll.js"></script>
+<script type="text/javascript" src="scrollTo/localscroll/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="scrollTo/lancement.js"></script>
 	<head> 
 	<title>Version simplifiee</title> 
+    <meta http-equiv="content-type" content="text/html; charset='UTF-8'" />
 	</head> 
 <body> 
 		<div data-role="header" data-theme="a">
@@ -15,16 +19,17 @@
 
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
+	  
 			<h3>FESTIVAL RILKE - 23.08.2012<br/><br/>Sierre, Suisse</h3>
 			<p align="justify">
 				<h3><span class="mainTitle">Programme 2012 : Les jours d'Italie</span></h3>
 				<br/>
 				<h3><span class="mainTitle"><b>Index</b> (Cliquez sur un lien pour y accéder directement)</span></h3>
-			<a href="pageSimplifiee.php#truc">TRUUUUC</a>
+			<a href="./pageSimplifiee.php#truc">TRUUUUC</a>
 				<ul>
 					<li>Exposition</li><br/><br/>
 					<li>Concours de poésie</li><br/><br/>
-					<li>Conférences</li><br/><br/>
+					<li><a href="#truc">Conférences</a></li><br/><br/>
 					<li>Cafés littéraires</li><br/><br/>
 					<li>Spectacles et lectures</li><br/><br/>
 					<li>Les nocturnes</li><br/><br/>
@@ -39,7 +44,7 @@
 					<li>INFO-SERVICE</li><br/><br/>
 				</ul>			
 				
-					<div id="truc" ></div>
+					<h1 id="truc">titre 1</h1>
 				<br/><br/>
 				<span class="mainTitle"><b>Exposition</b> <br/>Du 19 juin au 25 octobre - Maison de Courten</span>
 				<br/><br/>
@@ -75,7 +80,7 @@
 			<b>Remise des prix et lecture de poèmes primés: </b>Vendredi 21 août à 16h00 dans le Hall du Château Mercier<br/><br/>
 	
 			
-				<span class="mainTitle"><b>Conférences</b> <br/>Salle de la Piscine</span>
+				<a name="conference">Conférences</a> <br/>Salle de la Piscine
 				<br/><br/>
 				<ul>
 					<li><b>Curdin Ebneter, Sierre (en français)</b><br/>Rilke: Les jours d'Italie. Présentation du catalogue de l'exposition <br/><br/>Vendredi 19h00</li><br/><br/>
