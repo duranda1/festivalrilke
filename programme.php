@@ -61,7 +61,7 @@
 					
 			<div>
 				<br />
-				<iframe src="craftmap/demo2.html" height="500" width="100%" scrolling="no" frameborder="0"></iframe>
+				<iframe src="craftmap/carteMercier.html" height="300px" width="320px" scrolling="no" frameborder="0"></iframe>
 			</div>	
 		</div>
 	</div><!-- /content -->

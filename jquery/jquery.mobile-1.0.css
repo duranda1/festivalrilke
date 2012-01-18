@@ -16,58 +16,6 @@ body {
 }
 
 
-.QapTcha {
-	padding:10px;
-	border:1px solid #F4F4F4;
-	background:url('../images/bg_QapTcha.png') repeat;
-	margin-top:10px;
-}
-.QapTcha .clr{clear:both}
-
-.QapTcha #bgSlider {
-	width:202px;
-	height:22px;
-	background:transparent url('../images/sprites.png') no-repeat 0 -22px;
-	float:left
-}
-
-.QapTcha #Slider {
-	width:48px;
-	height:22px;
-	background:transparent url('../images/sprites.png') no-repeat -32px 0;
-	cursor:e-resize
-}
-
-.QapTcha #Icons {
-	float:left;
-	width:16px;
-	height:16px;
-	background:transparent url('../images/sprites.png') no-repeat 0 0;
-	margin-top:3px;
-	margin-left:10px;
-}
-
-.QapTcha #TxtStatus {
-	width:202px;
-	margin-top:7px;
-	text-align:center;
-	font-family:Verdana;
-	font-size:10px;
-	clear:both
-}
-
-/** States **/
-.QapTcha .dropSuccess {
-	color:#568E2F
-}
-.QapTcha .dropError {
-	color:#bb2828
-}
-
-
-
-
-
 .contentZone{
 	width: 90%;
 	margin-left: auto;
@@ -170,13 +118,13 @@ body {
 /*Main buttons*/
 .ui-btn-up-a {
 	border: 1px solid #111111 /*{a-bup-border}*/;
-	background: #333333 /*{a-bup-background-color}*/;
+	background: #3f3f3f /*{a-bup-background-color}*/;
 	font-weight: bold;
 	color: #ffffff /*{a-bup-color}*/;/*font color*/
 	text-shadow: 1px/*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #555 /*{a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* FF3.6 */
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from( #555 {a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	/*background-image: -webkit-linear-gradient(#555 {a-bup-background-start}, #333 {a-bup-background-end}); Chrome 10+, Saf5.1+ */
+	/*background-image:    -moz-linear-gradient(#555 {a-bup-background-start}, #333 {a-bup-background-end}); FF3.6 */
 	/*background-image:     -ms-linear-gradient(#555 {a-bdown-background-start}, #333{a-bdown-background-end});  IE10 */
 	/*background-image:      -o-linear-gradient(#555 {a-bdown-background-start}, #333{a-bdown-background-end});  Opera 11.10+ */
 	/*background-image:         linear-gradient(#555{a-bdown-background-start}, #333{a-bdown-background-end});*/
@@ -186,13 +134,11 @@ body {
 }
 .ui-btn-hover-a {
 	border: 1px solid 		#000000 /*{a-bhover-border}*/;
-	background: 			#444444 /*{a-bhover-background-color}*/;
+	background: 			#333333/*{a-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#fff /*{a-bhover-color}*/;
 	text-shadow: 1px/*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #555 /*{a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(#555 /*{a-bup-background-start}*/, #333 /*{a-bup-background-end}*/); /* FF3.6 */
+	
 		/*background-image:     -ms-linear-gradient(#555 {a-bdown-background-start}, #333{a-bdown-background-end});  IE10 */
 	/*background-image:      -o-linear-gradient(#555{a-bdown-background-start}, #333{a-bdown-background-end});  Opera 11.10+ */
 	/*background-image:         linear-gradient(#555 {a-bdown-background-start}, #333{a-bdown-background-end});*/
@@ -203,13 +149,11 @@ body {
 /*OnClick button*/
 .ui-btn-down-a {
 	border: 1px solid 		#000000/*{a-bdown-border}*/;
-	background: 			#000 /*{a-bdown-background-color}*/;
+	background: 			#333333/*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: 					#fff /*{a-bdown-color}*/;
 	text-shadow: 1px/*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 1px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #333 /*{a-bdown-background-start}*/), to( #5a5a5a /*{a-bdown-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(#222 /*{a-bdown-background-start}*/, #333 /*{a-bdown-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(#222 /*{a-bdown-background-start}*/, #333/*{a-bdown-background-end}*/); /* FF3.6 */
+	
 	/*background-image:     -ms-linear-gradient(#222 {a-bdown-background-start}, #333{a-bdown-background-end});  IE10 */
 	/*background-image:      -o-linear-gradient(#222 {a-bdown-background-start}, #333{a-bdown-background-end});  Opera 11.10+ */
 	/*background-image:         linear-gradient(#222 {a-bdown-background-start}, #333{a-bdown-background-end});*/
@@ -237,10 +181,14 @@ a.ui-link-inherit {
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
 
+.except .ui-icon{
+	background-image: none; /*{global-icon-set}*/;
+}
 .ui-icon,
 .ui-icon-searchfield:after {	
 	background-image: url(images/icons-18-orange2.png) /*{global-icon-set}*/;
 }
+
 
 /* HD/"retina" sprite
 -----------------------------------------------------------------------------------------------------------*/
@@ -260,6 +208,8 @@ a.ui-link-inherit {
 		-webkit-background-size: 776px 18px;
 		background-size: 776px 18px;
 	}
+	
+	
 	.ui-icon-alt {
 		background-image: url(images/icons-36-black.png);
 	}
@@ -890,7 +840,7 @@ Built by David Kaneda and maintained by Jonathan Stark.
 .ui-footer .ui-btn-icon-bottom .ui-icon,
 .ui-bar .ui-btn-icon-bottom .ui-icon { bottom: 4px; }
 
-/*hiding native button,inputs*/ 
+/*hiding native button,inputs 
 /*.ui-btn-hidden { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }*/
 /*.ui-collapsible { margin: .5em 0; }*/
 .contentZone .ui-btn-hidden{position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-appearance: button; opacity: .1; cursor: pointer; background: #fff; background: rgba(255,255,255,0); filter: Alpha(Opacity=.0001); font-size: 1px; border: none; line-height: 999px; }
@@ -909,6 +859,11 @@ Built by David Kaneda and maintained by Jonathan Stark.
 	border-bottom: none;
 	background-image: none; /* Overrides ui-btn-up-* */
 	font-weight: normal;    /* Overrides ui-btn-up-* */
+
+	
+	
+	
+	
 }
 /*SubButton (each)*/
 .ui-collapsible-content a {
@@ -916,14 +871,17 @@ Built by David Kaneda and maintained by Jonathan Stark.
  
 	border-top-color: #454545; 
 	border-bottom-color: #000000; 
-	background-image: -webkit-gradient(linear, left top, left bottom, from( #555 /*{a-bup-background-start}*/), to( #333 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(#212121 /*{a-bup-background-start}*/, #393939/*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
-	background-image: -moz-linear-gradient(#212121 /*{a-bup-background-start}*/, #393939 /*{a-bup-background-end}*/); /* FF3.6 */
-	/*background-image:  -ms-linear-gradient(#212121 /*{a-bdown-background-start}*/, #393939/*{a-bdown-background-end}); /* IE10 */
+	background-color:#333333;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from( #555 {a-bup-background-start}), to( #333 {a-bup-background-end}));  Saf4+, Chrome */
+	/*background-image: -webkit-linear-gradient(#212121 {a-bup-background-start}, #393939{a-bup-background-end});  Chrome 10+, Saf5.1+ */
+	/*background-image: -moz-linear-gradient(#212121 {a-bup-background-start}, #393939 {a-bup-background-end}); FF3.6 */
+	/*background-image:  -ms-linear-gradient(#212121 {a-bdown-background-start}, #393939/*{a-bdown-background-end});  IE10 */
 	/*background-image:  -o-linear-gradient(#212121{a-bdown-background-start}, #393939{a-bdown-background-end}); Opera 11.10+ */
 	/*background-image:         linear-gradient(#555{a-bdown-background-start}, #333{a-bdown-background-end});*/
 	}
-
+.ui-collapsible-content-down a {
+	background-color:#555555;
+}
 .ui-collapsible-content-collapsed { display: none;}
 .ui-collapsible-set { margin: 0 0;overflow: hidden;}
 .ui-collapsible-set .ui-collapsible { margin: -1px 0 0;}
