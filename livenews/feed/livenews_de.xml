@@ -5,11 +5,11 @@
         <description>Ceci est un exemple de flux RSS 2.0</description>
         <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
         <link>http://www.example.org</link>
-        <item>
-            <title>Achtung</title>
-            <description>Ceci est ma première actualité</description>
-            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link>http://www.example.org/actu1</link>
-        </item>
-    <item><title>Blitzkrieg</title><description>asdf</description><pubDate>Wed, 4 Jan 2012 00:30:00 GMT</pubDate><link>www.google.ch</link></item></channel>
+      
+    	<item><title>Der 2012 Programm ist online</title><description>Der 2012 Programm ist online</description><pubDate>Wed, 18 Jan 2012 03:00:00 GMT</pubDate><link>www.test.com</link></item>
+		<item><title>Kommen Abstimmung über unseren Wettbewerb!</title><description>Kommen Abstimmung über unseren Wettbewerb!</description><pubDate>Thu, 5 Jan 2012 12:20:00 GMT</pubDate><link>www.truc.com</link></item>
+		<item><title>Awards im Chateau Mercier</title><description>Awards im Chateau Mercier</description><pubDate>Tue, 21 Aug 2012 16:00:00 GMT</pubDate><link>www.test.com</link></item>
+		<item><title>Giorgio Conte wird der Ehrengast für die 2012 werden</title><description>Giorgio Conte wird der Ehrengast für die 2012 werden</description><pubDate>Sun, 1 Apr 2012 14:00:00 GMT</pubDate><link>www.testt.com</link></item>
+		<item><title>Buchen Sie Ihre Tickets für das Festival</title><description>Buchen Sie Ihre Tickets für das Festival</description><pubDate>Sun, 5 Aug 2012 21:30:00 GMT</pubDate><link>www.test.com</link></item>
+  	</channel>
 </rss>
