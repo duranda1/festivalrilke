@@ -13,7 +13,7 @@
 		<div data-role="content" data-theme="a">
 			
 		<div class="contentZone">
-		<h3><div class="videos1" />A traduire</h3>
+		<h3><div class="videos1" />Videos</h3>
 			
 			<?php
 			function getImages($path) {
