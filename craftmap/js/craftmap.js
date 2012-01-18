@@ -10,13 +10,13 @@
     $.fn.craftmap = function(options) {
 		var D = {
 			cookies: false,
-			fullscreen: false,
+			fullscreen: true,
 			container: {
 				name: 'imgContent'
 			},
 			image: {
-				width: 1475,
-				height: 1200,
+				width: 320,
+				height: 300,
 				name: 'imgMap'
 			},
 			map: {

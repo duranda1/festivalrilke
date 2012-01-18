@@ -181,10 +181,14 @@ a.ui-link-inherit {
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
 
+.except .ui-icon{
+	background-image: none; /*{global-icon-set}*/;
+}
 .ui-icon,
 .ui-icon-searchfield:after {	
 	background-image: url(images/icons-18-orange2.png) /*{global-icon-set}*/;
 }
+
 
 /* HD/"retina" sprite
 -----------------------------------------------------------------------------------------------------------*/
@@ -204,6 +208,8 @@ a.ui-link-inherit {
 		-webkit-background-size: 776px 18px;
 		background-size: 776px 18px;
 	}
+	
+	
 	.ui-icon-alt {
 		background-image: url(images/icons-36-black.png);
 	}

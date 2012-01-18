@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Engagement);
 
+
 h1 {
 text-align:center;
 font-family:'Engagement', sans-serif;
@@ -9,14 +10,15 @@ color:#606060;
 }
 
 #content {
-margin:20px auto 0;
-width:1000px;
+width:320px;
+height: 300px;
 }
 
 .demo1 {
 float:left;
-width:1000px;
-height:600px;
+width:320px;
+height:300px;
+
 
 -moz-box-shadow:0 0 5px #ddd;
 -webkit-box-shadow:0 0 5px #ddd;
@@ -50,22 +52,33 @@ cursor:pointer;
 }
 
 .popup {
-width:300px;
+width:100px;
 position:absolute;
 padding:8px;
 background:#2a2a2a;
 color:#fff;
 font-weight:bold;
-font-size:11px;
+font-size 6px;
 line-height:20px;
 }
 
 .popup h3 {
 margin:0;
-margin-bottom:10px;
+margin-bottom:0px;
 font-family: 'Cabin Condensed', sans-serif;
-font-weight:normal;
-font-size:20px;
+font-size:10px;
+}
+
+.popup a {
+	font-size: 10px;
+	color:#ff631c;
+}
+.popup h2 {
+margin:0;
+margin-bottom:0px;
+font-family: 'Cabin Condensed', sans-serif;
+font-weight:bold;
+font-size:8px;
 }
 
 .popup .close {
