@@ -1,18 +1,18 @@
 <!DOCTYPE html> 
-<html> 
+	<html manifest="/offline.manifest"> 
 	<link rel="stylesheet" href="jquery/jquery.mobile-1.0.css" />
 	
-<script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
-<script type="text/javascript" src="jquery/custom-scripting.js"></script> 
-<script type="text/javascript" src="jquery/jquery.mobile-1.0.js"></script>
-<script type="text/javascript" src="scrollTo/localscroll/jquery.localscroll.js"></script>
-<script type="text/javascript" src="scrollTo/localscroll/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="scrollTo/lancement.js"></script>
+	<script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="jquery/custom-scripting.js"></script> 
+	<script type="text/javascript" src="jquery/jquery.mobile-1.0.js"></script>
+	<script type="text/javascript" src="scrollTo/localscroll/jquery.localscroll.js"></script>
+	<script type="text/javascript" src="scrollTo/localscroll/jquery.scrollTo.js"></script>
+	<script type="text/javascript" src="scrollTo/lancement.js"></script>
 	<head> 
 	<title>Version simplifiee</title> 
     <meta http-equiv="content-type" content="text/html; charset='UTF-8'" />
 	</head> 
-<body> 
+	<body> 
 		<div data-role="header" data-theme="a">
 		<img src="banniere.jpg" width="100%"></img>	
 		</div>	
@@ -389,3 +389,7 @@
 </div><!-- /page one -->
 </body>
 </html>
+
+
+
+
