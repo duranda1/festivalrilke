@@ -14,8 +14,18 @@
 			<span class="mainTitle">
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
+				<?php
+				
+				 if (isset($_GET['captcha'])){
+					echo "</br><SPAN style=\"color: red\">Desolé, le code de validation n'est pas valide</SPAN>";
+				 }
+				 
+				?>
 			
 			
+<<<<<<< HEAD
+			<form name="formulaire" Method="POST" Action="mailReservations.php">			
+=======
 					<?php 
 					session_start();					
 					if( isset($_POST['submit'])) {
@@ -34,6 +44,7 @@
 			
 			
 			<form name="formulaire" method="post" onSubmit="mailReservations()">			
+>>>>>>> 8c3a5c10b4ef3dde165efd6f2f6c935c5cc90d08
 				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
@@ -121,11 +132,10 @@
 						<br/>
 				    	<br/>
 				    	 <br/>
-				<input type="submit" name="submit" value="Ok"/>			
+				    	 <INPUT type="submit" value="Envoyer">
+				<!-- <input type="submit" name="submit" value="true"/>		 -->	
 			</form>
-			<?php
-			}
-			?>		
+				
 		<br/>
 		<br/>
 		</div>
