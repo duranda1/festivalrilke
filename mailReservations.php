@@ -1,3 +1,19 @@
+<?php
+				session_start();
+						
+						if(!isset($_SESSION['security_code']) OR !isset($_POST['security_code'])){
+							Header('Location: ./reservations.php?captcha=false');	
+						}
+						elseif ($_SESSION['security_code'] != $_POST['security_code']) {
+							Header('Location: ./reservations.php?captcha=false');
+						}
+						
+						unset($_SESSION['security_code']);
+							
+				
+?>
+
+
 <!DOCTYPE html> 
 <html> 
 	<head>
@@ -8,7 +24,10 @@
 <body> 
 	
 	<?php
-
+// session_start();
+         // echo $_SESSION['security_code'];
+		// echo $_POST['security_code'];
+	
 	include_once ("phpqrcode/qrlib.php");
 	include ("phpmailer/class.phpmailer.php");
 
@@ -47,6 +66,11 @@
 			return true;
 		}
 	}
+
+
+					
+					
+					
 
 	$from = "duranda1.hevs@gmail.com";
 	$to = $_POST['email'];

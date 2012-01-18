@@ -67,5 +67,4 @@
 		?>
 		</div><!-- /page one -->
 	</body>
->>>>>>> c4d33e1f63d84c5436f8be87e8ba7a1d0970c359
 </html>
