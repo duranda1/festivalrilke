@@ -2,11 +2,25 @@
 	size: auto;
 }
 
+.carteMercier {
+	position:relative;
+}
+
 .menu {
 position:absolute;
 top:330px;
 left:20px;
 z-index:20;
+}
+
+.demo1 {
+float:left;
+width:250px;
+height:150px;
+
+-moz-box-shadow:0 0 5px #ddd;
+-webkit-box-shadow:0 0 5px #ddd;
+box-shadow:0 0 5px #ddd;
 }
 
 .menu a {
