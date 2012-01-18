@@ -32,8 +32,8 @@ function headline_rotate() {
 }
 
 </script>
-
-		    <div id="scrollup" onmousedown="window.location='./acces.php'">
+<!--  <div id="scrollup" onmousedown="window.location='./acces.php'"> -->
+		    <div id="scrollup">
 		    	
        <?php
 				include("livenews.php");
