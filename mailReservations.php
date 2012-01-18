@@ -91,20 +91,22 @@
 
     $uniqueid= uniqid();
 	
-	$body="Reservation billet/Tickets buchen\r-------\r\r";
-	if($event1cat1num>0){
+	$body="Reservation billet/Tickets buchen - $firstname $lastname ($email)\r-------\r\r";
+	
+	if($event1cat1num>0)
 		$body=$body.$event1cat1num."x ".$event1name." - Adulte/Erwachsene\r";
-	}
 	
-	if($event2cat1num>0 OR $event2cat2num>0){
+	if($event2cat1num>0)
 		$body=$body.$event2cat1num."x ".$event2name." - Adulte/Erwachsene\r";
-		$body=$body.$event2cat1num."x ".$event2name." - Enfant/Kind - AVS\r";
-	}
 	
-	if($event3cat1num>0 OR $event3cat2num>0){
+	if($event2cat2num>0)
+		$body=$body.$event2cat2num."x ".$event2name." - Enfant/Kind - AVS\r";
+	
+	if($event3cat1num>0)
 		$body=$body.$event3cat1num."x ".$event3name." - Adulte/Erwachsene\r";
-		$body=$body.$event3cat1num."x ".$event3name." - Enfant/Kind - AVS\r";
-	}
+	
+	if($event3cat2num>0)
+		$body=$body.$event3cat2num."x ".$event3name." - Enfant/Kind - AVS\r";
 	
 	
 	$succeed = smtpmailer($email, $from, 'Festival Rilke', 'Reservation billet/Tickets buchen', $body, $uniqueid);
