@@ -19,10 +19,9 @@ h1, h2 {
     height: 45px;
     /*
     background: url(img/toolbar.png) #000000 repeat-x;*/
-    background-color:#555555;
-  /*  background:-webkit-gradient(linear, right bottom, right top, color-stop(0.01, #111111), color-stop(1, #111111));*/
+    background-color:#004473;
+    background:-webkit-gradient(linear, right bottom, right top, color-stop(0.01, #555555), color-stop(1, #555555));
     position: relative;
-    text-align: left;
 }
 .black-translucent .toolbar {
     margin-top: 20px;

@@ -23,16 +23,37 @@
 				?>
 			
 			
+<<<<<<< HEAD
 			<form name="formulaire" Method="POST" Action="mailReservations.php">			
+=======
+					<?php 
+					session_start();					
+					if( isset($_POST['submit'])) {
+					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
+							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
+							Header('Location: ./mailReservations.php');//?email='.$_POST['email']);
+							
+							unset($_SESSION['security_code']);
+					   } else {
+							// Insert your code for showing an error message here
+							echo "<br/>Desolé, le code de validation n'est pas valide";
+					   }
+					} 
+					else {
+					?>
+			
+			
+			<form name="formulaire" method="post" onSubmit="mailReservations()">			
+>>>>>>> 8c3a5c10b4ef3dde165efd6f2f6c935c5cc90d08
 				    <br/>
 				     Prénom: 
-				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				     Nom: 
-				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				     Email: 
-				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				    Cafés littéraires (20.-):
 				    <SELECT NAME=cafes>
@@ -65,9 +86,9 @@
 				    		<td colspan="3">Billets:</td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">adultes </div></td>
+				    		<td><div class="reservation4">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
@@ -92,9 +113,9 @@
 				    		<td colspan="3">Billets:</td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">adultes </div></td>
+				    		<td><div class="reservation4">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
@@ -105,8 +126,6 @@
 				    	<br/>
 				    	<br/>
 				    	Merci de recopier les caractères ci-dessous:
-				    	 <br/>
-				    	 <label for="message">Message: </label><textarea rows="5" cols="30" name="message" id="message"></textarea><br />
 				    	 <br/>
 				    	 <img src="captchaSecurite.php?width=100&amp;height=40&amp;characters=5" alt="captcha" />
 						<input id="security_code" name="security_code" type="text" style="background-color: #999999; color: #000000; width: 87px; height: 11px; font-size: 15px;"/>

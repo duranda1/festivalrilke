@@ -10,7 +10,7 @@
         <div data-role="collapsible-set">
             <div data-role="collapsible">
                 <h3><div class="programmeMenu"></div></h3>
-               <a href="./enBref.php" data-role="button"><div class="enBrefMenu">En bref</div></a>
+               <a href="./programme.php" data-role="button"><div class="progMenu">Programme</div></a>
                <a href="./horaires.php" data-role="button"><div class="horairesMenu">Horaires </div></a>
             </div>
             <div data-role="collapsible" onmousedown="window.location='./reservations.php'">
