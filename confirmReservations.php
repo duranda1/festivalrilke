@@ -42,9 +42,9 @@
 					//imagepng($qrcode);
 
 					if ($languageMap = "de") {
-						echo "Eine Bestätigung per E-Mail hat sich auf $email. versandt. Vielen Dank für Ihre Buchung!";
+						echo "Eine Bestätigung per E-Mail hat sich auf $email. versandt. Vielen Dank für Ihre Buchung!<br/><br/>Zur Erleichterung der Entfernung von Tickets, legen Sie bitte die qrcode unten an der Kasse. Es ist auch in Ihrer E-Mail Resevation enthalten";
 					} else {
-						echo "Un mail de confirmation à été envoyé à $email. Merci pour votre réservation!";
+						echo "Un mail de confirmation à été envoyé à $email. Merci pour votre réservation!<br/><br/>Afin de faciliter le retrait de vos billets, veuillez présenter le QRcode ci-dessous à la caisse. Celui-ci est également inclus dans votre email de résevation";
 					}
 
 					echo "

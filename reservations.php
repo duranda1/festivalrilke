@@ -1,50 +1,35 @@
-
-<!DOCTYPE html> 
-<html> 
-	<head> 
-	<title>Réservations</title> 
-	<?php include('init.php'); ?>
-</head> 
-<body> 
-<?php include('header.php'); ?>
-	<a href="./index.php" data-role="button"  data-theme="a"><div class="retourAuMenu">Retour au menu</div></a>
-	<div data-role="content" data-theme="a">
-		<div class="contentZone">	
-			<h3><div class="reservation1">Réservation</div></h3>
-			<span class="mainTitle">
-				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
-			</span>	
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Réservations</title>
+		<?php
+			include ('init.php');
+		?>
+	</head>
+	<body>
+		<?php
+		include ('header.php');
+		?>
+		<a href="./index.php" data-role="button"  data-theme="a">
+		<div class="retourAuMenu">
+			Retour au menu
+		</div></a>
+		<div data-role="content" data-theme="a">
+			<div class="contentZone">
+				<h3>
+				<div class="reservation1">
+					Réservation
+				</div></h3>
+				<span class="mainTitle"> <span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span> </span>
 				<?php
-				
-				 if (isset($_GET['captcha'])){
+
+				if (isset($_GET['captcha'])) {
 					echo "</br><SPAN style=\"color: red\">Desolé, le code de validation n'est pas valide</SPAN>";
-				 }
-				 
+				}
 				?>
+
 			
-			
-<<<<<<< HEAD
-			<form name="formulaire" Method="POST" Action="mailReservations.php">			
-=======
-					<?php 
-					session_start();					
-					if( isset($_POST['submit'])) {
-					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
-							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
-							Header('Location: ./mailReservations.php');//?email='.$_POST['email']);
-							
-							unset($_SESSION['security_code']);
-					   } else {
-							// Insert your code for showing an error message here
-							echo "<br/>Desolé, le code de validation n'est pas valide";
-					   }
-					} 
-					else {
-					?>
-			
-			
-			<form name="formulaire" method="post" onSubmit="mailReservations()">			
->>>>>>> 8c3a5c10b4ef3dde165efd6f2f6c935c5cc90d08
+			<form action="mailReservations.php" method="post">			
 				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
@@ -91,9 +76,9 @@
 				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
-				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td><input name="nb2" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td><input name="nb3" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
 				    	</tr>
 				    </table>
 				    <br/>
@@ -132,7 +117,7 @@
 						<br/>
 				    	<br/>
 				    	 <br/>
-				    	 <INPUT type="submit" value="Envoyer">
+				    	 <INPUT type="submit" value="Ok">
 				<!-- <input type="submit" name="submit" value="true"/>		 -->	
 			</form>
 				
@@ -140,7 +125,9 @@
 		<br/>
 		</div>
 	</div><!-- /content -->
-	<?php include('footer.php'); ?>
-</div><!-- /page one -->
-</body>
+	<?php
+		include ('footer.php');
+					?>
+			</div><!-- /page one -->
+	</body>
 </html>
