@@ -445,7 +445,7 @@ div.ui-mobile-viewport { overflow-x: hidden; }
     margin-bottom:10px;
 }
 .tabbed_box h4 small {
-    color:#e3e9ec;
+    color:#ff631c;
     font-weight:normal;
     font-size:9px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
@@ -456,8 +456,11 @@ div.ui-mobile-viewport { overflow-x: hidden; }
     letter-spacing:0px;
 }
 .tabbed_area {
-    border:1px solid #494e52;
-    background-color:#636d76;
+    border-top:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #180a1f;
+    border-bottom:1px solid #180a1f;
+    background-color:#222222;
     padding:8px;
 }
 ul.tabs {
@@ -468,25 +471,35 @@ ul.tabs li {
     display:inline;
 }
 ul.tabs li a {
-    background-color:#464c54;
-    color:#ffebb5;
+    background-color:#333333;
     padding:8px 14px 8px 14px;
     text-decoration:none;
     font-size:9px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-transform:uppercase;
-    border:1px solid #464c54;
+    border-top:1px solid #666666;
+    border-left:1px solid #666666;
+    border-right:1px solid #000000;
+    border-bottom:1px solid #000000;
+   
 }
 ul.tabs li a:hover {
-    background-color:#2f343a;
-    border-color:#2f343a;
+    background-color:#222222;
+   	border-top:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:0px;
+    border-bottom:0px;
+    
 }
 ul.tabs li a.active {
-    background-color:#ffffff;
-    color:#282e32;
-    border:1px solid #464c54;
-    border-bottom: 1px solid #ffffff;
+    background-color:#222222;
+    color:#bbbbbb;
+    text-decoration:none;
+   	border-top:1px solid #000000;
+    border-left:1px solid #000000;
+    border-right:1px solid #666666;
+    border-bottom:1px solid #666666;
 }
 #content_2, #content_3 { display:none; }
 ul.tabs {
@@ -500,7 +513,7 @@ ul.tabs {
 }
 .content ul li {
     list-style:none;
-    border-bottom:1px solid #d6dde0;
+    border-bottom:1px solid #555555;
     padding-top:15px;
     padding-bottom:15px;
     font-size:13px;
@@ -510,7 +523,7 @@ ul.tabs {
     color:#3e4346;
 }
 .content ul small {
-    color:#8b959c;
+    color:#ff631c;
     font-size:9px;
     text-transform:uppercase;
     font-family:Verdana, Arial, Helvetica, sans-serif;
