@@ -180,9 +180,7 @@ a.ui-link-inherit {
 
 /* Icons
 -----------------------------------------------------------------------------------------------------------*/
-.reservationMenu .ui-icon, .reservationMenu .ui-icon-searchfield:after{
-	background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
-}
+
 .except .ui-icon{
 	background-image: none; /*{global-icon-set}*/;
 }
