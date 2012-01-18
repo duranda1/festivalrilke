@@ -25,78 +25,78 @@
 			return $ip;
 	}
 
-	function hasAlreadyVoted()
+	function canVote()
 	{
-		if( isset($_POST['vote']) )
-		{
-			$ip = getIpClient();			
-			if (!$ipstxt = fopen("secure/ips.txt","a+")) {
-				echo "Echec de l'ouverture du fichier";
-				exit;
-			}
-			else 
-			{
-				$tampon = fgets($ipstxt, 4096)	;		
-				$data = explode(";",$tampon);  // parsing of datas based on ";"
-				$ipcount = count($data)-1; // number of ips
-			
-				$ok = "true";
-				//we read the ips one by one
-				for ($i=0;$i<=$ipcount;$i++)
-				{
-					//we test if the ip already is in memory
-					if($data[$i] == $ip)
-					{
-						$ok = "false";
-					}
-				}
-				fclose($ipstxt);
-				return $ok;
-			}
-		}
-	}
-
-
-	//if not, we take into account the vote, and register the ip
-	if(hasAlreadyVoted() == "true") 
-	{
-		$ip = getIpClient();
-		if (!$ipstxt = fopen("secure/ips.txt","a+"))
-		{
+		$ip = getIpClient();			
+		if (!$ipstxt = fopen("secure/ips.txt","a+")) {
 			echo "Echec de l'ouverture du fichier";
 			exit;
 		}
 		else 
 		{
-			//we register the ip of the person voting
-			fputs($ipstxt, $ip . ";");
-			fclose($ipstxt);
-			$nomVideo = $_POST['vote'];	
-			$fichier = './medias/contest/private/votes.xml';
-			/*on load le fichier xml*/
-			$data = new DOMDocument();
-			$data->load($fichier);
-			
-			$videos = $data->getElementsByTagName('video');
-			
-			foreach($videos as $video) {
-				  $Noms = $video->getElementsByTagName("name"); // On prend le nom de chaque noeud.
-				  $nom = $Noms->item(0)->nodeValue;
-				  
-				  $NbVotes = $video->getElementsByTagName("votes"); // On prend le nom de chaque noeud.
-				  $nbvote = $NbVotes->item(0)->nodeValue;
-				  
-			      if ($nom == $nomVideo)
-			      {
-					//$element = $img;
-					$NbVotes->item(0)->nodeValue=$NbVotes->item(0)->nodeValue + 1;
-			      }
+			$tampon = fgets($ipstxt, 4096)	;		
+			$data = explode(";",$tampon);  // parsing of datas based on ";"
+			$ipcount = count($data)-1; // number of ips
+		
+			$ok = "true";
+			//we read the ips one by one
+			for ($i=0;$i<=$ipcount;$i++)
+			{
+				//we test if the ip already is in the file
+				if($data[$i] == $ip)
+				{
+					$ok = "false";
+				}
 			}
-			//$racine = $data->documentElement;
-			//$suppr = $racine->removeChild($element);
-			
-			/*on enregistre dans un fichier*/					
-			$data->save($fichier);
+			fclose($ipstxt);
+			return $ok;
+		}
+	}
+
+
+	//if not, we can vote
+	if(canVote() == "true") 
+	{
+		if( isset($_POST['vote']) )
+		{
+			$ip = getIpClient();
+			if (!$ipstxt = fopen("secure/ips.txt","a+"))
+			{
+				echo "Echec de l'ouverture du fichier";
+				exit;
+			}
+			else 
+			{
+				//we register the ip of the person voting
+				fputs($ipstxt, $ip . ";");
+				fclose($ipstxt);
+				$nomVideo = $_POST['vote'];	
+				$fichier = './medias/contest/private/votes.xml';
+				/*on load le fichier xml*/
+				$data = new DOMDocument();
+				$data->load($fichier);
+				
+				$videos = $data->getElementsByTagName('video');
+				
+				foreach($videos as $video) {
+					  $Noms = $video->getElementsByTagName("name"); // On prend le nom de chaque noeud.
+					  $nom = $Noms->item(0)->nodeValue;
+					  
+					  $NbVotes = $video->getElementsByTagName("votes"); // On prend le nom de chaque noeud.
+					  $nbvote = $NbVotes->item(0)->nodeValue;
+					  
+				      if ($nom == $nomVideo)
+				      {
+						//$element = $img;
+						$NbVotes->item(0)->nodeValue=$NbVotes->item(0)->nodeValue + 1;
+				      }
+				}
+				//$racine = $data->documentElement;
+				//$suppr = $racine->removeChild($element);
+				
+				/*on enregistre dans un fichier*/					
+				$data->save($fichier);
+			}
 		}
 	}
 ?>
@@ -113,11 +113,11 @@
 			<!-- bouton de vote -->
 			<input type="hidden" name="vote" value="Rainer Maria Rilke - Der Panther(360p)"></input>
 			<?php
-				if(hasAlreadyVoted() == "false")
+				if(canVote() == "false")
 				{
 					echo("<input type=\"submit\" disabled=\"true\" value=\"Vous avez déjà voté\"/>");
 				}
-				else 
+				else if(canVote() == "true")
 				{
 					echo("<input type=\"submit\" value=\"voter\"/>");		
 				}
