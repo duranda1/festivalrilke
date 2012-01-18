@@ -29,7 +29,7 @@
 				?>
 
 			
-			<form name="formulaire" method="post" onSubmit="mailReservations()">			
+			<form action="mailReservations.php" method="post">			
 				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
@@ -76,9 +76,9 @@
 				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
-				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td><input name="nb2" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><input name="nb5" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
+				    		<td><input name="nb3" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
 				    	</tr>
 				    </table>
 				    <br/>
@@ -117,7 +117,7 @@
 						<br/>
 				    	<br/>
 				    	 <br/>
-				    	 <INPUT type="submit" value="Envoyer">
+				    	 <INPUT type="submit" value="Ok">
 				<!-- <input type="submit" name="submit" value="true"/>		 -->	
 			</form>
 				
