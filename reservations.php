@@ -32,7 +32,7 @@
 			<form action="mailReservations.php" method="post">			
 				    <br/>
 				     Prénom: 
-				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
+				     <input class="reservation1" name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				     Nom: 
 				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	

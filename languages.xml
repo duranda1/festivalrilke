@@ -89,6 +89,12 @@
         <de>Sponsors</de>
     </translation>
    
+   <!-- RESERVATION.PHP -->
+	<translation id="reservation1">
+    	<fr>Prenom</fr>
+    	<de>Vorname</de>
+	</translation>
+   
    <!-- HORAIRES.PHP -->
 	<translation id="titleHoraires">
     	<fr>Horaires</fr>

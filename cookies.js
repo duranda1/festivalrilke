@@ -19,8 +19,28 @@ function setCookie(value)
 	document.cookie="langue=" + c_value;
 }
 
-
-//Fonction qui récupère la langue dans le cookie
-function getCookie() {
-	return document.cookie.substring(7, document.cookie.length);;	
+function getCookie()
+{
+    if(document.cookie.length>0)
+    {
+    	var name = "langue";
+        start=document.cookie.indexOf(name+"=");
+        pos = start+name.length+1;
+        if(start!=0)
+        {
+                start=document.cookie.indexOf("; "+name+"=");
+                pos = start+name.length+2;
+        }
+        if(start!=-1)
+        { 
+                start=pos;
+                end=document.cookie.indexOf(";",start);
+                if(end==-1)
+                {
+                        end=document.cookie.length;
+                }
+                return unescape(document.cookie.substring(start,end));
+        } 
+    }
+    return '';
 }
