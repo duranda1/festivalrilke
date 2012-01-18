@@ -17,10 +17,10 @@
 		<div data-role="content" data-theme="a">
 			<div class="contentZone">
 				<h3>
-				<div class="reservation1">
+				<div class="reservationTitre">
 					Réservation
 				</div></h3>
-				<span class="mainTitle"> <span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span> </span>
+				<span class="mainTitle"> <span style="font-weight:bold" class="reservation0">Merci de remplir le formulaire pour effectuer une réservation</span> </span>
 				<?php
 
 				if (isset($_GET['captcha'])) {
@@ -31,28 +31,28 @@
 			
 			<form action="mailReservations.php" method="post">			
 				    <br/>
-				     Prénom: 
-				     <input class="reservation1" name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
+				     <div class="reservation1">Prénom</div>
+				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
-				     Nom: 
+				    <div class="reservation2">Nom</div>
 				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
-				     Email: 
+				    <div class="reservation3">Email</div>
 				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
-				    Cafés littéraires (20.-):
+				    <div class="reservation4">Cafés littéraires (20.-)</div>
 				    <SELECT NAME=cafes>
 						<OPTION>Schriftsteller als Gäste in der Region Siders-Leuk 
 						<OPTION>Rilke, les Elégies et les arts plastiques 
 						<OPTION>La place de Rilke dans la culture italienne				
 					</SELECT> 
 				  <br/>
-				    <div class="reservation1">Billets: </div>
+				    <div class="reservation5">Billets</div>
 				    <input name="nb1" type="number" min="0" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;">	
 				    <br/>		
 				     <br/>
 				     <br/>
-				    Spectacles et lectures (20.- / 15.-):
+				    <div class="reservation6">Spectacles et lectures (20.- / 15.-)</div>
 				    <SELECT NAME=spectacles>
 						<OPTION>Altro viaggio di Rainer Maria Rilke
 						<OPTION>Journal Florentin 
@@ -68,12 +68,12 @@
 					 <br/>
 				    <table>
 				    	<tr>
-				    		<td colspan="3">Billets:</td>
+				    		<td colspan="3"><div class="reservation5">Billets</div></td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">Adultes </div></td>
+				    		<td><div class="reservation7">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">Etudiants/AVS </div></td>
+				    		<td><div class="reservation8">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb2" type="number" min="0" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
@@ -84,7 +84,7 @@
 				    <br/>
 				    <br/>
 				     <br/>
-				    Balades poétiques (25.-/ 20.-):
+				    <div class="reservation85">Balades poétiques (25.-/ 20.-):</div>
 				    <SELECT NAME=balades>
 						<OPTION>Au Lac souterrain de St-Léonard
 						<OPTION>Balade à Finges 
@@ -95,12 +95,12 @@
 				   	 <br/>	
 				    <table>
 				    	<tr>
-				    		<td colspan="3">Billets:</td>
+				    		<td colspan="3"><div class="reservation5">Billets:</div></td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">Adultes </div></td>
+				    		<td><div class="reservation7">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">Etudiants/AVS </div></td>
+				    		<td><div class="reservation8">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb4" type="number" min="0" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
@@ -110,7 +110,7 @@
 				    </table>
 				    	<br/>
 				    	<br/>
-				    	Merci de recopier les caractères ci-dessous:
+				    	<div class="reservation9">Merci de recopier les caractères ci-dessous</div>
 				    	 <br/>
 				    	 <img src="captchaSecurite.php?width=100&amp;height=40&amp;characters=5" alt="captcha" />
 						<input id="security_code" name="security_code" type="text" style="background-color: #999999; color: #000000; width: 87px; height: 11px; font-size: 15px;"/>

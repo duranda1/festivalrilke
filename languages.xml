@@ -90,11 +90,56 @@
     </translation>
    
    <!-- RESERVATION.PHP -->
+   <translation id="reservationTitre">
+    	<fr>Reservation</fr>
+    	<de>Reservierung</de>
+	</translation>
+   <translation id="reservation0">
+    	<fr>Merci de remplir le formulaire pour effectuer une réservation</fr>
+    	<de>Vielen Dank für das Ausfüllen des Formulars, um zu buchen</de>
+	</translation>
 	<translation id="reservation1">
     	<fr>Prenom</fr>
     	<de>Vorname</de>
 	</translation>
-   
+   <translation id="reservation2">
+    	<fr>Nom</fr>
+    	<de>Name</de>
+	</translation>
+	<translation id="reservation3">
+    	<fr>Email</fr>
+    	<de>Email</de>
+	</translation>
+	<translation id="reservation4">
+    	<fr>Cafés littéraires (20.-)</fr>
+    	<de>Literarische Cafés (20 .-)</de>
+	</translation>
+	<translation id="reservation5">
+    	<fr>Billets</fr>
+    	<de>Banknoten</de>
+	</translation>
+	<translation id="reservation6">
+    	<fr>Spectacles et lectures (20.- / 15.-)</fr>
+    	<de>Performances und Lesungen (20 .- / 15 .-)</de>
+	</translation>
+	<translation id="reservation7">
+    	<fr>Adultes</fr>
+    	<de>Erwachsene</de>
+	</translation>
+	<translation id="reservation8">
+    	<fr>Etudiants/AVS</fr>
+    	<de>Studenten / AHV</de>
+	</translation>
+	<translation id="reservation85">
+    	<fr>Balades poétiques (25.-/ 20.-)</fr>
+    	<de>Poetische Spaziergänge (25 .- / 20 .-)</de>
+	</translation>
+	<translation id="reservation9">
+    	<fr>Merci de recopier les caractères ci-dessous</fr>
+    	<de>Vielen Dank an die folgenden Zeichen recopy</de>
+	</translation>
+	
+	
    <!-- HORAIRES.PHP -->
 	<translation id="titleHoraires">
     	<fr>Horaires</fr>
