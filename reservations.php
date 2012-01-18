@@ -36,13 +36,13 @@
 			<form name="formulaire" method="post" onSubmit="mailReservations()">			
 				    <br/>
 				     Prénom: 
-				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				     Nom: 
-				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="nom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				     Email: 
-				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
+				     <input name="email" type="email" style="background-color: #999999; color: #000000; width: 200px; height: 15px; font-size: 15px;">	
 				    <br/>
 				    Cafés littéraires (20.-):
 				    <SELECT NAME=cafes>
@@ -75,9 +75,9 @@
 				    		<td colspan="3">Billets:</td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">adultes </div></td>
+				    		<td><div class="reservation4">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
@@ -102,9 +102,9 @@
 				    		<td colspan="3">Billets:</td>
 				    	</tr>
 				    	<tr>
-				    		<td><div class="reservation4">adultes </div></td>
+				    		<td><div class="reservation4">Adultes </div></td>
 				    		<td>&nbsp;&nbsp;</td>
-				    		<td><div class="reservation5">étudiants/AVS </div></td>
+				    		<td><div class="reservation5">Etudiants/AVS </div></td>
 				    	</tr>
 				    	<tr>
 				    		<td><input name="nb4" type="number" style="background-color: #999999; color: #000000; width: 35px; height: 15px; font-size: 14px;"></td>
