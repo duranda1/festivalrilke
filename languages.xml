@@ -28,9 +28,9 @@
         <fr>Programme 2012</fr>
         <de>Programm 2012</de>
     </translation>
-    <translation id="enBrefMenu">
-        <fr>En bref</fr>
-        <de>In Kürze</de>
+    <translation id="progMenu">
+        <fr>Programme</fr>
+        <de>Programm</de>
     </translation>
     <translation id="horairesMenu">
         <fr>Horaires</fr>
@@ -88,90 +88,6 @@
         <fr>Sponsors</fr>
         <de>Sponsors</de>
     </translation>
-   
-   <!-- ENBREF.PHP -->
-	<translation id="titleEnBref">
-    	<fr>En bref</fr>
-    	<de>Kurzum</de>
-	</translation>
-	<translation id="enBref1">
-    	<fr>En bref</fr>
-    	<de>Kurzum</de>
-	</translation>
-	<translation id="enBref2">
-    	<fr>Une centaine de rendez-vous</fr>
-    	<de>Hundert Termine</de>
-	</translation>
-	<translation id="enBref3">
-    	<fr>
-		pour trois jours de festival. 
-		Des expositions, du théâtre, des lectures, de la musique, 
-		des balades, des conférences, des concours, des surprises.
-		</fr>
-    	<de>
-    	für drei Tage des Festivals.
-		Ausstellungen, Theater, Lesungen, Musik,
-		Wanderungen, Vorträge, Wettbewerbe, Überraschungen.
-		</de>
-	</translation>
-	<translation id="enBref4">
-    	<fr>Nouvelle expression: </fr>
-    	<de>New Ausdruck: </de>
-	</translation>
-	<translation id="enBref5">
-    	<fr>
-		parce que l’écriture de Rilke est 
-		bien vivante et continue de nous parler aujourd’hui, 
-		le Festival 2012 s’associe à la création contemporaine. 
-		Il donne la parole à de nouvelles formes d’expression: art 
-		vidéo et installations sonores revisitent l’oeuvre de Rilke. 
-		Les concerts du soir deviennent des lieux de création autour 
-		du poète. 
-		</fr>
-    	<de>
-    	denn das Schreiben ist Rilke
-		gesund und munter und weiterhin mit uns zu sprechen heute
-		Festival 2012 ist mit der zeitgenössischen Kunst verbunden.
-		Er übergibt das Wort an neuen Formen des Ausdrucks: art
-		Video-und Klanginstallationen erneut die Arbeit von Rilke.
-		Abendkonzerte werden zu Orten der Schöpfung um
-		der Dichter.
-    	</de>
-	</translation>
-	<translation id="enBref6">
-    	<fr>Tous au Château: </fr>
-    	<de>Alle Castle:</de>
-	</translation>
-	<translation id="enBref7">
-    	<fr>
-    	cette édition s’épanouit à l’intérieur et 
-		autour du Château Mercier. Du court de tennis aux chambres en 
-		passant par la Tour et les jardins, elle utilise pleinement les 
-		4 hectares de la propriété. Ces nombreux espaces offrent une grande 
-		qualité d’écoute.
-		</fr>
-    	<de>
-    	Diese Edition baut auf der Innen-und
-		rund um die Château Mercier. Der Tennisplatz mit Zimmer
-		durch den Turm und die Gärten, macht es voll nutzen
-		4 Hektar Eigentum. Diese Bereiche bieten zahlreiche
-		Klangqualität.
-    	</de>
-	</translation>
-	<translation id="enBref8">
-    	<fr>Le Festival </fr>
-    	<de>Das Festival </de>
-	</translation>
-	<translation id="enBref9">
-    	<fr>
-    	est fidèle à son esprit d'ouverture. Il propose de nombreux 
-		rendez-vous gratuits.
-    	</fr>
-    	<de>
-    	ist wahr, seine Offenheit. Es bietet viele
-		frei.
-		</de>
-	</translation>
    
    <!-- HORAIRES.PHP -->
 	<translation id="titleHoraires">
