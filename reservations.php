@@ -33,7 +33,7 @@
 					?>
 			
 			
-			<form name="formulaire" method="post" onSubmit="return verification()">			
+			<form name="formulaire" method="post" onSubmit="mailReservations()">			
 				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
@@ -115,8 +115,6 @@
 				    	<br/>
 				    	<br/>
 				    	Merci de recopier les caractères ci-dessous:
-				    	 <br/>
-				    	 <label for="message">Message: </label><textarea rows="5" cols="30" name="message" id="message"></textarea><br />
 				    	 <br/>
 				    	 <img src="captchaSecurite.php?width=100&amp;height=40&amp;characters=5" alt="captcha" />
 						<input id="security_code" name="security_code" type="text" style="background-color: #999999; color: #000000; width: 87px; height: 11px; font-size: 15px;"/>
