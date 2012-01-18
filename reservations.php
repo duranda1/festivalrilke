@@ -14,26 +14,16 @@
 			<span class="mainTitle">
 				<span style="font-weight:bold" class="reservation2">Merci de remplir le formulaire pour effectuer une réservation</span>
 			</span>	
+				<?php
+				
+				 if (isset($_GET['captcha'])){
+					echo "</br><SPAN style=\"color: red\">Desolé, le code de validation n'est pas valide</SPAN>";
+				 }
+				 
+				?>
 			
 			
-					<?php 
-					session_start();					
-					if( isset($_POST['submit'])) {
-					   if( $_SESSION['security_code'] == $_POST['security_code'] && !empty($_SESSION['security_code'] ) ) {
-							// Insert your code for processing the form here, e.g emailing the submission, entering it into a database. 
-							Header('Location: ./mailReservations.php');//?email='.$_POST['email']);
-							
-							unset($_SESSION['security_code']);
-					   } else {
-							// Insert your code for showing an error message here
-							echo "<br/>Desolé, le code de validation n'est pas valide";
-					   }
-					} 
-					else {
-					?>
-			
-			
-			<form name="formulaire" method="post" onSubmit="return verification()">			
+			<form name="formulaire" Method="POST" Action="mailReservations.php">			
 				    <br/>
 				     Prénom: 
 				     <input name="prenom" type="text" style="background-color: #999999; color: #000000; width: 200px; height: 11px; font-size: 15px;">	
@@ -123,11 +113,10 @@
 						<br/>
 				    	<br/>
 				    	 <br/>
-				<input type="submit" name="submit" value="Ok"/>			
+				    	 <INPUT type="submit" value="Envoyer">
+				<!-- <input type="submit" name="submit" value="true"/>		 -->	
 			</form>
-			<?php
-			}
-			?>		
+				
 		<br/>
 		<br/>
 		</div>
