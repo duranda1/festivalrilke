@@ -91,7 +91,7 @@
 
     $uniqueid= uniqid();
 	
-	$body="Reservation billet/Tickets buchen\r-------\r\r";
+	$body="Reservation billet/Tickets buchen - $firstname $lastname ($email)\r-------\r\r";
 	if($event1cat1num>0){
 		$body=$body.$event1cat1num."x ".$event1name." - Adulte/Erwachsene\r";
 	}
