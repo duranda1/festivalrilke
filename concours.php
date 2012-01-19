@@ -105,66 +105,86 @@
 		</div></a>
 		<div data-role="content" data-theme="a">
 			<div class="contentZone">
-				
-					<?php
-					function getImages($path) {
-						$dir = opendir(dirname(__FILE__) . "/$path/thumbs");
-						$files = array();
-						while (false !== ($file = readdir($dir))) {
-							if (strpos($file, '.gif', 1) || strpos($file, '.jpg', 1)) {
-								$files[] = $file;
-							}
+				<?php
+				function getImages($path) {
+					$dir = opendir(dirname(__FILE__) . "/$path/thumbs");
+					$files = array();
+					while (false !== ($file = readdir($dir))) {
+						if (strpos($file, '.gif', 1) || strpos($file, '.jpg', 1)) {
+							$files[] = $file;
 						}
-						closedir($dir);
-
-						return $files;
 					}
-					?>
+					closedir($dir);
 
-					<?PHP
-// fetch image details
-
-$path = "medias/videos";
-//$dir = "http://153.109.141.61/videos";
-$images = getImages($path);
-
-// display on page
-foreach($images as $img) {
-//echo $img['file'];
-
-//echo $img;
-
-// your file
-$file = $img;
-
-$info = pathinfo($file);
-$file_name =  basename($file,'.'.$info['extension']);
-
-echo "<span class=\"mainTitle\">$file_name</span>"; // outputs 'image'
-
-echo "<center><div class=\"videos\"><video width=\"320\" height=\"240\" controls=\"controls\"  poster=\"$path/thumbs/$img\" preload=\"none\">
-<source src=\"$path/$file_name.mp4\" type=\"video/mp4\" />
-<source src=\"$path/$file_name.webm\" type=\"video/webm\" />
-Your browser does not support the video tag.
-</video> </div></center><br/>";
-echo "<form action=\"concours.php\" method=\"post\">";
-echo "<input type=\"hidden\" name=\"vote\" value=\"$file_name\"></input>";
-
-if(hasAlreadyVoted() == true)
-{
-echo("<input type=\"submit\" disabled=\"true\" value=\"Vous avez déjà voté\"/>");
-}
-else
-{
-echo("<input type=\"submit\" value=\"voter\"/>");
-}
-echo "</form>";
-}
-					?>
-
-					<!-- bouton de vote -->
-					<!-- fin du bouton de vote -->
+					return $files;
+				}
 				
+				if (hasAlreadyVoted() == true) {
+					echo('<center><h1>Merci d\'avoir voté</h1>');
+					echo('<h2>Résultat actuel des votes</h2>');
+					$fichier = './medias/contest/private/votes.xml';
+					/*on load le fichier xml*/
+					$data = new DOMDocument();
+					$data -> load($fichier);
+
+					$videos = $data -> getElementsByTagName('video');
+
+					foreach ($videos as $video) {
+						$Noms = $video -> getElementsByTagName("name");
+						// On prend le nom de chaque noeud.
+						$nom = $Noms -> item(0) -> nodeValue;
+
+						$NbVotes = $video -> getElementsByTagName("votes");
+						// On prend le nom de chaque noeud.
+						$nbvote = $NbVotes -> item(0) -> nodeValue;
+
+						if ($nbvote >0)
+							echo ($nom.' : <b>'.$nbvote.' votes</b><br/>');
+						else
+							echo ($nom.' : <b>'.$nbvote.' vote</b><br/>');
+							
+					}
+					echo('<br/></center>');
+				}
+
+				// fetch image details
+
+				$path = "medias/videos";
+				//$dir = "http://153.109.141.61/videos";
+				$images = getImages($path);
+
+				// display on page
+				foreach ($images as $img) {
+					//echo $img['file'];
+
+					//echo $img;
+
+					// your file
+					$file = $img;
+
+					$info = pathinfo($file);
+					$file_name = basename($file, '.' . $info['extension']);
+
+					echo "<center><span class=\"mainTitle\">$file_name</span></center>";
+					// outputs 'image'
+
+					echo "<center><div class=\"videos\"><video width=\"320\" height=\"240\" controls=\"controls\"  poster=\"$path/thumbs/$img\" preload=\"none\">
+						<source src=\"$path/$file_name.mp4\" type=\"video/mp4\" />
+						<source src=\"$path/$file_name.webm\" type=\"video/webm\" />
+						Your browser does not support the video tag.
+						</video> </div></center>";
+					echo "<form action=\"concours.php\" method=\"post\">";
+					echo "<input type=\"hidden\" name=\"vote\" value=\"$file_name\"></input>";
+
+					if (hasAlreadyVoted() == false) 
+						echo("<input type=\"submit\" value=\"voter\"/><br/>");
+
+					echo "</form>";
+				}
+				?>
+
+				<!-- bouton de vote -->
+				<!-- fin du bouton de vote -->
 			</div>
 		</div><!-- /content -->
 		<?php
@@ -172,5 +192,4 @@ echo "</form>";
 		?>
 		</div><!-- /page one -->
 	</body>
-	
 </html>
