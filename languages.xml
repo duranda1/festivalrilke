@@ -73,8 +73,8 @@
         <de>Audio</de>
     </translation>
     <translation id="concoursMenu">
-        <fr>Concours</fr>
-        <de>Wettbewerb</de>
+        <fr>Concours vidéo</fr>
+        <de>Film Wettbewerb</de>
     </translation>
         <translation id="informationsUtilesMenu">
         <fr>Informations utiles</fr>
@@ -548,8 +548,8 @@
     	<de>Zugang</de>
 	</translation>
 	<translation id="acces2">
-    	<fr>Accès au château mercier depuis la gare de Sierre</fr>
-    	<de>Der Zugang zur Burg vom Bahnhof Mercier in Siders</de>
+    	<fr>Accès au château mercier depuis votre position. Vous devez autoriser la geolocalisation sur votre navigateur.</fr>
+    	<de>Der Zugang zur Burg haberdasher von Ihrer Position. Sie benötigen die Geolocation Ihres Browsers.</de>
 	</translation>
 	
 	<!-- SPONSORS.PHP -->
