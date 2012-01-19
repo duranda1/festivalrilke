@@ -38,14 +38,14 @@ echo("<script type=\"text/javascript\" src=\"http://maps.google.ch/maps/api/js?s
 	(function() {
 		var directionsService = new google.maps.DirectionsService(), directionsDisplay = new google.maps.DirectionsRenderer(), createMap = function(start) {
 			var travel = {
-				origin : (start.coords) ? new google.maps.LatLng(start.lat, start.lng) : start.address,
-				destination : "Montée du Château 19 - Case postale 403, 3960 Sierre, Suisse",
+				destination : (start.coords) ? new google.maps.LatLng(start.lat, start.lng) : start.address,
+				origin : "Montée du Château 19 - Case postale 403, 3960 Sierre, Suisse",
 				travelMode : google.maps.DirectionsTravelMode.DRIVING
 				// Exchanging DRIVING to WALKING above can prove quite amusing <img src="http://robertnyman.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley">
 			}, mapOptions = {
 				zoom : 10,
 				// Default view: Sion
-				center : new google.maps.LatLng(59.3325215, 18.0643818),
+				center : new google.maps.LatLng(46.2225215, 7.3643818),
 				mapTypeId : google.maps.MapTypeId.ROADMAP
 			};
 			map = new google.maps.Map(document.getElementById("map"), mapOptions);

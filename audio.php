@@ -101,9 +101,9 @@
 	<div data-role="content" data-theme="a">
 		<div class="contentZone">						
 			<h3><div class="audio" />Audio</h3>
-			<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+			<div id="jquery_jplayer_1" class="jp-jplayer" ></div>
 
-		<div id="jp_container_1" class="jp-audio">
+		<div id="jp_container_1" class="jp-audio" style="width: 250px; margin-left: auto; margin-right: auto ;">
 
 			<div class="jp-type-playlist">
 				<div class="jp-gui jp-interface">
