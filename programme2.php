@@ -39,14 +39,13 @@
 								  
 								  $Prix = $cafe->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
 								  $prix = $Prix->item(0)->nodeValue;
-								  //
+								  
 				           		  echo('<div data-role="collapsible">');
 							      echo('<h3>'.$nom.'</h3>');
 								  echo('<ul><br/><b>Description</b> : '.$description);
 								  echo('<br/><b>Dates</b> : '.$date);
 								  echo('<br/><b>Prix</b> : '.$prix);
-								  echo('<br/><br/></ul></div>');	
-								  //echo('</div></div>');							     
+								  echo('<br/><br/></ul></div>');					     
 							}
 							echo('</div>');
 						?>
@@ -74,20 +73,19 @@
 								  
 								  $Prix = $spectacle->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
 								  $prix = $Prix->item(0)->nodeValue;
-								  //
+								  
 				           		  echo('<div data-role="collapsible">');
 							      echo('<h3>'.$nom.'</h3>');
 								  echo('<ul><br/><b>Description</b> : '.$description);
 								  echo('<br/><b>Dates</b> : '.$date);
 								  echo('<br/><b>Prix</b> : '.$prix);
-								  echo('<br/><br/></ul></div>');	
-								  //echo('</div></div>');							     
+								  echo('<br/><br/></ul></div>');					     
 							}
 							echo('</div>');
 						?>
 			            </ul>
                		</div>
-               		<div data-role="collapsible">
+               		<div data-role="collapsible" data-content-theme="a">
                			<h3>Balades poétiques</h3>
                			<ul>
 			        	<?php
@@ -109,18 +107,109 @@
 								  
 								  $Prix = $balade->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
 								  $prix = $Prix->item(0)->nodeValue;
-								  //
+								  
 				           		  echo('<div data-role="collapsible">');
-							      echo('<h3">'.$nom.'</h3>');
+							      echo('<h3>'.$nom.'</h3>');
 								  echo('<ul><br/><b>Description</b> : '.$description);
 								  echo('<br/><b>Dates</b> : '.$date);
 								  echo('<br/><b>Prix</b> : '.$prix);
-								  echo('<br/><br/></ul></div>');	
-								  //echo('</div></div>');							     
+								  echo('<br/><br/></ul></div>');					     
 							}
 							echo('</div>');
 						?>
 			            </ul>
+               		</div>	
+		        </div>	
+		        <br/><br/>
+		        <div data-role="collapsible-set">
+           			<div data-role="collapsible" data-content-theme="a">
+			        	<h3>Cafés littéraires</h3>
+			        	<?php
+			        		$fichier = './evenements.xml';
+							/*on load le fichier xml*/
+							$data = new DOMDocument();
+							$data->load($fichier);
+								
+							$cafes = $data->getElementsByTagName('cafeLitteraires')->item(0);
+							$cafes = $cafes->getElementsByTagName('evenement');
+  							
+							foreach($cafes as $cafe) {
+								  $Dates = $cafe->getElementsByTagName("date"); // On prend le nom de chaque noeud.
+								  $date = $Dates->item(0)->nodeValue;
+								  
+								  $Noms = $cafe->getElementsByTagName("nom"); // On prend le nom de chaque noeud.
+								  $nom = $Noms->item(0)->nodeValue;
+								  
+								  $Descriptions = $cafe->getElementsByTagName("description"); // On prend le nom de chaque noeud.
+								  $description = $Descriptions->item(0)->nodeValue;
+								  
+								  $Prix = $cafe->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
+								  $prix = $Prix->item(0)->nodeValue;
+								  
+							      echo('<ul><h3>'.$nom.'</h3>');
+								  echo('<br/><b>Description</b> : '.$description);
+								  echo('<br/><b>Dates</b> : '.$date);
+								  echo('<br/><b>Prix</b> : '.$prix);
+								  echo('<br/><br/></ul>');					     
+							}
+						?>
+		            </div>
+		            <div data-role="collapsible" data-content-theme="a">
+               			<h3>Spectacles et lectures</h3>
+			        	<?php
+								
+							$spectacles = $data->getElementsByTagName('spectaclesEtLectures')->item(0);
+							$spectacles = $spectacles->getElementsByTagName('evenement');
+  
+							foreach($spectacles as $spectacle) {
+								  $Dates = $spectacle->getElementsByTagName("date"); // On prend le nom de chaque noeud.
+								  $date = $Dates->item(0)->nodeValue;
+								  
+								  $Noms = $spectacle->getElementsByTagName("nom"); // On prend le nom de chaque noeud.
+								  $nom = $Noms->item(0)->nodeValue;
+								  
+								  $Descriptions = $spectacle->getElementsByTagName("description"); // On prend le nom de chaque noeud.
+								  $description = $Descriptions->item(0)->nodeValue;
+								  
+								  $Prix = $spectacle->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
+								  $prix = $Prix->item(0)->nodeValue;
+								  
+							      echo('<ul><h3>'.$nom.'</h3>');
+								  echo('<br/><b>Description</b> : '.$description);
+								  echo('<br/><b>Dates</b> : '.$date);
+								  echo('<br/><b>Prix</b> : '.$prix);
+								  echo('<br/><br/></ul>');					     
+							}
+						?>
+               		</div>
+               		<div data-role="collapsible" data-content-theme="a">
+               			<h3>Balades poétiques</h3>
+			        	<?php
+								
+							$balades = $data->getElementsByTagName('baladesPoetiques')->item(0);
+							$balades = $balades->getElementsByTagName('evenement');
+  							
+  
+							foreach($balades as $balade) {
+								  $Dates = $balade->getElementsByTagName("date"); // On prend le nom de chaque noeud.
+								  $date = $Dates->item(0)->nodeValue;
+								  
+								  $Noms = $balade->getElementsByTagName("nom"); // On prend le nom de chaque noeud.
+								  $nom = $Noms->item(0)->nodeValue;
+								  
+								  $Descriptions = $balade->getElementsByTagName("description"); // On prend le nom de chaque noeud.
+								  $description = $Descriptions->item(0)->nodeValue;
+								  
+								  $Prix = $balade->getElementsByTagName("prix"); // On prend le nom de chaque noeud.
+								  $prix = $Prix->item(0)->nodeValue;
+								  
+							      echo('<ul><h3>'.$nom.'</h3>');
+								  echo('<br/><b>Description</b> : '.$description);
+								  echo('<br/><b>Dates</b> : '.$date);
+								  echo('<br/><b>Prix</b> : '.$prix);
+								  echo('<br/><br/></ul>');					     
+							}
+						?>
                		</div>	
 		        </div>			        	
 			<div>
