@@ -854,24 +854,29 @@ Built by David Kaneda and maintained by Jonathan Stark.
 
 /*SubButtons group*/
 .ui-collapsible-content {
-	font-size:14px;	
+	font-size:14px;
 	margin:  -1px -20px;
 	border-bottom: none;
 	background-image: none; /* Overrides ui-btn-up-* */
-	font-weight: normal;    /* Overrides ui-btn-up-* */
-
-	
-	
-	
-	
+	font-weight: normal;    /* Overrides ui-btn-up-* */	
+}
+/*SubButtons group*/
+.ui-collapsible-content h3{
+	font-size:11px;	
+}
+/*SubButtons group*/
+.ui-collapsible-content ul{
+	padding-left:25px;
+	padding-right:25px;
+	text-align: justify;
 }
 /*SubButton (each)*/
 .ui-collapsible-content a {
 	text-shadow: 1px/*{a-bup-shadow-x}*/ -1px /*{a-bup-shadow-y}*/ 2px /*{a-bup-shadow-radius}*/ #000 /*{a-bup-shadow-color}*/;
- 
-	border-top-color: #454545; 
+ 	border-top-color: #454545; 
 	border-bottom-color: #000000; 
 	background-color:#333333;
+	/*padding-left:30px;*/
 	/*background-image: -webkit-gradient(linear, left top, left bottom, from( #555 {a-bup-background-start}), to( #333 {a-bup-background-end}));  Saf4+, Chrome */
 	/*background-image: -webkit-linear-gradient(#212121 {a-bup-background-start}, #393939{a-bup-background-end});  Chrome 10+, Saf5.1+ */
 	/*background-image: -moz-linear-gradient(#212121 {a-bup-background-start}, #393939 {a-bup-background-end}); FF3.6 */

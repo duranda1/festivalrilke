@@ -20,7 +20,7 @@
 				name: 'imgMap'
 			},
 			map: {
-				position: 'center'
+				position: 'left'
 			},
 			marker: {
 				name: 'marker',

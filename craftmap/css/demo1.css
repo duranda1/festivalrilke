@@ -9,9 +9,8 @@ font-weight:normal;
 color:#606060;
 }
 
-#content {
-width:320px;
-height: 300px;
+.content {
+	size: auto;
 }
 
 .demo1 {
