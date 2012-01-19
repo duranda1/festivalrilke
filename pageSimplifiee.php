@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-	<html manifest="/offline.manifest"> 
+	<html> 
 	<link rel="stylesheet" href="jquery/jquery.mobile-1.0.css" />
 	
 	<script type="text/javascript" src="jquery/jquery-1.7.1.js"></script>
@@ -19,7 +19,7 @@
 
 	<div data-role="content" data-theme="a">	
 		<div class="contentZone">
-	  
+	  	<span style="font-size: 48px">
 			<h3>FESTIVAL RILKE - 23.08.2012<br/><br/>Sierre, Suisse</h3>
 			<p align="justify">
 				<h3><span class="mainTitle">Programme 2012 : Les jours d'Italie</span></h3>
@@ -378,6 +378,7 @@
 				<img src="images/simplifieePlan.jpg" width="100%"/><br/><br/>
 				<a href="#index">index</a>
 			</p>
+			</span>
 		</div>
 	</div><!-- /content -->
 <div data-role="footer" data-theme="a" align="center">
