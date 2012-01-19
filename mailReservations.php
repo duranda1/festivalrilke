@@ -83,7 +83,6 @@
 		$event3cat1num=$_POST['nb4'];
 		$event3cat2num=$_POST['nb5'];
 
-
 	$from = "duranda1.hevs@gmail.com";
 	$to = $_POST['email'];
 	$copy = "duranda1.hevs@gmail.com";
@@ -115,7 +114,98 @@
 		
 
 		
-		//Create XML
+		$fichier = './reservations.xml';
+		$dom = new DOMDocument('test1');
+        $dom->load($fichier);
+
+        $new_item = $dom->createElement('reservation');			
+			
+        $new_enfant = $dom->createElement('date');			
+        $enfant_content = $dom->createTextNode(date("d.m.Y"));			
+        $leenfant = $new_enfant->appendChild($enfant_content);			
+        $leitem = $new_item->appendChild($new_enfant);	
+			
+        $new_enfant = $dom->createElement('nom');			
+        $enfant_content = $dom->createTextNode($lastname);			
+        $leenfant = $new_enfant->appendChild($enfant_content);			
+        $leitem = $new_item->appendChild($new_enfant);	
+			
+        $new_enfant = $dom->createElement('prenom');			
+        $enfant_content = $dom->createTextNode($firstname);			
+        $leenfant = $new_enfant->appendChild($enfant_content);			
+        $leitem = $new_item->appendChild($new_enfant);
+			
+        $new_enfant = $dom->createElement('email');			
+        $enfant_content = $dom->createTextNode($email);			
+        $leenfant = $new_enfant->appendChild($enfant_content);			
+        $leitem = $new_item->appendChild($new_enfant);
+				
+		if ($event1cat1num >0){
+			$new_enfant = $dom->createElement('cafe');			
+	        $new_petitEnfant = $dom->createElement('nom');			
+	        $petitEnfant_content = $dom->createTextNode($event1name);			
+	        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+	        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			
+			$new_petitEnfant = $dom->createElement('nbAdulte');			
+	        $petitEnfant_content = $dom->createTextNode($event1cat1num);			
+	        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+	        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			
+			$leitem = $new_item->appendChild($new_enfant);
+		}
+        
+		if ($event2cat1num >0 || $event2cat2num >0){
+			$new_enfant = $dom->createElement('spectacle');			
+	        $new_petitEnfant = $dom->createElement('nom');			
+	        $petitEnfant_content = $dom->createTextNode($event2name);			
+	        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+	        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			
+			if ($event2cat1num >0){	
+				$new_petitEnfant = $dom->createElement('nbAdulte');			
+		        $petitEnfant_content = $dom->createTextNode($event2cat1num);			
+		        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+		        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			}
+			if ($event2cat2num >0){	
+				$new_petitEnfant = $dom->createElement('nbEnfant');			
+		        $petitEnfant_content = $dom->createTextNode($event2cat2num);			
+		        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+		        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			}
+			
+			$leitem = $new_item->appendChild($new_enfant);
+		}
+		
+		if ($event3cat1num >0 || $event3cat2num >0){
+			$new_enfant = $dom->createElement('balade');			
+	        $new_petitEnfant = $dom->createElement('nom');			
+	        $petitEnfant_content = $dom->createTextNode($event3name);			
+	        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+	        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			
+			if ($event3cat1num >0){	
+				$new_petitEnfant = $dom->createElement('nbAdulte');			
+		        $petitEnfant_content = $dom->createTextNode($event3cat1num);			
+		        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+		        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			}
+			if ($event3cat2num >0){	
+				$new_petitEnfant = $dom->createElement('nbEnfant');			
+		        $petitEnfant_content = $dom->createTextNode($event3cat2num);			
+		        $lepetitEnfant= $new_petitEnfant->appendChild($petitEnfant_content);			
+		        $leEnfant = $new_enfant->appendChild($new_petitEnfant);
+			}
+			
+			$leitem = $new_item->appendChild($new_enfant);
+		}
+
+        $channel = $dom->getElementsByTagName("reservations")->item(0);
+		$channel->appendChild($new_item);
+			
+				
+		$dom->save($fichier);
 		
 		
 		
