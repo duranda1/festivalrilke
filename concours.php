@@ -149,7 +149,7 @@
 
 				// fetch image details
 
-				$path = "medias/videos";
+				$path = "medias/contest";
 				//$dir = "http://153.109.141.61/videos";
 				$images = getImages($path);
 
