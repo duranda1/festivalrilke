@@ -65,35 +65,55 @@
 			$error = 'Message sent!';
 			return true;
 		}
-	}
+	}			
 
+		//Get post values
+		$firstname = $_POST['prenom'];
+		$lastname =$_POST['nom'];
+		$email =$_POST['email'];
+		//------------
+		$event1name=$_POST['cafes'];
+		$event1cat1num=$_POST['nb1'];
+		//------------
+		$event2name=$_POST['spectacles'];
+		$event2cat1num=$_POST['nb2'];
+		$event2cat2num=$_POST['nb3'];
+		//------------
+		$event3name=$_POST['balades'];
+		$event3cat1num=$_POST['nb4'];
+		$event3cat2num=$_POST['nb5'];
 
-					
-					
-					
 
 	$from = "duranda1.hevs@gmail.com";
 	$to = $_POST['email'];
 	$copy = "duranda1.hevs@gmail.com";
-	// //$from= $_POST['nom'].' '.$_POST['prenom'].' '.$_POST['email'];
-	// $from= "duranda1.hevs@gmail.com";
-	// $subject ="Reservations billets";
-	// $message = "Reservation";
-	// //$nb = $_POST['nb'];
-	// ini_set('SMTP', 'ssl://smtp.gmail.com');
-	// ini_set('smtp_port', '465');
-	// $succeed = mail($to, $subject, $message, $from);
+
+
     $uniqueid= uniqid();
-	$succeed = smtpmailer($to, $from, 'Festival Rilke', 'Reservation billet/Tickets buchen', 'Objet', $uniqueid);
+	
+	$body="Reservation billet/Tickets buchen - $firstname $lastname ($email)\r-------\r\r";
+	
+	if($event1cat1num>0)
+		$body=$body.$event1cat1num."x ".$event1name." - Adulte/Erwachsene\r";
+	
+	if($event2cat1num>0)
+		$body=$body.$event2cat1num."x ".$event2name." - Adulte/Erwachsene\r";
+	
+	if($event2cat2num>0)
+		$body=$body.$event2cat2num."x ".$event2name." - Enfant/Kind - AVS\r";
+	
+	if($event3cat1num>0)
+		$body=$body.$event3cat1num."x ".$event3name." - Adulte/Erwachsene\r";
+	
+	if($event3cat2num>0)
+		$body=$body.$event3cat2num."x ".$event3name." - Enfant/Kind - AVS\r";
+	
+	
+	$succeed = smtpmailer($email, $from, 'Festival Rilke', 'Reservation billet/Tickets buchen', $body, $uniqueid);
 
 	if ($succeed) {
 		
-		//Get post values
-		
-		
-		
-		
-		
+
 		
 		//Create XML
 		
