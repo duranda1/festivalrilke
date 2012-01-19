@@ -1,4 +1,16 @@
 <?php
+// Write by Nanomus CMS: '19 Jan 2012, 12:44:09 pm' ;
+
+/************************************************************************/
+/* Nanomus CMS: Web Portal System                                       */
+/* =============================                                        */
+/*                                                                      */
+/* Copyright (c) 2010                                                   */
+/* http://www.php-nanomus.org                                           */
+/* dev@php-nanomus.org                                                  */
+/*                                                                      */
+/* This program is free software.                                       */
+/************************************************************************/
 defined('NANOMUS') or header('Location: ../index.php');
 
 define('ADMIN_PSEUDO', 'admin' );
