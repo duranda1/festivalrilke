@@ -14,7 +14,7 @@
 	</head> 
 	<body> 
 		<div data-role="header" data-theme="a">
-		<img src="banniere.jpg" width="100%"></img>	
+		<img src="images/banniere.jpg" width="100%"></img>	
 		</div>	
 
 	<div data-role="content" data-theme="a">	

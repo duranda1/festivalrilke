@@ -104,12 +104,6 @@ echo("<script type=\"text/javascript\" src=\"http://maps.google.ch/maps/api/js?s
 							</h3>
 						<span class="mainTitle"><span class="acces2" style="font-weight: bold"></span></span>	
 						
-					
-				
-						
-		<!-- 	<div id="map-directions"></div> -->
-						<!-- <img src="images/acces1.JPG" align="left" style="width:100%"/> -->
-						
 						<br/>
 			
 		</div>

@@ -68,7 +68,7 @@
 		<a style="color:white" onclick='setLanguage()' class="langue"></a>
 		</div>
 		
-		<img src="banniere.jpg" width="100%"></img>	
+		<img src="images/banniere.jpg" width="100%"></img>	
 		
 		<div id="module"></div>
 		

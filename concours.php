@@ -87,8 +87,6 @@
 							$NbVotes -> item(0) -> nodeValue = $NbVotes -> item(0) -> nodeValue + 1;
 						}
 					}
-					//$racine = $data->documentElement;
-					//$suppr = $racine->removeChild($element);
 
 					/*on enregistre dans un fichier*/
 					$data -> save($fichier);

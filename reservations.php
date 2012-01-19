@@ -42,9 +42,9 @@
 				    <br/>
 				    <div class="reservation4">Cafés littéraires (20.-)</div>
 				    <SELECT NAME=cafes>
-						<OPTION>Schriftsteller als Gäste in der Region Siders-Leuk 
-						<OPTION>Rilke, les Elégies et les arts plastiques 
-						<OPTION>La place de Rilke dans la culture italienne				
+						<OPTION>Schriftsteller als Gäste in der Region Siders-Leuk </OPTION>
+						<OPTION>Rilke, les Elégies et les arts plastiques </OPTION>
+						<OPTION>La place de Rilke dans la culture italienne	</OPTION>			
 					</SELECT> 
 				  <br/>
 				    <div class="reservation5">Billets</div>
@@ -54,16 +54,16 @@
 				     <br/>
 				    <div class="reservation6">Spectacles et lectures (20.- / 15.-)</div>
 				    <SELECT NAME=spectacles>
-						<OPTION>Altro viaggio di Rainer Maria Rilke
-						<OPTION>Journal Florentin 
-						<OPTION>Souvenirs de la princesse
-						<OPTION>Dans le regard de Lou
-						<OPTION>Chant d’amour et autres poèmes
-						<OPTION>Duo a tre	
-						<OPTION>Duineser Elegien (samedi)
-						<OPTION>Duineser Elegien (dimanche)
-						<OPTION>Pulcinoelefante revisite les Elégies
-						<OPTION>Abonnement 4 spectacles (70.- ou 50.-)
+						<OPTION>Altro viaggio di Rainer Maria Rilke	</OPTION>
+						<OPTION>Journal Florentin	</OPTION> 
+						<OPTION>Souvenirs de la princesse	</OPTION>
+						<OPTION>Dans le regard de Lou	</OPTION>
+						<OPTION>Chant d’amour et autres poèmes	</OPTION>
+						<OPTION>Duo a tre	</OPTION>	
+						<OPTION>Duineser Elegien (samedi)	</OPTION>
+						<OPTION>Duineser Elegien (dimanche)	</OPTION>
+						<OPTION>Pulcinoelefante revisite les Elégies	</OPTION>
+						<OPTION>Abonnement 4 spectacles (70.- ou 50.-)	</OPTION>
 					</SELECT> 
 					 <br/>
 				    <table>
@@ -86,11 +86,11 @@
 				     <br/>
 				    <div class="reservation85">Balades poétiques (25.-/ 20.-):</div>
 				    <SELECT NAME=balades>
-						<OPTION>Au Lac souterrain de St-Léonard
-						<OPTION>Balade à Finges 
-						<OPTION>Sur le sentier viticole
-						<OPTION>Balade à Raron
-						<OPTION>Balade botanique				
+						<OPTION>Au Lac souterrain de St-Léonard	</OPTION>
+						<OPTION>Balade à Finges 	</OPTION>
+						<OPTION>Sur le sentier viticole	</OPTION>
+						<OPTION>Balade à Raron	</OPTION>
+						<OPTION>Balade botanique	</OPTION>				
 					</SELECT> 
 				   	 <br/>	
 				    <table>
@@ -117,8 +117,7 @@
 						<br/>
 				    	<br/>
 				    	 <br/>
-				    	 <INPUT type="submit" value="Ok">
-				<!-- <input type="submit" name="submit" value="true"/>		 -->	
+				    	 <input type="submit" value="Valider">
 			</form>
 				
 		<br/>
